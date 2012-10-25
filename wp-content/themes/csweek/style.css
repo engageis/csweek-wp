@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Magra:700|Hammersmith+One);
 @import url("/wp-content/themes/csweek/bootstrap/css/bootstrap.css");
 @import url("/wp-content/themes/csweek/bootstrap/css/bootstrap-responsive.css");
 
@@ -30,6 +31,8 @@ h3 code {
 -------------------------------------------------- */
 
 body > .navbar {
+	top: 20px;
+	position: absolute;
   font-size: 13px;
 }
 
@@ -92,21 +95,12 @@ hr.soften {
 ------------------------- */
 .jumbotron {
   position: relative;
-  padding: 40px 0;
+  top: -40px;
+  padding: 80px 0;
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
-  background: #020031; /* Old browsers */
-  background: -moz-linear-gradient(45deg,  #020031 0%, #6d3353 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#020031), color-stop(100%,#6d3353)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(45deg,  #020031 0%,#6d3353 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(45deg,  #020031 0%,#6d3353 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(45deg,  #020031 0%,#6d3353 100%); /* IE10+ */
-  background: linear-gradient(45deg,  #020031 0%,#6d3353 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020031', endColorstr='#6d3353',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-  -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
-     -moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
-          box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+  background: transparent url(/wp-content/themes/csweek/images/bg.jpg);
 }
 .jumbotron h1 {
   font-size: 80px;
@@ -1001,4 +995,92 @@ form.bs-docs-example {
   .footer .pull-right {
     float: none;
   }
+}
+
+
+.navbar > .navbar-inner{
+	background: #222;
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333;
+}
+
+.nav > li{
+	color: #fff !important;
+	font-family: 'Magra', sans-serif !important;
+	/*font-weight: bold*/
+}
+
+.nav > li > a{
+	color: #fff !important;
+	text-transform: uppercase;
+	font-size: 16px;
+	padding: 9px 18px !important;
+}
+
+.nav > li > a > img{
+	top: 0;
+	vertical-align: top;
+}
+
+.nav-collapse .nav > li > em{
+	display: block;
+	font-style: normal;
+  padding: 9px 18px;
+  
+  font-size: 16px;
+  /*color: #777777;*/
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
+
+.jumbotron h1{
+	font-family: 'Hammersmith One', sans-serif;
+	font-weight: normal;
+
+  text-shadow: 0 1px 0 #bbb,
+  							0 2px 0 #bbb,
+  							0 3px 0 #bbb,
+  							0 4px 0 #bbb,
+  							0 5px 0 #bbb,
+
+  							0 7px 4px rgba(0,0,0,.4);
+}
+
+.jumbotron h1 .days{
+	font-size: 150px;
+}
+
+.jumbotron h1 .month{
+	margin-top: 15px;
+}
+
+.jumbotron h1 .month{
+	font-size: 54px;
+}
+
+.jumbotron h1 .year{
+	font-size: 60px;
+}
+
+.jumbotron h1 .expo, .jumbotron h1 .month{
+	color: #D90000;
+  text-shadow: 0 1px 0 #600,
+  							0 2px 0 #600,
+  							0 3px 0 #600,
+  							0 4px 0 #600,
+  							0 5px 0 #600,
+
+  							0 7px 4px rgba(0,0,0,.4);
+}
+
+.jumbotron h1 .where{
+	font-size: 69px;
+}
+
+#nodes{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
 }

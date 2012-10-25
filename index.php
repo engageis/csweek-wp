@@ -1,3 +1,8 @@
+<?php
+function path($p){
+  return "/wp-content/themes/csweek/$p";
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,7 +13,7 @@
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/csweek/style.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="<?= path("style.css") ?>" />
 
 <!--     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
@@ -27,17 +32,6 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
-
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-146052-10']);
-      _gaq.push(['_trackPageview']);
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
   </head>
 
   <body data-spy="scroll" data-target=".bs-docs-sidebar">
@@ -52,29 +46,45 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="./index.html">Bootstrap</a>
+
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="">
-                <a href="./index.html">Home</a>
+              <li>
+                <em>FIND US HERE</em>
               </li>
               <li class="">
-                <a href="./getting-started.html">Get started</a>
+                <a href="./index.html">
+                  <img src="<?= path("images/blog.png") ?>" /> Blog</a>
+              </li>
+              <li class="">
+                <a href="./getting-started.html">
+                  <img src="<?= path("images/facebook.png") ?>" />
+                  Facebook</a>
               </li>
               <li class="active">
-                <a href="./scaffolding.html">Scaffolding</a>
+                <a href="./scaffolding.html">
+                  <img src="<?= path("images/twitter.png") ?>" />
+                  Twitter</a>
               </li>
               <li class="">
-                <a href="./base-css.html">Base CSS</a>
+                <a href="./base-css.html">
+                  <img src="<?= path("images/linkedin.png") ?>" />
+                  LinkedIn</a>
               </li>
               <li class="">
-                <a href="./components.html">Components</a>
+                <a href="./components.html">
+                <img src="<?= path("images/plus.png") ?>" />
+                Google</a>
               </li>
               <li class="">
-                <a href="./javascript.html">Javascript</a>
+                <a href="./javascript.html">
+                  <img src="<?= path("images/youtube.png") ?>" />
+                  Youtube</a>
               </li>
               <li class="">
-                <a href="./customize.html">Customize</a>
+                <a href="./customize.html">
+                  <img src="<?= path("images/contact.png") ?>" />
+                  Contact</a>
               </li>
             </ul>
           </div>
@@ -84,9 +94,29 @@
 
 <!-- Subhead
 ================================================== -->
+<!-- canvas#nodes[width="1200px" height="600px"]
+button#circle YAY -->
 <header class="jumbotron subhead" id="overview">
   <div class="container">
-    <h1>Crowdsourcing Week</h1>
+    <canvas id="nodes" height="500px" width="1200px">
+      Ay
+    </canvas>
+    <img src="<?= path("images/logo.png") ?>" />
+    <h1>
+      <div class="row">
+        <div class="span4">
+          <div class="days">15-19</div>
+        </div>
+        <div class="span5">
+          <div class="month">APRIL</div>
+          <div class="year">2013</div>
+        </div>
+      </div>
+      <div class="where">
+        <span>SINGAPORE</span>
+        <span class="expo">EXPO</span>
+      </div>
+    </h1>
     <p class="lead">Coolest event. Ever.</p>
   </div>
 </header>
@@ -573,8 +603,12 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
+
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-    <script src="assets/js/jquery.js"></script>
+    
     <script src="assets/js/google-code-prettify/prettify.js"></script>
     <script src="assets/js/bootstrap-transition.js"></script>
     <script src="assets/js/bootstrap-alert.js"></script>
@@ -590,6 +624,11 @@
     <script src="assets/js/bootstrap-typeahead.js"></script>
     <script src="assets/js/bootstrap-affix.js"></script>
     <script src="assets/js/application.js"></script>
+
+
+
+    <script src="<?= path("js/lines.js") ?>"></script>
+
 
 
   </body>
