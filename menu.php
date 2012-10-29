@@ -1,3 +1,4 @@
+<!-- <hr class="menu-bar" /> -->
 <ul id="menu" class="pager">
   <li>
     <a href="#">

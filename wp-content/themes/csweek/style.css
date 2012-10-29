@@ -96,6 +96,7 @@ hr.soften {
 .jumbotron {
   position: relative;
   top: -40px;
+  margin-bottom: -40px;
   padding: 80px 0;
   color: #fff;
   text-align: center;
@@ -1096,7 +1097,7 @@ form.bs-docs-example {
   border: 1px solid white;
 }
 
-.save-the-date-box > .pad{
+.pad{
   padding: 10px;
 }
 
@@ -1195,7 +1196,7 @@ form.bs-docs-example {
 
 #menu{
   position: relative;
-  top: -85px !important;
+  top: -50px !important;
   padding: 0;
   margin: 0;
 }
@@ -1255,4 +1256,85 @@ form.bs-docs-example {
 .icon.the-team{
   width: 42px;
   background-position: -350px 0 ;
+}
+
+/*hr.menu-bar{
+  height: 5px;
+  background: #333;
+  border-top: 1px solid #444;
+  margin: 0;
+}*/
+
+#welcome{
+  margin-top: -90px;
+  padding-top: 90px;
+  border-top: 5px solid #333;
+  background: transparent url(/wp-content/themes/csweek/images/welcome-bg.png);
+}
+
+#welcome h2{
+  font-family: 'Hammersmith One', sans-serif;
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 40px;
+  font-weight: normal;
+}
+
+#welcome p{
+  font-family: 'Magra', sans-serif;
+  color: #333;
+  font-size: 16px;
+/*  margin-bottom: 40px;
+  font-weight: normal;*/
+}
+
+#open-registration{
+  background: #008282;
+  width: 253px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+
+#welcome .btn-save-the-date{
+  /*text-transform: uppercase;*/
+  margin: 0 24px;
+  width: 200px;
+}
+
+#open-registration .pad{
+  border: 1px solid white;
+  padding: 10px 3px 3px 3px;
+}
+#open-registration .inner{
+  border: 1px solid #94D0D1;
+  padding-bottom: 20px;
+}
+#open-registration h2{
+
+  font-family: 'Magra', sans-serif;
+  color: #fff;
+  text-shadow: 3px 3px 0 #004040;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+#open-registration h2 .open{
+  font-size: 85px;
+}
+
+#open-registration h2 span{
+  display: block;
+  margin: 10px 0;
+}
+
+#daily-topics{
+  background: #222;
+}
+
+#footer{
+  background: #1b1b1b;
 }

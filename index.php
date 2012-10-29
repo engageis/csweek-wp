@@ -38,27 +38,17 @@ function path($p){
     <? require 'navbar.php' ?>
     <? require 'splash.php' ?>
     <? require 'menu.php' ?>
-
+    <? require 'welcome.php' ?>
+    <? require 'daily-topics.php' ?>
+    <? require 'footer.php' ?>
 
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-
-
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-    
-
-
     <script src="<?= path("bootstrap/js/bootstrap.js") ?>"></script>
-    
-
-
-
     <script src="<?= path("js/lines.js") ?>"></script>
-
-
-
   </body>
 </html>
