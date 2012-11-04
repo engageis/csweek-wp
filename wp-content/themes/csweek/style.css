@@ -233,7 +233,6 @@ hr.soften {
 ------------------------- */
 .subhead {
   text-align: left;
-  border-bottom: 1px solid #ddd;
 }
 .subhead h1 {
   font-size: 60px;
@@ -1014,7 +1013,7 @@ form.bs-docs-example {
 .nav > li > a{
 	color: #fff !important;
 	text-transform: uppercase;
-	font-size: 16px;
+	font-size: 13px;
 	padding: 9px 18px !important;
 }
 
@@ -1028,11 +1027,15 @@ form.bs-docs-example {
 	font-style: normal;
   padding: 9px 18px;
   
-  font-size: 16px;
+  font-size: 13px;
   /*color: #777777;*/
   -webkit-border-radius: 3px;
      -moz-border-radius: 3px;
           border-radius: 3px;
+}
+
+.lettering{
+  margin-top: 45px;
 }
 
 .jumbotron h1{
@@ -1087,6 +1090,10 @@ form.bs-docs-example {
   margin-right: 0 !important;
 }
 
+.save-the-date{
+  margin-bottom: 15px;
+}
+
 .save-the-date-box{
   width: 376px;
   background: transparent url(/wp-content/themes/csweek/images/save-the-date-bg.png);
@@ -1132,7 +1139,7 @@ form.bs-docs-example {
 .btn-save-the-date{
   padding: 10px 0;
   text-transform: uppercase;
-  margin: 0 50px;
+  margin: 25px 85px;
   width: 270px;
   font-family: 'Magra', sans-serif !important;
   font-weight: bold;
@@ -1206,9 +1213,9 @@ form.bs-docs-example {
   border: none;
   font-family: 'Magra', sans-serif !important;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 500;
   text-transform: uppercase;
-  color: #333;
+  color: white;
 
 }
 
@@ -1267,7 +1274,8 @@ form.bs-docs-example {
   margin-top: -90px;
   padding-top: 90px;
   border-top: 5px solid #333;
-  background: transparent url(/wp-content/themes/csweek/images/welcome-bg.png);
+  /* background: transparent url(/wp-content/themes/csweek/images/welcome-bg.png); */
+  background-color: #222;
 }
 
 #welcome h2{

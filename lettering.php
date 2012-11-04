@@ -7,7 +7,7 @@
   </div>
 </div>
 <div class="row-fluid">
-  <div class="span9">
+  <div class="span12">
     <h1>
       <span class="year">2013</span>
       <span class="where">SINGAPORE</span>
