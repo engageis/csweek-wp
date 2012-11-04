@@ -15,10 +15,6 @@
             <em>FIND US HERE</em>
           </li>
           <li class="">
-            <a href="./index.html">
-              <img src="<?= path("images/blog.png") ?>" /> Blog</a>
-          </li>
-          <li class="">
             <a href="./getting-started.html">
               <img src="<?= path("images/facebook.png") ?>" />
               Facebook</a>

@@ -21,7 +21,7 @@
   <li>
     <a href="#">
       <div class="icon csw-global"></div>
-      <div>CSW Global</div>
+      <div>Workshops</div>
     </a>
   </li>
 
@@ -44,6 +44,12 @@
     </a>
   </li>
   <li>
+    <a href="#">
+      <div class="icon the-team"></div>
+      <div>The team</div>
+    </a>
+  </li>
+   <li>
     <a href="#">
       <div class="icon the-team"></div>
       <div>The team</div>

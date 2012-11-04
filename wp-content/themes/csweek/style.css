@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Magra:700|Hammersmith+One|Share);
 @import url("/wp-content/themes/csweek/bootstrap/css/bootstrap.css");
+
 @import url("/wp-content/themes/csweek/bootstrap/css/bootstrap-responsive.css");
 
 /* Add additional stylesheets below
@@ -31,9 +32,8 @@ h3 code {
 -------------------------------------------------- */
 
 body > .navbar {
-	top: 20px;
 	position: absolute;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 /* Change the docs' brand */
@@ -1048,23 +1048,20 @@ form.bs-docs-example {
   							0 7px 4px rgba(0,0,0,.4);
 }
 
-.jumbotron h1 .days{
-	font-size: 150px;
+.jumbotron h1 .days, .jumbotron h1 .month{
+	font-size: 128px;
 }
 
 .jumbotron h1 .month{
 	margin-top: 15px;
 }
 
-.jumbotron h1 .month{
-	font-size: 54px;
-}
 
 .jumbotron h1 .year{
 	font-size: 60px;
 }
 
-.jumbotron h1 .expo, .jumbotron h1 .month{
+.jumbotron h1 .year, .jumbotron h1 .month{
 	color: #D90000;
   text-shadow: 0 1px 0 #600,
   							0 2px 0 #600,
@@ -1072,11 +1069,11 @@ form.bs-docs-example {
   							0 4px 0 #600,
   							0 5px 0 #600,
 
-  							0 7px 4px rgba(0,0,0,.4);
+                0 15px 10px rgba(0, 0, 0, 0.5);
 }
 
-.jumbotron h1 .where{
-	font-size: 69px;
+.jumbotron h1 .where, .jumbotron h1 .year{
+	font-size: 85px;
 }
 
 #nodes{
