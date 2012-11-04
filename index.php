@@ -40,6 +40,7 @@ function path($p){
     <? require 'menu.php' ?>
     <? require 'welcome.php' ?>
     <? require 'daily-topics.php' ?>
+    <? require 'sponsors.php'?> 
     <? require 'footer.php' ?>
 
     <!-- Le javascript

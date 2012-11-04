@@ -1325,7 +1325,6 @@ form.bs-docs-example {
 
   font-family: 'Magra', sans-serif;
   color: #fff;
-  text-shadow: 3px 3px 0 #004040;
   font-size: 28px;
   text-align: center;
   text-transform: uppercase;
@@ -1341,6 +1340,19 @@ form.bs-docs-example {
 #open-registration h2 span{
   display: block;
   margin: 20px 0;
+}
+
+#sponsors{
+  background: white;
+}
+
+#sponsors h2{
+
+  font-family: 'Magra', sans-serif;
+  color: #222;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 #daily-topics{
