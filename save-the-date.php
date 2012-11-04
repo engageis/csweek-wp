@@ -1,4 +1,4 @@
-<div class="save-the-date-box">
+<!--div class="save-the-date-box">
   <div class="pad">
     <table>
       <tr>
@@ -17,9 +17,10 @@
       </tr>
     </table>
     <div class="until-the-event">– &nbsp;Until the event&nbsp; –</div>
-    <button class="btn btn-warning btn-save-the-date">Save the date</button>
   </div>
-</div>
-<div class="add-to-calendar">
+</div --!>
+<button class="btn btn-warning btn-save-the-date">Save the date</button>
+<!-- div class="add-to-calendar">
+
   Add to your calendar right now!
-</div>
+</div --!>
