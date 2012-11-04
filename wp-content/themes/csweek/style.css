@@ -1280,15 +1280,21 @@ form.bs-docs-example {
 
 #welcome h2{
   font-family: 'Hammersmith One', sans-serif;
-  color: #333;
+  color: white;
   font-size: 28px;
-  margin-bottom: 40px;
+  margin: 22px 0 30px 0;
   font-weight: normal;
 }
 
+#welcome h3{
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 22px;
+  color: #D90000;
+} 
+
 #welcome p{
   font-family: 'Magra', sans-serif;
-  color: #333;
+  color: white;
   font-size: 16px;
 /*  margin-bottom: 40px;
   font-weight: normal;*/
@@ -1309,8 +1315,7 @@ form.bs-docs-example {
 }
 
 #open-registration .pad{
-  border: 1px solid white;
-  padding: 10px 3px 3px 3px;
+  padding: 3px;
 }
 #open-registration .inner{
   border: 1px solid #94D0D1;
@@ -1321,20 +1326,21 @@ form.bs-docs-example {
   font-family: 'Magra', sans-serif;
   color: #fff;
   text-shadow: 3px 3px 0 #004040;
-  font-size: 24px;
+  font-size: 28px;
   text-align: center;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 500;
 
 }
 
 #open-registration h2 .open{
   font-size: 85px;
+  font-weight: 700
 }
 
 #open-registration h2 span{
   display: block;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 #daily-topics{
