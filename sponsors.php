@@ -15,7 +15,7 @@
           <li>
             <a href='#'>
               <div class="sponsor-logo">
-                <img src="../wp-content/themes/csweek/images/eyeka.png">
+                <img src="../wp-content/themes/csweek/images/chaordix.png">
               </div>
             </a>
           </li>
@@ -31,7 +31,7 @@
           <li>
             <a href='#'>
               <div class="sponsor-logo">
-                <img src="../wp-content/themes/csweek/images/growvc.png">
+                <img src="../wp-content/themes/csweek/images/imagebrief.png">
               </div>
             </a>
           </li>
@@ -39,7 +39,7 @@
           <li>
             <a href='#'>
               <div class="sponsor-logo">
-                <img src="../wp-content/themes/csweek/images/razoo.png">
+                <img src="../wp-content/themes/csweek/images/eyeka.png">
               </div>
             </a>
           </li>
@@ -54,7 +54,7 @@
           <li>
             <a href='#'>
               <div class="sponsor-logo">
-                <img src="../wp-content/themes/csweek/images/imagebrief.png">
+                <img src="../wp-content/themes/csweek/images/growvc.png">
               </div>
             </a>
           </li>
@@ -62,7 +62,7 @@
           <li>
             <a href='#'>
               <div class="sponsor-logo">
-                <img src="../wp-content/themes/csweek/images/chaordix.png">
+                <img src="../wp-content/themes/csweek/images/razoo.png">
               </div>
             </a>
           </li>
@@ -76,10 +76,18 @@
           <li>
             <a href='#'>
               <div class="sponsor-logo">
-                <img src="../wp-content/themes/csweek/images/chaordix.png">
+                <img src="../wp-content/themes/csweek/images/yoose.png">
               </div>
             </a>
           </li>
+          <li>
+            <a href='#'>
+              <div class="sponsor-logo">
+                <img src="../wp-content/themes/csweek/images/appbackr.png">
+              </div>
+            </a>
+          </li>
+
         </ul>
     </div>
     <div class="span12">
@@ -88,7 +96,7 @@
           <li>
             <a href='#'>
               <div class="sponsor-logo">
-                <img src="../wp-content/themes/csweek/images/chaordix.png">
+                <img src="../wp-content/themes/csweek/images/maxatria.png">
               </div>
             </a>
           </li>
