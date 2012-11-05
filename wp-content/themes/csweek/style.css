@@ -1364,6 +1364,12 @@ form.bs-docs-example {
   margin: 10px 40px 20px 0;
 }
 
+.sponsor-logo:hover{
+	zoom: 1;
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+}
+
 #daily-topics{
   background: transparent url(/wp-content/themes/csweek/images/welcome-bg.png);
 }
