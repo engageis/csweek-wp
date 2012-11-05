@@ -1216,7 +1216,6 @@ form.bs-docs-example {
   font-weight: 500;
   text-transform: uppercase;
   color: white;
-
 }
 
 .icon{
@@ -1347,16 +1346,35 @@ form.bs-docs-example {
 }
 
 #sponsors h2{
-
-  font-family: 'Magra', sans-serif;
+  font-family: 'Hammersmith One', sans-serif;
   color: #222;
   font-size: 28px;
   text-transform: uppercase;
   font-weight: 700;
 }
 
+.sponsors-list{
+  list-style: none;
+  } 
+
+.sponsors-list > li{
+  display: inline-block;
+  float: left;
+  width: 100px;
+  margin: 10px 40px 20px 0;
+}
+
 #daily-topics{
-  background: #222;
+  background: transparent url(/wp-content/themes/csweek/images/welcome-bg.png);
+}
+
+#daily-topics h2{
+  font-family: 'Hammersmith One', sans-serif;
+  color: #666;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 700;
+
 }
 
 #footer{
