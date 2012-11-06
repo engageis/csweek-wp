@@ -2,6 +2,11 @@
   <div class="container">
     <div class="row">
       <div class="span12"u>
+        <h2>Corporate Sponsors</h2>
+        <h3>Official Event Partner</h3>
+        <h3>Platinum Sponsors</h3>
+        <h3>Gold Sponsros</h3>
+
         <h2>Crowdsourcing Sponsors</h2>
         <ul class="sponsors-list">
           <li>
@@ -98,6 +103,24 @@
 
         </ul>
     </div>
+
+    <div class="span12">
+      <h2>Media Partners</h2>
+      <h3>Global Media Partners</h3>
+      <h3>Regional Partners</h3>
+      <h3>Bloggers</h3>
+        <ul class="sponsors-list">
+          <li>
+            <a href='http://maxatria.com.sg/'>
+              <div class="sponsor-logo">
+                <img src="../wp-content/themes/csweek/images/maxatria.png">
+              </div>
+            </a>
+          </li>
+        </ul>
+
+    </div>
+
     <div class="span12">
       <h2>Venue</h2>
         <ul class="sponsors-list">
