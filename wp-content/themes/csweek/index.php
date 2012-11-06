@@ -1,6 +1,6 @@
 <?php
 function path($p){
-  return "/csweek/wp-content/themes/csweek/$p";
+  return "wp-content/themes/csweek/$p";
 }
 ?>
 <!DOCTYPE html>
