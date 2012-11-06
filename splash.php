@@ -8,13 +8,16 @@
     <img src="<?= path("images/logo.png") ?>" />
 
     <div class="row">
-      <div class="span6">
+      <div class="lettering span9 offset3">
         <? require 'lettering.php' ?>
       </div>
-      <div class="span5 offset1">
+    </div>
+    <div class="row">
+      <div class="save-the-date span8 offset4">
         <? require 'save-the-date.php' ?>
       </div>
     </div>
+    
   </div>
 </header>
 

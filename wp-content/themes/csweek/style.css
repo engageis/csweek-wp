@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Magra:700|Hammersmith+One|Share);
 @import url("/wp-content/themes/csweek/bootstrap/css/bootstrap.css");
+
 @import url("/wp-content/themes/csweek/bootstrap/css/bootstrap-responsive.css");
 
 /* Add additional stylesheets below
@@ -31,9 +32,8 @@ h3 code {
 -------------------------------------------------- */
 
 body > .navbar {
-	top: 20px;
 	position: absolute;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 /* Change the docs' brand */
@@ -233,7 +233,6 @@ hr.soften {
 ------------------------- */
 .subhead {
   text-align: left;
-  border-bottom: 1px solid #ddd;
 }
 .subhead h1 {
   font-size: 60px;
@@ -1014,7 +1013,7 @@ form.bs-docs-example {
 .nav > li > a{
 	color: #fff !important;
 	text-transform: uppercase;
-	font-size: 16px;
+	font-size: 13px;
 	padding: 9px 18px !important;
 }
 
@@ -1028,11 +1027,15 @@ form.bs-docs-example {
 	font-style: normal;
   padding: 9px 18px;
   
-  font-size: 16px;
+  font-size: 13px;
   /*color: #777777;*/
   -webkit-border-radius: 3px;
      -moz-border-radius: 3px;
           border-radius: 3px;
+}
+
+.lettering{
+  margin-top: 45px;
 }
 
 .jumbotron h1{
@@ -1045,26 +1048,23 @@ form.bs-docs-example {
   							0 4px 0 #bbb,
   							0 5px 0 #bbb,
 
-  							0 7px 4px rgba(0,0,0,.4);
+                0 15px 10px rgba(0, 0, 0, 0.5);
 }
 
-.jumbotron h1 .days{
-	font-size: 150px;
+.jumbotron h1 .days, .jumbotron h1 .month{
+	font-size: 128px;
 }
 
 .jumbotron h1 .month{
 	margin-top: 15px;
 }
 
-.jumbotron h1 .month{
-	font-size: 54px;
-}
 
 .jumbotron h1 .year{
 	font-size: 60px;
 }
 
-.jumbotron h1 .expo, .jumbotron h1 .month{
+.jumbotron h1 .year, .jumbotron h1 .month{
 	color: #D90000;
   text-shadow: 0 1px 0 #600,
   							0 2px 0 #600,
@@ -1072,11 +1072,11 @@ form.bs-docs-example {
   							0 4px 0 #600,
   							0 5px 0 #600,
 
-  							0 7px 4px rgba(0,0,0,.4);
+                0 15px 10px rgba(0, 0, 0, 0.5);
 }
 
-.jumbotron h1 .where{
-	font-size: 69px;
+.jumbotron h1 .where, .jumbotron h1 .year{
+	font-size: 85px;
 }
 
 #nodes{
@@ -1088,6 +1088,10 @@ form.bs-docs-example {
 
 .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top{
   margin-right: 0 !important;
+}
+
+.save-the-date{
+  margin-bottom: 15px;
 }
 
 .save-the-date-box{
@@ -1133,12 +1137,13 @@ form.bs-docs-example {
 }
 
 .btn-save-the-date{
+  padding: 10px 0;
   text-transform: uppercase;
-  margin: 0 50px;
+  margin: 25px 85px;
   width: 270px;
   font-family: 'Magra', sans-serif !important;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 22px;
   color: #996533;
   text-shadow: 0 1px 0 rgba(255,255,255,0.5);
   background: #F5C01D;
@@ -1208,10 +1213,9 @@ form.bs-docs-example {
   border: none;
   font-family: 'Magra', sans-serif !important;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 500;
   text-transform: uppercase;
-  color: #333;
-
+  color: white;
 }
 
 .icon{
@@ -1269,20 +1273,27 @@ form.bs-docs-example {
   margin-top: -90px;
   padding-top: 90px;
   border-top: 5px solid #333;
-  background: transparent url(/wp-content/themes/csweek/images/welcome-bg.png);
+  /* background: transparent url(/wp-content/themes/csweek/images/welcome-bg.png); */
+  background-color: #222;
 }
 
 #welcome h2{
   font-family: 'Hammersmith One', sans-serif;
-  color: #333;
+  color: white;
   font-size: 28px;
-  margin-bottom: 40px;
+  margin: 22px 0 30px 0;
   font-weight: normal;
 }
 
+#welcome h3{
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 22px;
+  color: #D90000;
+} 
+
 #welcome p{
   font-family: 'Magra', sans-serif;
-  color: #333;
+  color: white;
   font-size: 16px;
 /*  margin-bottom: 40px;
   font-weight: normal;*/
@@ -1303,8 +1314,7 @@ form.bs-docs-example {
 }
 
 #open-registration .pad{
-  border: 1px solid white;
-  padding: 10px 3px 3px 3px;
+  padding: 3px;
 }
 #open-registration .inner{
   border: 1px solid #94D0D1;
@@ -1314,25 +1324,63 @@ form.bs-docs-example {
 
   font-family: 'Magra', sans-serif;
   color: #fff;
-  text-shadow: 3px 3px 0 #004040;
-  font-size: 24px;
+  font-size: 28px;
   text-align: center;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 500;
 
 }
 
 #open-registration h2 .open{
   font-size: 85px;
+  font-weight: 700
 }
 
 #open-registration h2 span{
   display: block;
-  margin: 10px 0;
+  margin: 20px 0;
+}
+
+#sponsors{
+  background: white;
+}
+
+#sponsors h2{
+  font-family: 'Hammersmith One', sans-serif;
+  color: #222;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.sponsors-list{
+  list-style: none;
+  } 
+
+.sponsors-list > li{
+  display: inline-block;
+  float: left;
+  width: 100px;
+  margin: 10px 40px 20px 0;
+}
+
+.sponsor-logo:hover{
+	zoom: 1;
+	filter: alpha(opacity=80);
+	opacity: 0.8;
 }
 
 #daily-topics{
-  background: #222;
+  background: transparent url(/wp-content/themes/csweek/images/welcome-bg.png);
+}
+
+#daily-topics h2{
+  font-family: 'Hammersmith One', sans-serif;
+  color: #666;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 700;
+
 }
 
 #footer{
