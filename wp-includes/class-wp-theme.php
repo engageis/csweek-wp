@@ -40,7 +40,7 @@ final class WP_Theme implements ArrayAccess {
 		'classic'      => 'WordPress Classic',
 		'default'      => 'WordPress Default',
 		'twentyten'    => 'Twenty Ten',
-		'twentyeleven' => 'Twenty Eleven',
+		'csweek' => 'CSWeek'
 	);
 
 	/**

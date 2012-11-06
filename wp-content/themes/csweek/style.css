@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Magra:700|Hammersmith+One|Share);
-@import url("/wp-content/themes/csweek/bootstrap/css/bootstrap.css");
+@import url("/csweek/wp-content/themes/csweek/bootstrap/css/bootstrap.css");
 
-@import url("/wp-content/themes/csweek/bootstrap/css/bootstrap-responsive.css");
+@import url("/csweek/wp-content/themes/csweek/bootstrap/css/bootstrap-responsive.css");
 
 /* Add additional stylesheets below
 -------------------------------------------------- */
@@ -101,7 +101,7 @@ hr.soften {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
-  background: transparent url(/wp-content/themes/csweek/images/bg.jpg);
+  background: transparent url(/csweek/wp-content/themes/csweek/images/bg.jpg);
 }
 .jumbotron h1 {
   font-size: 80px;
@@ -172,7 +172,7 @@ hr.soften {
   right: 0;
   bottom: 0;
   left: 0;
-  background: url(../img/bs-docs-masthead-pattern.png) repeat center center;
+  /*background: url(../img/bs-docs-masthead-pattern.png) repeat center center;*/
   opacity: .4;
 }
 
@@ -1096,7 +1096,7 @@ form.bs-docs-example {
 
 .save-the-date-box{
   width: 376px;
-  background: transparent url(/wp-content/themes/csweek/images/save-the-date-bg.png);
+  background: transparent url(/csweek/wp-content/themes/csweek/images/save-the-date-bg.png);
   /*padding: 20px;*/
   border: 1px solid white;
 }
@@ -1106,7 +1106,7 @@ form.bs-docs-example {
 }
 
 .until{
-  background: transparent url(/wp-content/themes/csweek/images/until-bg.png) no-repeat center;
+  background: transparent url(/csweek/wp-content/themes/csweek/images/until-bg.png) no-repeat center;
   width: 107px;
   height: 96px;
   font-size: 48px;
@@ -1179,7 +1179,7 @@ form.bs-docs-example {
 .add-to-calendar{
   height: 56px;
   width: 376px;
-  background: transparent url(/wp-content/themes/csweek/images/add-to-calendar-bg.png) no-repeat center bottom;
+  background: transparent url(/csweek/wp-content/themes/csweek/images/add-to-calendar-bg.png) no-repeat center bottom;
   /*padding: 0 40px;*/
 
 
@@ -1207,7 +1207,7 @@ form.bs-docs-example {
 }
 
 #menu li a{
-  background: transparent url(/wp-content/themes/csweek/images/menu-item-bg.png) no-repeat center !important;
+  background: transparent url(/csweek/wp-content/themes/csweek/images/menu-item-bg.png) no-repeat center !important;
   width: 100px;
   height: 75px;
   border: none;
@@ -1223,7 +1223,7 @@ form.bs-docs-example {
   height: 50px;
   margin: 17px auto;
   /*margin: 20px 16px;*/
-  background-image: url(/wp-content/themes/csweek/images/menu-icons.png);
+  background-image: url(/csweek/wp-content/themes/csweek/images/menu-icons.png);
 }
 
 .icon.about{
@@ -1273,7 +1273,7 @@ form.bs-docs-example {
   margin-top: -90px;
   padding-top: 90px;
   border-top: 5px solid #333;
-  /* background: transparent url(/wp-content/themes/csweek/images/welcome-bg.png); */
+  /* background: transparent url(/csweek/wp-content/themes/csweek/images/welcome-bg.png); */
   background-color: #222;
 }
 
@@ -1371,7 +1371,7 @@ form.bs-docs-example {
 }
 
 #daily-topics{
-  background: transparent url(/wp-content/themes/csweek/images/welcome-bg.png);
+  background: transparent url(/csweek/wp-content/themes/csweek/images/welcome-bg.png);
 }
 
 #daily-topics h2{

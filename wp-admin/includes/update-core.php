@@ -418,8 +418,8 @@ global $_new_bundled_files;
 
 $_new_bundled_files = array(
 'plugins/akismet/' => '2.0',
-'themes/twentyten/' => '3.0',
-'themes/twentyeleven/' => '3.2'
+// 'themes/twentyten/' => '3.0',
+'themes/csweek/' => '3.2'
 );
 
 /**

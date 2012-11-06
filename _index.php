@@ -1,6 +1,6 @@
 <?php
 function path($p){
-  return "/csweek/wp-content/themes/csweek/$p";
+  return "/wp-content/themes/csweek/$p";
 }
 ?>
 <!DOCTYPE html>
@@ -39,6 +39,7 @@ function path($p){
     <? require 'daily-topics.php' ?>
     <? require 'footer.php' ?>    
     <? require 'sponsors.php'?> 
+    <? require 'footer.php' ?>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>

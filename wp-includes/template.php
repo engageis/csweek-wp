@@ -26,6 +26,9 @@ function get_query_template( $type, $templates = array() ) {
 	if ( empty( $templates ) )
 		$templates = array("{$type}.php");
 
+	// if($type == "index")
+	// 	die("{$type}_template" . ".." . locate_template( $templates ));
+
 	return apply_filters( "{$type}_template", locate_template( $templates ) );
 }
 

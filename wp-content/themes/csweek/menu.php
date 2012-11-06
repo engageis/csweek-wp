@@ -49,10 +49,4 @@
       <div>The team</div>
     </a>
   </li>
-   <li>
-    <a href="#">
-      <div class="icon the-team"></div>
-      <div>The team</div>
-    </a>
-  </li>
 </ul>

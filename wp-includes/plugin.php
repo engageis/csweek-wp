@@ -173,7 +173,6 @@ function apply_filters($tag, $value) {
 	} while ( next($wp_filter[$tag]) !== false );
 
 	array_pop( $wp_current_filter );
-
 	return $value;
 }
 
@@ -195,6 +194,7 @@ function apply_filters($tag, $value) {
  * @return mixed The filtered value after all hooked functions are applied to it.
  */
 function apply_filters_ref_array($tag, $args) {
+
 	global $wp_filter, $merged_filters, $wp_current_filter;
 
 	// Do 'all' actions first
