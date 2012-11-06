@@ -11,7 +11,7 @@
  * @package WordPress
  * @subpackage Twenty_Eleven
  */
-
+die("3!");
 get_header(); ?>
 
 		<div id="primary">

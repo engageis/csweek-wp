@@ -13,7 +13,6 @@
             <h2>
               <span>Registration is</span>
               <span class="open">Open</span>
-
             </h2>
             <button class="btn btn-warning btn-save-the-date">Save the date</button>
           </div>
@@ -21,6 +20,4 @@
       </div>
     </div>
   </div>
-
-  
 </div>
