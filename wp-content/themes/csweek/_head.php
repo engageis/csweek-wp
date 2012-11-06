@@ -4,11 +4,7 @@
 <meta name="description" content="">
 <meta name="author" content="engage.is">
 <link rel="stylesheet" type="text/css" media="all" href="<?= path("style.css") ?>" />
-
-<!--     <link href="assets/css/bootstrap.css" rel="stylesheet">
-<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-<link href="assets/css/docs.css" rel="stylesheet">
--->  
+  
 <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
 
 <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->

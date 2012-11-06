@@ -1,7 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Magra:700|Hammersmith+One|Share);
-@import url("/csweek/wp-content/themes/csweek/bootstrap/css/bootstrap.css");
-
-@import url("/csweek/wp-content/themes/csweek/bootstrap/css/bootstrap-responsive.css");
+@import url("bootstrap/css/bootstrap.css");
+@import url("bootstrap/css/bootstrap-responsive.css");
 
 /* Add additional stylesheets below
 -------------------------------------------------- */
