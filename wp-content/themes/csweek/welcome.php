@@ -3,7 +3,7 @@
     <div class="row">
       <div class="span8">
         <h2>The Future of Ideas, Innovation & Creativity</h2>
-        <h3>{Crowdsourcing}</h3>
+        <h3>What is {Crowdsourcing}</h3>
         <p>Loose networks made possible by new technologies that may consist of both amateurs and professionals joined to solve a problem.</p>
         <br />
         <h3>Changing Environments</h3>

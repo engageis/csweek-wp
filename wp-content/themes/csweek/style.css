@@ -1353,6 +1353,12 @@ form.bs-docs-example {
   font-weight: 700;
 }
 
+#sponsors h3{
+  font-family: 'Hammersmith One', sans-serif;
+  color: #D90000;
+  font-size: 22px;
+}
+
 .sponsors-list{
   list-style: none;
   } 
