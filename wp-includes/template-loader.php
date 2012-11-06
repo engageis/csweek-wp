@@ -41,6 +41,5 @@ if ( defined('WP_USE_THEMES') && WP_USE_THEMES ) :
 	endif;
 	if ( $template = apply_filters( 'template_include', $template ) )
 		include( $template );
-	die(">>".$template);
 	return;
 endif;

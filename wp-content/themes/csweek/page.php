@@ -11,10 +11,11 @@ function path($p){
 
   <body data-spy="scroll" data-target=".bs-docs-sidebar">
     <? require '_navbar.php' ?>
-    <? require '_splash.php' ?>
-    <? require '_menu.php' ?>
-    <? require '_welcome.php' ?>
-    <? require '_daily-topics.php' ?>
+
+    <div>
+      <?php the_content();?>
+    </div>
+
     <? require '_footer.php' ?>    
     <? require '_sponsors.php'?> 
 
