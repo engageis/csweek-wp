@@ -106,7 +106,7 @@ hr.soften {
   font-size: 80px;
   font-weight: bold;
   letter-spacing: -1px;
-  line-height: 1;
+  /*line-height: 1;*/
 }
 .jumbotron p {
   font-size: 24px;
@@ -184,7 +184,7 @@ hr.soften {
 }
 .masthead h1 {
   font-size: 120px;
-  line-height: 1;
+  /*line-height: 1;*/
   letter-spacing: -2px;
 }
 .masthead p {
@@ -1058,11 +1058,6 @@ form.bs-docs-example {
 	margin-top: 15px;
 }
 
-
-.jumbotron h1 .year{
-	font-size: 60px;
-}
-
 .jumbotron h1 .year, .jumbotron h1 .month{
 	color: #D90000;
   text-shadow: 0 1px 0 #600,
@@ -1075,7 +1070,31 @@ form.bs-docs-example {
 }
 
 .jumbotron h1 .where, .jumbotron h1 .year{
+  /*line-height: 1;*/
 	font-size: 85px;
+}
+
+.small-lettering h1{ 
+ 	font-family: 'Hammersmith One', sans-serif;
+	font-weight: normal;
+
+  text-shadow: 0 1px 0 #bbb,
+  							0 2px 0 #bbb,
+  							0 3px 0 #bbb,
+  							0 4px 0 #bbb,
+  							0 5px 0 #bbb,
+
+                0 15px 10px rgba(0, 0, 0, 0.5);
+}
+
+.small-lettering h1 .days, .small-lettering h1 .month{
+	font-size: 60px;
+  line-height: 30px !important;
+}
+
+.small-lettering h1 .where, .small-lettering h1 .year{
+	font-size: 41px;
+  line-height: 30px !important;
 }
 
 #nodes{
@@ -1385,6 +1404,14 @@ form.bs-docs-example {
   font-size: 28px;
   text-transform: uppercase;
   font-weight: 700;
+
+}
+
+#page{
+  margin-top: -90px;
+  padding-top: 90px;
+  border-top: 5px solid #333;
+  background-color: #222;
 
 }
 

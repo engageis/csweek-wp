@@ -2,7 +2,7 @@
 ================================================== -->
 <header class="jumbotron subhead" id="overview">
   <div class="container">
-    <canvas id="nodes" height="540px" width="1200px" style="z-index:-1">
+    <!--canvas id="nodes" height="180px" width="1200px" style="z-index:-1">
     </canvas>
     <script type="text/javascript">
       resize_canvas = function(e){
@@ -11,12 +11,12 @@
       }
       window.onresize = resize_canvas
       window.onload = resize_canvas
-    </script>
+    </script--!>
     
     <div class="row">
       <img class="span2" src="<?= path("images/logo.png") ?>" />
 
-      <div class="lettering span6">
+      <div class="small-lettering span4 offset2">
         <? require 'lettering.php' ?>
       </div>
 
