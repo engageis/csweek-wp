@@ -13,6 +13,8 @@ function path($p){
     <? require '_navbar.php' ?>
 
     <div>
+      <? require '_splash-sec.php'?> 
+      <? require '_menu.php' ?>
       <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
         <article>
           <header>
