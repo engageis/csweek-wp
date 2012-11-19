@@ -1425,3 +1425,10 @@ form.bs-docs-example {
 #footer{
   background: #1b1b1b;
 }
+
+.fb-like{
+  background-color: red;
+  width: 250px;
+  height: 80px;
+  margin-top: 30px;
+}
