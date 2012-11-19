@@ -34,8 +34,6 @@ function path($p){
     </div>
 
     <? require '_sponsors.php'?> 
-    <? require '_footer.php' ?>    
-
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
     <script src="<?= path("bootstrap/js/bootstrap.js") ?>"></script>

@@ -1072,6 +1072,7 @@ form.bs-docs-example {
 .jumbotron h1 .where, .jumbotron h1 .year{
   /*line-height: 1;*/
 	font-size: 85px;
+  line-height: 135px;;
 }
 
 .small-lettering h1{ 
@@ -1279,6 +1280,12 @@ form.bs-docs-example {
   width: 42px;
   background-position: -350px 0 ;
 }
+
+.icon.the-blog{  
+  width: 37px;
+  background-position: -392px 0 ;
+}
+
 
 /*hr.menu-bar{
   height: 5px;
