@@ -1035,6 +1035,15 @@ form.bs-docs-example {
 	padding: 9px 18px !important;
 }
 
+.nav > li > a:hover{
+  background-color: #111 !important;
+}
+
+
+.nav > li > a:active{
+  background-color: #111;
+}
+
 .nav > li > a > img{
 	top: 0;
 	vertical-align: top;
@@ -1263,6 +1272,12 @@ form.bs-docs-example {
   color: white;
 }
 
+#menu li a:hover{
+  color: #666;
+  -webkit-transition: 0.6s;
+  transition: 0.2s;
+}
+
 .icon{
   width: 50px;
   height: 50px;
@@ -1472,13 +1487,6 @@ form.bs-docs-example {
   width: 50%;
 }
 
-#page{
-  margin-top: -90px;
-  padding-top: 90px;
-  border-top: 5px solid #333;
-  background-color: #222;
-
-}
 
 #contact h2{
   font-family: 'Lato', sans-serif;
@@ -1502,6 +1510,14 @@ form.bs-docs-example {
 
 /* Article Styles */
 
+#page{
+  margin-top: -90px;
+  padding-top: 140px;
+  border-top: 2px solid #555;
+  background-color: #333;
+  border-bottom: 3px solid #555;
+}
+
 #page article{
   margin-bottom: 70px;
 }
@@ -1511,15 +1527,14 @@ form.bs-docs-example {
   color: white;
   font-size: 28px;
   margin: 22px 0 30px 0;
-  font-weight: normal;
+  font-weight: 900;
 }
 
 #page h3{
   font-family: 'Lato', sans-serif;
-  font-size: 22px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 900;
   color: #D90000;
-  text-transform: uppercase;
 }
 
 #page h4{
@@ -1558,7 +1573,8 @@ form.bs-docs-example {
 
 #page a:hover {
   color: #F89406;
-  text-decoration: underline;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
 }
 
 #page span {
