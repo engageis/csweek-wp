@@ -106,8 +106,8 @@
 
     <div class="span12">
       <h2>Media Partners</h2>
-      <h3>Global Media Partners</h3>
-      <h3>Regional Partners</h3>
+      <!--<h3>Global Media Partners</h3>
+      <h3>Regional Partners</h3>-->
       <h3>Bloggers</h3>
         <ul class="sponsors-list">
           <li>

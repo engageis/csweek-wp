@@ -302,8 +302,6 @@ hr.soften {
   margin-right: 10px;
 }
 
-
-
 /* Special grid styles
 -------------------------------------------------- */
 
@@ -1378,14 +1376,13 @@ form.bs-docs-example {
 
 #sponsors{
   background: white;
-  padding: 70px 0;
+  padding: 40px 0;
 }
 
 #sponsors h2{
   font-family: 'Hammersmith One', sans-serif;
   color: #222;
   font-size: 28px;
-  text-transform: uppercase;
   font-weight: 700;
 }
 
@@ -1456,7 +1453,16 @@ form.bs-docs-example {
 
 }
 
-#footer{
+#contact h2{
+  font-family: 'Hammersmith One', sans-serif;
+  color: white;
+  font-size: 28px;
+  margin: 22px 0 30px 0;
+  font-weight: normal;
+}
+
+#contact{
+  padding-bottom: 35px;
   background: #1b1b1b;
 }
 
