@@ -20,33 +20,38 @@
   </li>
   <li>
     <a href="#">
-      <div class="icon csw-global"></div>
-      <div>Workshops</div>
-    </a>
-  </li>
-
-  <li>
-    <a href="#">
       <div class="icon startup-competition"></div>
       <div>Startup Competition</div>
     </a>
   </li>
   <li>
     <a href="#">
-      <div class="icon board-of-advisors"></div>
+      <div class="icon how-to-get-involved"></div>
       <div>Board of advisors</div>
     </a>
   </li>
   <li>
     <a href="#">
-      <div class="icon how-to-get-involved"></div>
+      <div class="icon the-team"></div>
       <div>How to get involved</div>
     </a>
   </li>
   <li>
     <a href="#">
-      <div class="icon the-team"></div>
+      <div class="icon board-of-advisors "></div>
       <div>The team</div>
     </a>
   </li>
+  <li>
+    <a href="#">
+      <div class="icon csw-global"></div>
+      <div>1-day global summit</div>
+    </a>
+  </li>
+  <li>
+    <a href="#">
+      <div class="icon the-blog"></div>
+      <div>Blog</div>
+    </a>
+  <
 </ul>

@@ -1,8 +1,8 @@
-<!-- Subhead
+<!-- Subheader for secondery pages
 ================================================== -->
 <header class="jumbotron subhead" id="overview">
   <div class="container">
-    <canvas id="nodes" height="540px" width="1200px" style="z-index:-1">
+    <!--canvas id="nodes" height="180px" width="1200px" style="z-index:-1">
     </canvas>
     <script type="text/javascript">
       resize_canvas = function(e){
@@ -11,20 +11,19 @@
       }
       window.onresize = resize_canvas
       window.onload = resize_canvas
-    </script>
-    <img src="<?= path("images/logo.png") ?>" />
-
+    </script--!>
+    
     <div class="row">
-      <div class="lettering span8 offset4">
+      <img class="span2" src="<?= path("images/logo.png") ?>" />
+
+      <div class="small-lettering span4 offset2">
         <? require 'lettering.php' ?>
       </div>
-    </div>
-    <div class="row">
-      <div class="save-the-date span8 offset4">
+
+      <div class="save-the-date span4">
         <? require 'save-the-date.php' ?>
       </div>
     </div>
     
   </div>
 </header>
-

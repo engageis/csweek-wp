@@ -1,8 +1,8 @@
 <div class="row-fluid">
   <div class="span12">
     <h1>
-      <span class="days">15-19</span>
-      <span class="month">APRIL</span>
+      <span class="days">02-06</span>
+      <span class="month">JUNE</span>
     </h1>
   </div>
 </div>

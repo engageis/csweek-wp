@@ -635,7 +635,7 @@ h6 {
   margin: 10px 0;
   font-family: inherit;
   font-weight: bold;
-  line-height: 1;
+  /*line-height: 1;*/
   color: inherit;
   text-rendering: optimizelegibility;
 }
@@ -653,7 +653,7 @@ h6 small {
 
 h1 {
   font-size: 36px;
-  line-height: 40px;
+  /*line-height: 40px;*/
 }
 
 h2 {

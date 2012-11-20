@@ -4,17 +4,14 @@
       <div class="span8">
         <h2>The Future of Ideas, Innovation & Creativity</h2>
         <h3>What is {Crowdsourcing}</h3>
-        <p>Loose networks made possible by new technologies that may consist of both amateurs and professionals joined to solve a problem.</p>
+        <h4>Loose networks made possible by new technologies that may consist of both amateurs and professionals joined to solve a problem.</h4>
         <br />
         <h3>Changing Environments</h3>
-        <p>The changing environment of the new economy, mobility of working environments, connectivity and social media has led to crowdsourcing being a 21st century phenomenon.</p>
-
-        <br />
-        <h3>Best & Brightest</h3>
-        <p>Crowdsourcing Week Asia (CSWA) will bring together the best and brightest minds and innovators in the field today. A curated event that will highlight new directions in crowdsourcing</p>
+        <h4>The changing environment of the new economy, mobility of working environments, connectivity and social media has led to crowdsourcing being a 21st century phenomenon.</h4>
         <br />
       </div>
       <div class="offset1 span3">
+        <div class="fb-like" data-href="http://www.facebook.com/CrowdsourcingWeek?fref=ts" data-send="false" data-width="250" data-show-faces="true"></div>
         <div id="open-registration">
           <div class="pad">
             <div class="inner">
