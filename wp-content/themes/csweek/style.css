@@ -1296,7 +1296,7 @@ form.bs-docs-example {
 
 #welcome{
   margin-top: -90px;
-  padding-top: 90px;
+  padding-top: 140px;
   border-top: 5px solid #333;
   /* background: transparent url(images/welcome-bg.png); */
   background-color: #222;
@@ -1313,8 +1313,18 @@ form.bs-docs-example {
 #welcome h3{
   font-family: 'Hammersmith One', sans-serif;
   font-size: 22px;
+  font-weight: 300;
   color: #D90000;
+  text-transform: uppercase;
 } 
+
+#welcome h4{
+  font-family: 'Magra', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  color: #666;
+  line-height: 165%;
+}
 
 #welcome p{
   font-family: 'Magra', sans-serif;
@@ -1368,6 +1378,7 @@ form.bs-docs-example {
 
 #sponsors{
   background: white;
+  padding: 70px 0;
 }
 
 #sponsors h2{
@@ -1403,15 +1414,38 @@ form.bs-docs-example {
 
 #daily-topics{
   background: transparent url(images/welcome-bg.png);
+  padding: 70px 0;
 }
 
-#daily-topics h2{
-  font-family: 'Hammersmith One', sans-serif;
-  color: #666;
-  font-size: 28px;
-  text-transform: uppercase;
-  font-weight: 700;
 
+#daily-topics h3{
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  color: #D90000;
+  text-transform: uppercase;
+}
+
+
+#daily-topics h4{
+  font-family: 'Magra', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  color: #666;
+  line-height: 165%;
+}
+
+#daily-topics li{
+  font-family: 'Magra', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #666;
+  line-height: 165%;
+}
+
+#daily-topics .list-left{
+  float: left;
+  width: 50%;
 }
 
 #page{
