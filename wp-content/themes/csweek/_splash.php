@@ -15,7 +15,7 @@
     <img src="<?= path("images/logo.png") ?>" />
 
     <div class="row">
-      <div class="lettering span9 offset3">
+      <div class="lettering span8 offset4">
         <? require 'lettering.php' ?>
       </div>
     </div>

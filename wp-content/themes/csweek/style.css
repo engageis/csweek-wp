@@ -100,14 +100,34 @@ hr.soften {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
-  background: transparent url(images/bg.jpg);
+  /* IE10 Consumer Preview */ 
+  background-image: -ms-radial-gradient(center, ellipse farthest-corner, #2E2E2E 0%, #222222 100%);
+
+  /* Mozilla Firefox */ 
+  background-image: -moz-radial-gradient(center, ellipse farthest-corner, #2E2E2E 0%, #222222 100%);
+
+  /* Opera */ 
+  background-image: -o-radial-gradient(center, ellipse farthest-corner, #2E2E2E 0%, #222222 100%);
+
+  /* Webkit (Safari/Chrome 10) */ 
+  background-image: -webkit-gradient(radial, center center, 0, center center, 497, color-stop(0, #2E2E2E), color-stop(1, #222222));
+
+  /* Webkit (Chrome 11+) */ 
+  background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #2E2E2E 0%, #222222 100%);
+
+  /* W3C Markup, IE10 Release Preview */ 
+  background-image: radial-gradient(ellipse farthest-corner at center, #2E2E2E 0%, #222222 100%);
+
+    
 }
+
 .jumbotron h1 {
   font-size: 80px;
   font-weight: bold;
   letter-spacing: -1px;
   /*line-height: 1;*/
 }
+
 .jumbotron p {
   font-size: 24px;
   font-weight: 300;
@@ -1049,7 +1069,7 @@ form.bs-docs-example {
 }
 
 .jumbotron h1 .days, .jumbotron h1 .month{
-	font-size: 128px;
+	font-size: 90px;
 }
 
 .jumbotron h1 .month{
@@ -1069,7 +1089,7 @@ form.bs-docs-example {
 
 .jumbotron h1 .where, .jumbotron h1 .year{
   /*line-height: 1;*/
-	font-size: 85px;
+	font-size: 60px;
   line-height: 135px;;
 }
 
@@ -1229,7 +1249,7 @@ form.bs-docs-example {
   height: 75px;
   border: none;
   font-family: 'Magra', sans-serif !important;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
   color: white;
@@ -1245,43 +1265,43 @@ form.bs-docs-example {
 
 .icon.about{
   width: 40px;
-  background-position: 0 0;
+  background-position: 1px 4px;
 }
 
 .icon.speakers{
   width: 25px;
-  background-position: -50px 0 ;
+  background-position: -46px 2px;
 }
 
 .icon.schedule{
   width: 36px;
-  background-position: -100px 0 ;
+  background-position: -92px 2px;
 }
 
 .icon.csw-global{
   width: 48px;
-  background-position: -150px 0 ;
+  background-position: -138px 2px;
 }
 .icon.startup-competition{
   width: 28px;
-  background-position: -200px 0 ;
+  background-position: -186px 2px;
 }
 .icon.board-of-advisors{
   width: 32px;
-  background-position: -250px 0 ;
+  background-position: -231px 0 ;
 }
 .icon.how-to-get-involved{
   width: 46px;
-  background-position: -300px 0 ;
+  background-position: -277px 0 ;
 }
 .icon.the-team{
   width: 42px;
-  background-position: -350px 0 ;
+  background-position: -323px 0 ;
 }
 
 .icon.the-blog{  
   width: 37px;
-  background-position: -392px 0 ;
+  background-position: -365px 0 ;
 }
 
 
@@ -1295,9 +1315,10 @@ form.bs-docs-example {
 #welcome{
   margin-top: -90px;
   padding-top: 140px;
-  border-top: 5px solid #333;
   /* background: transparent url(images/welcome-bg.png); */
-  background-color: #222;
+  border-top: 2px solid #555;
+  background-color: #333;
+  
 }
 
 #welcome h2{
