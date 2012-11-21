@@ -14,12 +14,12 @@
             <li>COO</li>
             <li>CFO</li>
             <li>CCO</li>
-            <li>CIO</li>
           </ul>
         </div>
         <div class="list-right">
           <ul>
             <li>Presidents</li>
+            <li>CIO</li>
             <li>Vice-Presidents</li>
             <li>Directors</li>
             <li>Managers</li>
