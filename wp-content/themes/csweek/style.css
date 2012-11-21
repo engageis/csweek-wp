@@ -1565,3 +1565,55 @@ form.bs-docs-example {
   color: #333;
   text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cal-icon {
+  display: inline-block;
+  margin-right: 5px;
+  margin-top: -2px;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  background: url(images/eventspriteling.png) no-repeat;
+  padding: 0;
+  line-height: 16px;
+}
+
+.add_to_calendar {
+  background-position: 0 -60px;
+  width: 16px;
+}
+
+.add_to_outlook {
+  background-position: -16px -60px;
+  width: 20px;
+}
+
+.add_to_google {
+  background-position: -52px -60px;
+}
+
+.add_to_yahoo {
+  background-position: -36px -58px;
+}
+
+.add_to_ical {
+  background-position: -68px -60px;
+}

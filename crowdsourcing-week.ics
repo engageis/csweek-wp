@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+URL:http://conexaokinghost.eventbrite.com
+ 
+ 
+DTSTART:20121129T110000Z
+DTEND:20121129T213000Z
+SUMMARY:Crowdsourcing Week
+DESCRIPTION:For details, click here: http://conexaokinghost.eventbrite.com
+LOCATION:Hotel Sheraton - Rua Olavo Barreto Viana, 18 · Moinhos De Vento - Porto Alegre, 90570-070 - Brazil
+END:VEVENT
+END:VCALENDAR

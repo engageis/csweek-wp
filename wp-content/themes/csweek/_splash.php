@@ -21,7 +21,7 @@
     </div>
     <div class="row">
       <div class="save-the-date span8 offset4">
-        <? require 'save-the-date.php' ?>
+        <? require '_cal.php' ?>
       </div>
     </div>
     
