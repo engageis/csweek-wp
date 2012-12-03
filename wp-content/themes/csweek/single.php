@@ -30,6 +30,11 @@ function path($p){
           <aside id="extra_content"><?php echo $extra_content;?></aside>
           <?php endif;?>
 
+<?php
+global $withcomments;
+$withcomments = 1; // force comments form and comments to show on front page
+comments_template();
+?>
       <?php endwhile;?>
       </div>
     </div>
