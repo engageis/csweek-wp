@@ -15,7 +15,7 @@
             <em>FIND US HERE</em>
           </li>
           <li class="">
-            <a target="_blank" href="https://www.linkedin.com/company/crowdsourcing-week">
+            <a target="_blank" href="http://www.facebook.com/CrowdsourcingWeek">
               <img src="<?= path("images/facebook.png") ?>" />
               Facebook</a>
           </li>
