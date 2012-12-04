@@ -15,7 +15,7 @@ function path($p){
     <? require '_menu.php' ?>
     <? require '_welcome.php' ?>
     <? require '_daily-topics.php' ?>
-    <? require '_blog.php' ?>
+    
     <? require '_footer.php' ?>    
     
     <? require '_sponsors.php'?> 

@@ -7,7 +7,7 @@
       </div>
       <div class="span4">
         <h2> Blog Feed </h2>
-        <p>Loose networks made possible by new technologies that may consist of both amateurs and professionals joined to solve a problem. The changing environment of the new economy, mobility of working environments, connectivity and social media has led to crowdsourcing being a 21st century phenomenon.</p>
+        <? require '_blog.php' ?>
       </div>
       <div class="span2">
         <h2>Share it</h2>
