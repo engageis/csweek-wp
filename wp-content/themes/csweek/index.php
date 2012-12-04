@@ -15,7 +15,9 @@ function path($p){
     <? require '_menu.php' ?>
     <? require '_welcome.php' ?>
     <? require '_daily-topics.php' ?>
+    <? require '_blog.php' ?>
     <? require '_footer.php' ?>    
+    
     <? require '_sponsors.php'?> 
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
