@@ -21,7 +21,8 @@ function path($p){
     <ul>
 <?php
 // The Query
-$my_query = new WP_Query('showposts=3');
+$my_query = new WP_Query('showposts=3&post_type=post');
+echo "Hey";
 if($my_query->have_posts()) : while($my_query->have_posts()) : $my_query->the_post();
   echo '<li>';
   the_title();
