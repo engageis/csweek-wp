@@ -15,32 +15,32 @@
             <em>FIND US HERE</em>
           </li>
           <li class="">
-            <a href="./getting-started.html">
+            <a target="_blank" href="https://www.linkedin.com/company/crowdsourcing-week">
               <img src="<?= path("images/facebook.png") ?>" />
               Facebook</a>
           </li>
-          <li class="active">
-            <a href="./scaffolding.html">
+          <li>
+            <a target="_blank" href="http://www.twitter.com/CrowdWeek">
               <img src="<?= path("images/twitter.png") ?>" />
               Twitter</a>
           </li>
           <li class="">
-            <a href="./base-css.html">
+            <a target="_blank" href="https://www.linkedin.com/company/crowdsourcing-week">
               <img src="<?= path("images/linkedin.png") ?>" />
               LinkedIn</a>
           </li>
           <li class="">
-            <a href="./components.html">
+            <a target="_blank" href="http://plus.google.com/116414871015404417703">
             <img src="<?= path("images/plus.png") ?>" />
             Google</a>
           </li>
           <li class="">
-            <a href="./javascript.html">
+            <a target="_blank" href="http://www.youtube.com/crowdsourcingweek">
               <img src="<?= path("images/youtube.png") ?>" />
               Youtube</a>
           </li>
           <li class="">
-            <a href="./customize.html">
+            <a href="contact.php">
               <img src="<?= path("images/contact.png") ?>" />
               Contact</a>
           </li>

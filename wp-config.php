@@ -18,7 +18,7 @@
 if($_ENV["DATABASE_URL"]){
   $db = parse_url($_ENV["DATABASE_URL"]);
 }else{
-  $db = array(path => "csweek", user => "csweek", pass => "1234", host => "localhost:5432");
+  $db = array(path => "csweek", user => "csweek", pass => "1234", host => "localhost:5433");
 }
 
 // print_r($db);
