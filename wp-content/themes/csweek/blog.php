@@ -21,7 +21,7 @@ function path($p){
     <ul>
 <?php
 // The Query
-echo "Hey";
+echo $query_string;
 $my_query = new WP_Query('showposts=3&post_type=post');
 if($my_query->have_posts()) : while($my_query->have_posts()) : $my_query->the_post();
   echo '<li>';
