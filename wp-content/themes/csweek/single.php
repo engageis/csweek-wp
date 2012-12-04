@@ -18,6 +18,7 @@ function path($p){
       <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
       <div id='page'>
         <div class='container'>
+          <? require '_add-this.php' ?>
           <article>
             <header>
               <?php $page_quoted_title = get_post_meta($post->ID, 'page_quoted_title', true);?>
