@@ -19,10 +19,18 @@ function path($p){
 
 
     <ul>
-
-<?php $my_query = new WP_Query('showposts=3&tag=tag'); ?>  
-
-
+      <?php
+      // The Query
+      echo $query_string;
+      $my_query = new WP_Query('showposts=3&post_type=post');
+      if($my_query->have_posts()) : while($my_query->have_posts()) : $my_query->the_post();
+        echo '<li>';
+        the_title();
+        echo '</li>';
+      endwhile; endif;
+      // Reset Query
+      wp_reset_query();
+      ?>
     </ul>
 
     <? require '_sponsors.php'?> 
