@@ -18,7 +18,7 @@
 if($_ENV["DATABASE_URL"]){
   $db = parse_url($_ENV["DATABASE_URL"]);
 }else{
-  $db = array(path => "csweek", user => "csweek", pass => "1234", host => "localhost:5433");
+  $db = array(path => "csweek", user => "csweek", pass => "1234", host => "localhost:5432");
 }
 
 // print_r($db);
@@ -97,3 +97,4 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+

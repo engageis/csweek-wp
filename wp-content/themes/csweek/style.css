@@ -1112,7 +1112,7 @@ form.bs-docs-example {
 
 .small-lettering h1{ 
  	font-family: 'Lato', sans-serif;
-	font-weight: normal;
+	font-weight: 700;
 
   text-shadow: 0 1px 0 #bbb,
   							0 2px 0 #bbb,
@@ -1123,9 +1123,9 @@ form.bs-docs-example {
                 0 15px 10px rgba(0, 0, 0, 0.5);
 }
 
-.small-lettering h1 .days, .small-lettering h1 .month{
+.small-lettering h1 .days, .small-let80ring h1 .month{
 	font-size: 60px;
-  line-height: 30px !important;
+  line-height: 80px !important;
 }
 
 .small-lettering h1 .where, .small-lettering h1 .year{
@@ -1191,7 +1191,7 @@ form.bs-docs-example {
 }
 
 .btn-save-the-date{
-  padding: 10px 0;
+  padding: 10px;
   text-transform: uppercase;
   margin: 25px 85px;
   width: 270px;
@@ -1525,24 +1525,33 @@ form.bs-docs-example {
 #page h2{
   font-family: 'Lato', sans-serif;
   color: white;
-  font-size: 28px;
+  font-size: 22px;
   margin: 22px 0 30px 0;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 #page h3{
   font-family: 'Lato', sans-serif;
-  font-size: 20px;
-  font-weight: 900;
-  color: #D90000;
-}
-
-#page h4{
-  font-family: 'Magra', sans-serif;
   font-size: 27px;
   font-weight: 300;
   color: #666;
   line-height: 165%;
+}
+
+.post-info{
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #666;
+  line-height: 165%;
+}
+
+#page h4{
+  font-family: 'Magra', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #D90000;
+  margin-bottom: 20px;
 }
 
 #page h5{
@@ -1562,7 +1571,7 @@ form.bs-docs-example {
 #page p, #page li{
   font-size: 18px;
   font-weight: normal;
-  color: #666;
+  color: #AFAEAE;
   line-height: 150%;
 }
 
