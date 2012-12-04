@@ -26,7 +26,7 @@
  -->
 <br />
 <div>
-  <a href="javascript: $('#calendarDiv').toggle();"><span class="cal-icon add_to_calendar">&nbsp;</span> Adicionar ao meu calendário</a><br />
+  <a href="javascript: $('#calendarDiv').toggle();"><span class="cal-icon add_to_calendar">&nbsp;</span> Add to my calendar</a><br />
 </div>
 <div id="calendarDiv" style="display: none; margin: 10px 20px; line-height: 26px;">
   <div>
@@ -35,9 +35,9 @@
   <div>
     <a target="_blank" href="https://www.google.com/calendar/render?action=TEMPLATE&text=Crowdsourcing%20Week&dates=20121129T110000Z/20121129T213000Z&details=For+details,+link+here:+http://conexaokinghost.eventbrite.com&location=Hotel+Sheraton+-+Rua+Olavo+Barreto+Viana,+18+%C2%B7+Moinhos+De+Vento+-+Porto+Alegre,+90570-070+-+Brazil&pli=1&sf=true&output=xml"><span class="cal-icon add_to_google">&nbsp;</span> Google Calendar</a>
   </div>
-  <div>
+<!--   <div>
     <a target="_blank" href="javascript: AddToCalendar('yahoo', 'http://www.eventbrite.com', '4825411937', '');"><span class="cal-icon add_to_yahoo">&nbsp;</span> Yahoo! Calendar</a>
-  </div>
+  </div> -->
   <div>
    <a target="_blank" href="crowdsourcing-week.ics"><span class="cal-icon add_to_ical">&nbsp;</span> iCal Calendar</a>
   </div>
