@@ -21,15 +21,12 @@ function path($p){
     <ul>
 <?php
 // The Query
-query_posts();
-
-// The Loop
-while ( have_posts() ) : the_post();
+$my_query = new WP_Query('showposts=3');
+if($my_query->have_posts()) : while($my_query->have_posts()) : $my_query->the_post();
   echo '<li>';
   the_title();
   echo '</li>';
-endwhile;
-
+endwhile; endif;
 // Reset Query
 wp_reset_query();
 ?>
