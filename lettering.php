@@ -1,7 +1,7 @@
 <div class="row-fluid">
   <div class="span12">
     <h1>
-      <span class="days">02-06</span>
+      <span class="days">03-07</span>
       <span class="month">JUNE</span>
     </h1>
   </div>
