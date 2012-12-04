@@ -19,20 +19,10 @@ function path($p){
 
 
     <ul>
-<?php
-// The Query
-query_posts();
 
-// The Loop
-while ( have_posts() ) : the_post();
-  echo '<li>';
-  the_title();
-  echo '</li>';
-endwhile;
+<?php $my_query = new WP_Query('showposts=3&tag=tag'); ?>  
 
-// Reset Query
-wp_reset_query();
-?>
+
     </ul>
 
     <? require '_sponsors.php'?> 
