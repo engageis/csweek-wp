@@ -53,5 +53,4 @@
       <div class="icon the-blog"></div>
       <div>Blog</div>
     </a>
-  <
 </ul>
