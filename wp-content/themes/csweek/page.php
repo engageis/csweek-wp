@@ -25,7 +25,9 @@ get_header(); ?>
     </article>
     <?php $extra_content = get_post_meta($post->ID, 'extra_content', true);?>
     <?php if($extra_content):?>
-    <aside id="extra_content"><?php echo $extra_content;?></aside>
+      <aside id="extra_content"><?php echo $extra_content;?></aside>
     <?php endif;?>
+  </div>
+</div>
 <?php endwhile;?>
 <?php get_footer(); ?>
