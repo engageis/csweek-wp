@@ -37,9 +37,9 @@ function path($p){
     <? require 'menu.php' ?>
     <? require 'welcome.php' ?>
     <? require 'daily-topics.php' ?>
-    <? require 'footer.php' ?>    
+    <!--? require 'footer.php' ?-->    
     <? require 'sponsors.php'?> 
-    <? require 'footer.php' ?>
+    <!--? require 'footer.php' ?-->
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>

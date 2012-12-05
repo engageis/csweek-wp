@@ -4,7 +4,7 @@
       <div class="span8">
         <h2>The Future of Ideas, Innovation & Creativity</h2>
         <h3>What is {Crowdsourcing}</h3>
-        <h4>Loose networks made possible by new technologies that may consist of both amateurs and professionals joined to solve a problem.</h4>
+        <h4>Crowdsourcing is the new philosophy of harnessing collaboration for problem-solving. It is based on loose and open networks of both amateurs and professionals powered by new technologies, social media and web 2.0</h4>
         <br />
         <h3>Changing Environments</h3>
         <h4>The changing environment of the new economy, mobility of working environments, connectivity and social media has led to crowdsourcing being a 21st century phenomenon.</h4>
