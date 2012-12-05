@@ -1,1 +1,0 @@
-<? require 'wp-content/themes/csweek/blog.php' ?>
