@@ -85,55 +85,55 @@
 <!-- <hr class="menu-bar" /> -->
 <ul id="menu" class="pager">
   <li>
-    <a href="index.php?page_id=4">
+    <a href="<?= get_permalink_by_name("about"); ?>">
       <div class="icon about"></div>
       <div>About</div>
     </a>
   </li>
   <li>
-    <a href="index.php?page_id=24">
+    <a href="<?= get_permalink_by_name("speakers"); ?>">
       <div class="icon speakers"></div>
       <div>Speakers</div>
     </a>
   </li>
   <li>
-    <a href="index.php?page_id=17">
+    <a href="<?= get_permalink_by_name("schedule"); ?>">
       <div class="icon schedule"></div>
       <div>Schedule</div>
     </a>
   </li>
   <li>
-    <a href="index.php?page_id=9">
+    <a href="<?= get_permalink_by_name("startup-competition"); ?>">
       <div class="icon startup-competition"></div>
       <div>Startup Competition</div>
     </a>
   </li>
   <li>
-    <a href="index.php?page_id=58">
+    <a href="<?= get_permalink_by_name("board-of-advisors"); ?>">
       <div class="icon how-to-get-involved"></div>
       <div>Board of advisors</div>
     </a>
   </li>
   <li>
-    <a href="index.php?page_id=60">
+    <a href="<?= get_permalink_by_name("how-to-get-involved"); ?>">
       <div class="icon the-team"></div>
       <div>How to get involved</div>
     </a>
   </li>
   <li>
-    <a href="index.php?page_id=62">
+    <a href="<?= get_permalink_by_name("the-team"); ?>">
       <div class="icon board-of-advisors "></div>
       <div>The team</div>
     </a>
   </li>
   <li>
-    <a href="index.php?page_id=64">
+    <a href="<?= get_permalink_by_name("1-day-global-summit"); ?>">
       <div class="icon csw-global"></div>
       <div>1-day global summit</div>
     </a>
   </li>
   <li>
-    <a href="blog.php">
+    <a href="<?= get_permalink_by_name("blog"); ?>">
       <div class="icon the-blog"></div>
       <div>Blog</div>
     </a>
