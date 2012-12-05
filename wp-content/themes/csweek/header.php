@@ -77,7 +77,7 @@
     </div>
   </div>
 </div>
-<?php if is_front_page(): ?>
+<?php if(is_front_page()): ?>
 <? require '_splash.php' ?>
 <?php else: ?>
 <? require '_splash-sec.php' ?>
