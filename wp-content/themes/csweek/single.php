@@ -1,20 +1,21 @@
 <?php
-function path($p){
-  return "wp-content/themes/csweek/$p";
-}
-?>
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <? require '_head.php' ?>
-  </head>
+/**
+ * The template for displaying all pages.
+ *
+ * This is the template that displays all pages by default.
+ * Please note that this is the wordpress construct of pages
+ * and that other 'pages' on your wordpress site will use a
+ * different template.
+ *
+ * @package WordPress
+ * @subpackage CSWeek
+ * @since Maiz Lulkin 2013
+ */
 
-  <body data-spy="scroll" data-target=".bs-docs-sidebar">
-    <? require '_navbar.php' ?>
+get_header(); ?>
 
-    <div>
-      <? require '_splash-sec.php'?> 
-      <? require '_menu.php' ?>
+
+
       <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
       <div id='page'>
         <div class='container'>
@@ -42,10 +43,7 @@ comments_template();
       </div>
     </div>
 
-    <? require '_sponsors.php'?> 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-    <script src="<?= path("bootstrap/js/bootstrap.js") ?>"></script>
-    <script src="<?= path("js/lines.js") ?>"></script>
-  </body>
-</html>
+
+<?php get_footer(); ?>
+
+
