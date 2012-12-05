@@ -77,7 +77,7 @@
     </div>
   </div>
 </div>
-<? require 'splash.php' ?>
+<?// require 'splash.php' ?>
 <!-- <hr class="menu-bar" /> -->
 <ul id="menu" class="pager">
   <li>
