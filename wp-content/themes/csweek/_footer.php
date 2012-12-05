@@ -7,7 +7,7 @@
       </div>
       <div class="span3">
         <h2 id="contact-info">Contact Info</h2>
-        <p> insert here a button for contact form together with some text</p>
+        <!--p> insert here a button for contact form together with some text</p-->
         <button class="btn btn-warning btn-save-the-date btn-contact">Contact Us</button>
       </div>
       <div class="span2">

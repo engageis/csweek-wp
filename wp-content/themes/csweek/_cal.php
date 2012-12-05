@@ -19,7 +19,6 @@
     <div class="until-the-event">– &nbsp;Until the event&nbsp; –</div>
   </div>
 </div> -->
-<button class="btn btn-warning btn-save-the-date">Reserve your ticket</button>
 <!-- <div class="add-to-calendar">
   Add to your calendar right now!
 </div>

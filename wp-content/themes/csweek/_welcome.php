@@ -11,16 +11,14 @@
         <br />
       </div>
       <div class="offset1 span3">
-        <div class="fb-like" data-href="http://www.facebook.com/CrowdsourcingWeek?fref=ts" data-send="false" data-width="250" data-show-faces="true"></div>
         <div id="open-registration">
           <div class="pad">
             <div class="inner">
-              <h2>
+              <!--h2>
                 <span>Registration is</span>
                 <span class="open">Open</span>
-
-              </h2>
-              <button class="btn btn-warning btn-save-the-date">Save the date</button>
+              </h2-->
+              <? require '_cal.php' ?>
             </div>
           </div>
         </div>
