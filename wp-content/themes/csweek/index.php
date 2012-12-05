@@ -1,28 +1,46 @@
-<?php
-function path($p){
-  return "wp-content/themes/csweek/$p";
+<?php get_header(); ?>
+<style type="text/css">
+#page .entry-content p{
+  color: #ddd;
 }
-?>
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <? require '_head.php' ?>
-  </head>
+</style>
+<div id='page'>
+  <div class='container'>
 
-  <body data-spy="scroll" data-target=".bs-docs-sidebar">
-    <? require '_navbar.php' ?>
-    <? require '_splash.php' ?>
-    <? require '_menu.php' ?>
-    <? require '_welcome.php' ?>
-    <? require '_daily-topics.php' ?>
-    
-    <? require '_footer.php' ?>    
-    
-    <? require '_sponsors.php'?> 
+    <?php if ( ! have_posts() ) : ?>
+      <article class="post e404">
+        <h2>Opa, ainda não há conteúdo aqui...</h2>
+        <p>Alguma explicação.</p>
+      </article>
+    <?php endif; ?>
+    <?php while ( have_posts() ) : the_post(); ?>
+      <article style="margin-bottom:30px" <?php post_class(); ?>>
+        <header>
+          <h2 style="margin:0" class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
+          <span style="color:#999" class="category-show">
+            <?php the_time('l, j \d\e F \d\e Y');?>
+          </span>
+        </header>
+        <div class="entry-content">
+          <?php if(has_post_thumbnail($post->ID)):?><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_post_thumbnail('big-thumb');?></a><?php endif;?>
+          <?php the_excerpt(); ?>
+        </div>
+      </article>
+      <hr style="border-top: 1px solid rgba(0,0,0,0.2); border-bottom: 1px solid rgba(255,255,255,0.2)" />
+    <?php endwhile; // End the loop. Whew. ?>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-    <script src="<?= path("bootstrap/js/bootstrap.js") ?>"></script>
-    <script src="<?= path("js/lines.js") ?>"></script>
-  </body>
-</html>
+    <aside class="pagination">
+      <?php if(get_next_posts_link()):?>
+      <div id="prev_post">
+        <?php next_posts_link('Antigos');?>
+      </div>
+      <?php endif;?>
+      <?php if(get_previous_posts_link()):?>
+      <div id="next_post">
+        <?php previous_posts_link('Novos');?>
+      </div>
+      <?php endif;?>
+    </aside>
+  </div>
+</div>
+<?php get_footer(); ?>

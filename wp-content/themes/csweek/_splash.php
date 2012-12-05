@@ -12,7 +12,7 @@
       window.onresize = resize_canvas
       window.onload = resize_canvas
     </script>
-    <img src="<?= path("images/logo.png") ?>" />
+    <img src="<?php bloginfo('template_url');?>/images/logo.png" />
 
     <div class="row">
       <div class="lettering span8 offset4">

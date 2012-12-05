@@ -1,0 +1,147 @@
+<?php
+/**
+ * Template Name: Home
+ *
+ * @package WordPress
+ * @subpackage CSWeek
+ * @since Maiz Lulkin 2013
+ */
+
+get_header(); ?>
+<div id="welcome">
+  <div class="container">
+    <div class="row">
+      <div class="span8">
+        <h2>The Future of Ideas, Innovation & Creativity</h2>
+        <h3>What is {Crowdsourcing}</h3>
+        <h4>Crowdsourcing is the new philosophy of harnessing collaboration for problem-solving. It is based on loose and open networks of both amateurs and professionals powered by new technologies, social media and web 2.0</h4>
+        <br />
+        <h3>Changing Environments</h3>
+        <h4>The changing environment of the new economy, mobility of working environments, connectivity and social media has led to crowdsourcing being a 21st century phenomenon.</h4>
+        <br />
+      </div>
+      <div class="offset1 span3">
+        <div class="fb-like" data-href="http://www.facebook.com/CrowdsourcingWeek?fref=ts" data-send="false" data-width="250" data-show-faces="true"></div>
+        <div id="open-registration">
+          <div class="pad">
+            <div class="inner">
+              <h2>
+                <span>Registration is</span>
+                <span class="open">Open</span>
+
+              </h2>
+              <button class="btn btn-warning btn-save-the-date">Save the date</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="daily-topics">
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <h3>Crowdsourcing Week Asia 2013 to Bring Innovators to Center Stage</h3>
+        <h4>Crowdsourcing Week Asia (CSWA) 2013 will bring together the best and brightest minds in the field across disciplines. The 5-day curated event will highlight new directions in crowdsourcing in:</h4>
+        <br />
+        <ul class="span3">
+          <li>Science/Tech</li>
+          <li>Enterprise</li>
+          <li>Government/NGO</li>
+          <li>Urban Planning</li>
+          <li>Tourism</li>
+        </ul>
+        <ul class="span3">
+          <li>Crowdfunding & Start-ups</li>
+          <li>Advertising</li>
+          <li>Marketing</li>
+          <li>Citizen Journalism</li>
+        </ul>
+        <ul class="span3">
+          <li>Design & Fashion</li>
+          <li>Film</li>
+          <li>Photography</li>
+          <li>Open Source... and more.</li>
+        </ul>
+
+    <div class="span12">
+      <div class="row">
+        <h3>Who Will Benefit the Most at Crowdsourcing Week?</h3>
+        <ul class="span3">
+          <li>CEO</li>
+          <li>CMO</li>
+          <li>COO</li>
+          <li>CFO</li>
+        </ul>
+        <ul class="span3">
+          <li>CCO</li>
+          <li>CIO</li>
+          <li>Presidents</li>
+          <li>Vice-Presidents</li>
+        </ul>
+        <ul class="span3">
+          <li>Directors</li>
+          <li>Managers</li>
+          <li>Partners</li>
+        </ul>
+      </div>
+    </div>
+
+        <h4>This interactive and engaging global event will be complete with successful crowdsourcing practitioners:</h4>
+        <ul class="list">
+          <li>Government and NGO's officials</li>
+          <li>Scientists</li>
+          <li>Venture Capitalists</li>
+          <li>Angel Investors</li>
+        </ul>
+        <ul class="list">
+          <li>Architects</li>
+          <li>Engineers</li>
+          <li>Academics</li>
+          <li>Healthcare providers</li>
+        </ul>
+        <ul class="list">
+          <li>Agencies</li>
+          <li>Brand Managers</li>
+          <li>Designers</li>
+        </ul>
+        <br />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="span7">
+        <h2> Blog Feed </h2>
+        <style>
+          #blog p{color: #ccc;}
+        </style>
+        <div id="blog">
+          <?php $my_query = new WP_Query('showposts=5&post_type=post&order=DESC'); ?>  
+          <?php if($my_query->have_posts()) : ?><?php while($my_query->have_posts()) : $my_query->the_post(); ?>
+            <div class="post">
+              <small style="color:#666;margin:0;line-height:0"><?php the_date(); ?></small>
+              <br />
+              <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+              <?php the_excerpt(); ?>
+            </div>
+          <?php endwhile; endif; wp_reset_query(); ?>
+        </div>
+      </div>
+      <div class="span3">
+        <h2 id="contact-info">Contact Info</h2>
+        <p> insert here a button for contact form together with some text</p>
+      </div>
+      <div class="span2">
+        <h2>Share it</h2>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+<?php get_footer(); ?>
