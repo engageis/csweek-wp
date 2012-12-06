@@ -26,6 +26,13 @@ get_header(); ?>
               <div class='post-info'><?php the_time(get_option('date_format')); ?></div>
             </header>
             
+            <?
+              if ( get_the_author_meta('description') ) :
+                echo "<aside class='wrapper_malandrao'>";
+                echo get_the_author_meta('description');
+                echo "</aside>"
+            endif;
+            ?>
             <?php the_content();?>
           </article>
           <? require '_add-this.php' ?>
