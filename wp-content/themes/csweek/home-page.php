@@ -8,6 +8,7 @@
  */
 
 get_header(); ?>
+
 <div id="welcome">
   <div class="container">
     <div class="row">
@@ -16,6 +17,7 @@ get_header(); ?>
         <?php the_content(); ?>
       </div>
       <div class="offset1 span3">
+        <!-- <div class="fb-like" data-href="http://www.facebook.com/CrowdsourcingWeek?fref=ts" data-send="false" data-width="250" data-show-faces="true"></div> -->
         <div id="open-registration">
           <div class="pad">
             <div class="inner">
