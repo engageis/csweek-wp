@@ -1,13 +1,13 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 BEGIN:VEVENT
-URL:http://conexaokinghost.eventbrite.com
+URL:http://crowdsourcingweek.com/
  
  
-DTSTART:20121129T110000Z
-DTEND:20121129T213000Z
-SUMMARY:Crowdsourcing Week
-DESCRIPTION:For details, click here: http://conexaokinghost.eventbrite.com
-LOCATION:Hotel Sheraton - Rua Olavo Barreto Viana, 18 · Moinhos De Vento - Porto Alegre, 90570-070 - Brazil
+DTSTART:20130603T110000Z
+DTEND:20130607T213000Z
+SUMMARY:Crowdsourcing Week - Singapore 2013
+DESCRIPTION:For details, click here: http://www.crowdsourcingweek.com
+LOCATION:81 Victoria Street Singapore 188065 Google Map: http://goo.gl/maps/zvJdC
 END:VEVENT
 END:VCALENDAR
