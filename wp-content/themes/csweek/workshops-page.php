@@ -20,7 +20,7 @@ get_header(); ?>
       <?php $my_query = new WP_Query('showposts=-1&post_type=workshops'); ?>  
       <?php if($my_query->have_posts()) : ?><?php while($my_query->have_posts()) : $my_query->the_post(); ?>
       <?php the_post_thumbnail();?>
-      <?php the_title();?>
+      <h2><?php the_title();?></h2>
       <?php the_content(); ?>
       <?php endwhile; endif; wp_reset_query(); ?> 
     </article>
