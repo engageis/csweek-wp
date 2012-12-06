@@ -16,7 +16,7 @@ get_header(); ?>
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 <div id='page'>
   <div class='container'>
-    <article>
+    <article class="span11">
       <header>
         <?php $page_quoted_title = get_post_meta($post->ID, 'page_quoted_title', true);?>
         <h2><?php if($page_quoted_title){echo nl2br($page_quoted_title);} else {the_title();} ?></h2>
