@@ -14,7 +14,9 @@
     </script--!>
     
     <div class="row">
-      <img class="span2" src="<?php bloginfo('template_url');?>/images/logo.png" />
+      <a href="/">
+        <img class="span2" src="<?php bloginfo('template_url');?>/images/logo.png" />
+      </a>
 
       <div class="small-lettering span4 offset2">
         <? require 'lettering.php' ?>

@@ -12,7 +12,9 @@
       window.onresize = resize_canvas
       window.onload = resize_canvas
     </script>
-    <img src="<?php bloginfo('template_url');?>/images/logo.png" />
+    <a href="/">
+      <img src="<?php bloginfo('template_url');?>/images/logo.png" />
+    </a>
 
     <div style="width: 250px; float: right; background: transparent;" class="fb-like" data-href="http://crowdsourcingweek.com/" data-send="false" data-width="250" data-show-faces="true" data-colorscheme="dark"></div>
     <!-- <div class="fb-like" data-href="http://crowdsourcingweek.com/" data-send="false" data-width="450" data-show-faces="true" ></div> -->
