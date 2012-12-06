@@ -29,6 +29,7 @@ h3 code {
 
 
 /* Tweak navbar brand link to be super sleek
+  egister_post_type('speakers', $argsSpeakers);
 -------------------------------------------------- */
 
 body > .navbar {
@@ -1584,9 +1585,10 @@ font-size: 18px;
 }
 
 #page p, #page li{
+  font-family: 'Lato', sans-serif;
   font-size: 18px;
   font-weight: normal;
-  color: #AFAEAE;
+  color: white;
   line-height: 150%;
 }
 
@@ -1621,7 +1623,14 @@ font-size: 18px;
   line-height: 250%;
 }
 
+#page .speaker-profile {
+  width: 230px;
+  float: left;
+}
 
+#page .speaker-profile > h2 {
+  margin-bottom: -4px;
+}
 
 
 
