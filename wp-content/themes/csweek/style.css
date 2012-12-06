@@ -1212,6 +1212,10 @@ form.bs-docs-example {
                 0 7px 4px rgba(0,0,0,.4);
 }
 
+.btn-contact{
+  margin: 0;
+}
+
 .btn-save-the-date:hover{
   text-shadow: 0 -1px 0 rgba(255,255,255,0.5);
   background: #F5C01D;
@@ -1378,7 +1382,7 @@ form.bs-docs-example {
 #open-registration{
   background: #008282;
   width: 253px;
-  margin-top: 80px;
+  margin-top: 35px;
   margin-bottom: 20px;
 }
 
@@ -1464,7 +1468,6 @@ form.bs-docs-example {
   font-weight: 500;
   color: #D90000;
 }
-
 
 #daily-topics h4{
   font-family: 'Magra', sans-serif;
@@ -1593,7 +1596,20 @@ form.bs-docs-example {
   text-decoration: none;
 }
 
+#page img {
+  border-radius: 50%;
+  float: left;
+  margin-right: 60px;
+  box-shadow: 0 0 0 5px white;
+}
 
+#page ol > li {
+  font-size 22px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: white;
+  line-height: 250%;
+}
 
 
 

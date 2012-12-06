@@ -1,11 +1,6 @@
 <?php
 /**
- * The template for displaying all pages.
- *
- * This is the template that displays all pages by default.
- * Please note that this is the wordpress construct of pages
- * and that other 'pages' on your wordpress site will use a
- * different template.
+ * Template Name: Workshops
  *
  * @package WordPress
  * @subpackage CSWeek
@@ -22,6 +17,12 @@ get_header(); ?>
         <h2><?php if($page_quoted_title){echo nl2br($page_quoted_title);} else {the_title();} ?></h2>
       </header>
       <?php the_content();?>
+      <?php $my_query = new WP_Query('showposts=-1&post_type=workshops'); ?>  
+      <?php if($my_query->have_posts()) : ?><?php while($my_query->have_posts()) : $my_query->the_post(); ?>
+      <?php the_post_thumbnail();?>
+      <h2><?php the_title();?></h2>
+      <?php the_content(); ?>
+      <?php endwhile; endif; wp_reset_query(); ?> 
     </article>
     <?php $extra_content = get_post_meta($post->ID, 'extra_content', true);?>
     <?php if($extra_content):?>

@@ -21,7 +21,8 @@
     </div>
     <div class="row">
       <div class="save-the-date span8 offset4">
-        <? require '_cal.php' ?>
+        <button class="btn btn-warning btn-save-the-date">Reserve your ticket</button>
+        <!--? require '_cal.php' ?-->
       </div>
     </div>
     
