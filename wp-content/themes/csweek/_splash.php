@@ -14,6 +14,9 @@
     </script>
     <img src="<?php bloginfo('template_url');?>/images/logo.png" />
 
+    <div style="width: 300px; float: right; background: transparent;" class="fb-like" data-href="http://crowdsourcingweek.com/" data-send="false" data-width="300" data-show-faces="true" data-colorscheme="dark"></div>
+    <!-- <div class="fb-like" data-href="http://crowdsourcingweek.com/" data-send="false" data-width="450" data-show-faces="true" ></div> -->
+
     <div class="row">
       <div class="lettering span8 offset4">
         <? require 'lettering.php' ?>
