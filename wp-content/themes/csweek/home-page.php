@@ -8,6 +8,7 @@
  */
 
 get_header(); ?>
+
 <div id="welcome">
   <div class="container">
     <div class="row">
