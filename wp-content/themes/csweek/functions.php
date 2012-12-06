@@ -57,7 +57,7 @@ function my_cpt_init()
     // Dá pra usar um icone aqui
     // 'menu_icon' => get_bloginfo('template_url') . '/images/icons/workshop.png',
     'show_in_menu' => true, 
-    'query_var' => true,
+    'query_var' => false,
     // 'rewrite' => array('slug' => 'workshop'),
     'capability_type' => 'post',
     'has_archive' => true, 
@@ -88,7 +88,7 @@ function my_cpt_init()
     // Dá pra usar um icone aqui
     // 'menu_icon' => get_bloginfo('template_url') . '/images/icons/workshop.png',
     'show_in_menu' => true, 
-    'query_var' => true,
+    'query_var' => false,
     // 'rewrite' => array('slug' => 'workshop'),
     'capability_type' => 'post',
     'has_archive' => true, 
@@ -119,7 +119,7 @@ function my_cpt_init()
     // Dá pra usar um icone aqui
     // 'menu_icon' => get_bloginfo('template_url') . '/images/icons/workshop.png',
     'show_in_menu' => true, 
-    'query_var' => true,
+    'query_var' => false,
     // 'rewrite' => array('slug' => 'workshop'),
     'capability_type' => 'post',
     'has_archive' => true, 
