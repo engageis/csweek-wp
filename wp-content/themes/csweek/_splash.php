@@ -14,7 +14,7 @@
     </script>
     <img src="<?php bloginfo('template_url');?>/images/logo.png" />
 
-    <div style="width: 300px; float: right; background: transparent;" class="fb-like" data-href="http://crowdsourcingweek.com/" data-send="false" data-width="300" data-show-faces="true" data-colorscheme="dark"></div>
+    <div style="width: 250px; float: right; background: transparent;" class="fb-like" data-href="http://crowdsourcingweek.com/" data-send="false" data-width="250" data-show-faces="true" data-colorscheme="dark"></div>
     <!-- <div class="fb-like" data-href="http://crowdsourcingweek.com/" data-send="false" data-width="450" data-show-faces="true" ></div> -->
 
     <div class="row">
@@ -24,7 +24,9 @@
     </div>
     <div class="row">
       <div class="save-the-date span8 offset4">
-        <button class="btn btn-warning btn-save-the-date">Reserve your ticket</button>
+        <a href="<?= get_permalink_by_name("contact"); ?>">
+          <button class="btn btn-warning btn-save-the-date">Reserve your ticket</button>
+      </a>
         <!--? require '_cal.php' ?-->
       </div>
     </div>

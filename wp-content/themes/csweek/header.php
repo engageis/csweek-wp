@@ -78,7 +78,7 @@
               Youtube</a>
           </li>
           <li class="">
-            <a href="contact.php">
+            <a href="<?= get_permalink_by_name("contact"); ?>">
               <img src="<?php bloginfo('template_url');?>/images/contact.png" />
               Contact</a>
           </li>
