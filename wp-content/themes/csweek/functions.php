@@ -57,7 +57,7 @@ function my_cpt_init()
     // Dá pra usar um icone aqui
     // 'menu_icon' => get_bloginfo('template_url') . '/images/icons/workshop.png',
     'show_in_menu' => true, 
-    'query_var' => true,
+    'query_var' => false,
     // 'rewrite' => array('slug' => 'workshop'),
     'capability_type' => 'post',
     'has_archive' => true, 
@@ -69,12 +69,12 @@ function my_cpt_init()
   $labelsTeam = array(
     'name' => 'Team',
     'singular_name' => 'Team',
-    'add_new' => 'New Team',
-    'add_new_item' => 'Add Team',
-    'edit_item' => 'Edit Team',
-    'new_item' => 'New Team',
-    'view_item' => 'View Team',
-    'search_items' => 'Search Team',
+    'add_new' => 'New Member',
+    'add_new_item' => 'Add Member',
+    'edit_item' => 'Edit Member',
+    'new_item' => 'New Member',
+    'view_item' => 'View Member',
+    'search_items' => 'Search Members',
     'menu_name' => 'Team'
 
   );
@@ -88,12 +88,12 @@ function my_cpt_init()
     // Dá pra usar um icone aqui
     // 'menu_icon' => get_bloginfo('template_url') . '/images/icons/workshop.png',
     'show_in_menu' => true, 
-    'query_var' => true,
+    'query_var' => false,
     // 'rewrite' => array('slug' => 'workshop'),
     'capability_type' => 'post',
     'has_archive' => true, 
     'hierarchical' => false,
-    'supports' => array('title','editor','thumbnail')
+    'supports' => array('title','thumbnail')
   );
   
   /* CUSTOM POST TYPE: SPEAKERS */
@@ -119,7 +119,7 @@ function my_cpt_init()
     // Dá pra usar um icone aqui
     // 'menu_icon' => get_bloginfo('template_url') . '/images/icons/workshop.png',
     'show_in_menu' => true, 
-    'query_var' => true,
+    'query_var' => false,
     // 'rewrite' => array('slug' => 'workshop'),
     'capability_type' => 'post',
     'has_archive' => true, 
