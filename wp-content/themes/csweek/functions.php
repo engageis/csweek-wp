@@ -29,4 +29,43 @@ function get_permalink_by_name($page_name)
   $pageid_name = $wpdb->get_var("SELECT ID FROM $wpdb->posts WHERE post_name = '".$page_name."'");
   return get_permalink($pageid_name);
 }
+
+/* CUSTOM POST TYPES */
+add_action('init', 'my_cpt_init');
+function my_cpt_init() 
+{
+/* CUSTOM POST TYPE: WORKSHOPS */
+  $labelsWorkshops = array(
+    'name' => 'Workshops',
+    'singular_name' => 'Workshop',
+    'add_new' => 'New Workshop',
+    'add_new_item' => 'Add new Workshop',
+    'edit_item' => 'Edit Workshop',
+    'new_item' => 'New Workshop',
+    'view_item' => 'View Workshop',
+    'search_items' => 'Search Workshops',
+    'menu_name' => 'Workshops'
+
+  );
+  $argsWorkshops = array(
+    'labels' => $labelsWorkshops,
+    'public' => true,
+    'publicly_queryable' => false,
+    'show_ui' => true,
+    'exclude_from_search' => true,
+    'menu_position' => 4,
+    // Dá pra usar um icone aqui
+    // 'menu_icon' => get_bloginfo('template_url') . '/images/icons/workshop.png',
+    'show_in_menu' => true, 
+    'query_var' => true,
+    // 'rewrite' => array('slug' => 'workshop'),
+    'capability_type' => 'post',
+    'has_archive' => true, 
+    'hierarchical' => false,
+    'supports' => array('title','editor','thumbnail')
+  );
+  // Maiz, pode replicar essas funções e adicionar outros custom post types
+  register_post_type('workshops', $argsWorkshops);
+}
+
 ?>
