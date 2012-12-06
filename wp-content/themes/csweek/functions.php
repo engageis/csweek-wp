@@ -6,6 +6,18 @@
  * @since Maiz Lulkin 2013
 */
 
+add_action( 'after_setup_theme', 'csweek_setup' );
+
+if ( ! function_exists( 'csweek_setup' ) ):
+
+function csweek_setup() {
+  add_theme_support( 'post-thumbnails' );
+  set_post_thumbnail_size( 200, 200, true );
+  //add_image_size('big-thumb', 778, 222, true);
+}
+endif;
+
+
 function path($p){
   return "wp-content/themes/csweek/$p";
 }
