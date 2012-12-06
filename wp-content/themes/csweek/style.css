@@ -1123,7 +1123,7 @@ form.bs-docs-example {
                 0 15px 10px rgba(0, 0, 0, 0.5);
 }
 
-.small-lettering h1 .days, .small-let80ring h1 .month{
+.small-lettering h1 .days, .small-lettering h1 .month{
 	font-size: 60px;
   line-height: 80px !important;
 }
