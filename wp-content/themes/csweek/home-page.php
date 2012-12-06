@@ -22,15 +22,16 @@ get_header(); ?>
           <div class="pad">
             <div class="inner">
               <h2>
-                <span>Registration is</span>
-                <span class="open">Open</span>
-
+                <span>save the</span>
+                <span class="open">date</span>
+                <div class="add-to-cal">
+                  <? require '_cal.php' ?>
+                </div>
               </h2>
-              <button class="btn btn-warning btn-save-the-date">Save the date</button>
             </div>
           </div>
         </div>
-        <?php endwhile;?>
+        /div<?php endwhile;?>
       </div>
     </div>
   </div>
