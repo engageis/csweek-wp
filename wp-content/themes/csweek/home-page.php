@@ -112,10 +112,11 @@ get_header(); ?>
 </div>
 
 <!-- FOOTER -->
+<?php get_footer(); ?>
 <div id="contact">
   <div class="container">
     <div class="row">
-      <div class="span7">
+      <!--div class="span7">
         <h2> Blog Feed </h2>
         <style>
           #blog p{color: #ccc;}
@@ -131,16 +132,20 @@ get_header(); ?>
             </div>
           <?php endwhile; endif; wp_reset_query(); ?>
         </div>
-      </div>
-      <div class="span3">
+      </div-->
+      <div class="span5">
         <h2 id="contact-info">Contact Info</h2>
-        <p> insert here a button for contact form together with some text</p>
+        <h3> Do you want to <a class="" href="https://twitter.com/href">get in touch with us</a> ?</h3>
       </div>
-      <div class="span2">
+      <div class="span4">
         <h2>Share it</h2>
+        <? require '_add-this.php' ?>
+      </div>
+      <div class="span3" id="ludvk">
+        <img src="wp-content/themes/csweek/images/logo_ludvk.jpg"/>
+        <p>©2012 Crowdsourcing Week</p>
       </div>
       </div>
     </div>
   </div>
 </div>
-<?php get_footer(); ?>

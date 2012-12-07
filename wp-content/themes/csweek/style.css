@@ -1447,20 +1447,37 @@ form.bs-docs-example {
 
 #sponsors{
   background: white;
-  padding: 40px 0;
+  padding-top: 20px 0;
+  border-top: 1px solid silver;
+  border-bottom: 1px solid silver;
 }
 
 #sponsors h2{
   font-family: 'Lato', sans-serif;
-  color: #222;
-  font-size: 22px;
+  color: #999;
+  font-size: 18px;
   font-weight: 500;
+  text-align: center;
 }
 
 #sponsors h3{
   font-family: 'Lato', sans-serif;
   color: #D90000;
   font-size: 22px;
+}
+
+#contact .btn-contact {
+  margin: 0;
+  margin-left: 42px;
+}
+
+#contact h3{
+  margin-top: -1px;
+
+}
+
+#contact #contact-info{
+  margin-bottom: 0;
 }
 
 .sponsors-list{
@@ -1471,7 +1488,7 @@ form.bs-docs-example {
   display: inline-block;
   float: left;
   width: 100px;
-  margin: 10px 40px 20px 0;
+  margin: 22px 40px 35px 0;
 }
 
 .sponsor-logo:hover{
@@ -1521,13 +1538,34 @@ form.bs-docs-example {
   font-family: 'Lato', sans-serif;
   color: white;
   font-size: 26px;
-  margin: 22px 0 30px 0;
+  margin: 20px 0 10px 0;
+  text-align: left;
   font-weight: 400;
 }
 
 #contact{
   padding-bottom: 35px;
   background: #1b1b1b;
+}
+
+#contact #ludvk{
+  margin-top: 45px;
+}
+
+#contact p{
+  margin-top: 5px;
+}
+
+#contact a{
+  color: #F5C01D;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: none;
+  color: #F89406;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
 }
 
 .fb-like{
