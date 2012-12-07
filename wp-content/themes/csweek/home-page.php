@@ -29,10 +29,9 @@ get_header(); ?>
             </div>
           </div>
         </div>
-        <div class="offset1 span3">
-          <div class="my-cal">
-            <? require '_cal.php' ?>
-          </div>
+        <div class="my-cal">
+          <? require '_cal.php' ?>
+        </div>
         /div<?php endwhile;?>
       </div>
     </div>
