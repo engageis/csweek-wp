@@ -101,7 +101,7 @@
     </a>
   </li>
   <li>
-    <a href="<?= get_permalink_by_name("speakers"); ?>">
+    <a href="<?= get_permalink_by_name("the-speakers"); ?>">
       <div class="icon speakers"></div>
       <div>Speakers</div>
     </a>
