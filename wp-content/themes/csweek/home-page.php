@@ -24,14 +24,14 @@ get_header(); ?>
               <h2>
                 <span>save the</span>
                 <span class="open">date</span>
+                <div class="my-cal">
+                  <? require '_cal.php' ?>
                 </div>
               </h2>
             </div>
           </div>
         </div>
-        <div class="my-cal">
-          <? require '_cal.php' ?>
-        </div>
+
         /div<?php endwhile;?>
       </div>
     </div>
