@@ -1513,6 +1513,25 @@ form.bs-docs-example {
 	opacity: 0.8;
 }
 
+#support{
+  border-bottom: 4px solid #EEE;
+}
+
+#support h2{
+  float: left;
+  margin-top: 75px;
+  margin-right: 30px;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+#support img{
+  float: left;
+  width: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+} 
+
 #daily-topics{
   background: transparent url(images/welcome-bg.png);
   padding: 35px 0;
