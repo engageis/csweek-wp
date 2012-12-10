@@ -1466,6 +1466,22 @@ form.bs-docs-example {
   font-size: 22px;
 }
 
+#sponsors .learn-more{
+  float: right;
+}
+
+#sponsors a{
+  color: #D90000;
+  font-size: 14px;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+  font-weight: 900;
+}
+
+#sponsors a:hover {
+  color: #A50606;
+}
+
 #contact .btn-contact {
   margin: 0;
   margin-left: 42px;
@@ -1559,6 +1575,9 @@ form.bs-docs-example {
 #contact a{
   color: #F5C01D;
   text-decoration: none;
+  font-size: 22px;
+  font-weight: 400;
+  
 }
 
 #contact a:hover {

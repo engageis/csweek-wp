@@ -71,9 +71,10 @@
                   </div>
                 </a>
               </li>
-
-
             </ul>
+            <div class="learn-more">
+              <h3><a href='http://www.crowdsourcingweek.com/learnmore'>LEARN MORE</a></h3>
+            </div>
         </div>  
         <div class="span12">
           <h2>Technology partners</h2>
@@ -102,6 +103,9 @@
 
 
             </ul>
+            <div class="learn-more">
+              <h3><a href='http://www.crowdsourcingweek.com/learnmore'>LEARN MORE</a></h3>
+            </div>
         </div>
 
         <div class="span12">
@@ -121,7 +125,7 @@
 
         </div>
 
-        <div class="span12">
+        <!--div class="span12">
           <h2>Venue</h2>
             <ul class="sponsors-list">
               <li>
@@ -133,7 +137,7 @@
               </li>
             </ul>
 
-        </div>
+        </div-->
       </div>
     </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>

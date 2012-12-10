@@ -31,7 +31,7 @@ get_header(); ?>
                 echo "<aside class='wrapper_malandrao'>";
                 echo get_the_author_meta('description');
                 echo "</aside>"
-            endif;
+                endif;
             ?>
             <?php the_content();?>
           </article>

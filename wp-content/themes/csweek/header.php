@@ -63,7 +63,7 @@
               Twitter</a>
           </li>
           <li class="">
-            <a target="_blank" href="https://www.linkedin.com/company/crowdsourcing-week">
+            <a target="_blank" href="http://www.linkedin.com/groups/CROWDSOURCING-WEEK-4335947?gid=4335947&trk=hb_side_g">
               <img src="<?php bloginfo('template_url');?>/images/linkedin.png" />
               LinkedIn</a>
           </li>
