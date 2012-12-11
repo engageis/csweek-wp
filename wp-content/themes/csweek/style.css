@@ -1523,7 +1523,7 @@ form.bs-docs-example {
 
 #support h2{
   float: left;
-  margin-top: 75px;
+  margin-top: 95px;
   margin-right: 30px;
   font-size: 22px;
   font-weight: normal;
@@ -1531,7 +1531,7 @@ form.bs-docs-example {
 
 #support img{
   float: left;
-  width: 100px;
+  width: 120px;
   margin-top: 20px;
   margin-bottom: 20px;
 } 
