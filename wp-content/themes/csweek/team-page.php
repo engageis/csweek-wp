@@ -23,11 +23,11 @@ get_header(); ?>
         <?php the_post_thumbnail('team-thumb');?>
         <?php $linkedin = get_post_meta($post->ID, 'linked_in', true);?>
         <?php if($linkedin):?>
-        <a href="<?= $linkedin ?>"><img src="/wp-content/themes/csweek/images/linkedin-profile.png" alt="" /></a>
+        <a href="<?= $linkedin ?>"><img src="/wp-content/themes/csweek/images/linkedin-profile.png" class="linkedin-profile" /></a>
         <?php endif;?>
+        <h5><?php the_title();?></h5>
       </div>
       
-      <h5><?php the_title();?></h5>
       <?php endwhile; endif; wp_reset_query(); ?> 
     </article>
     <?php $extra_content = get_post_meta($post->ID, 'extra_content', true);?>

@@ -1736,22 +1736,35 @@ form.bs-docs-example {
 }
 
 
-.speaker-profile img, .team-profile img{
+.speaker-profile img{
+  border-radius: 50%;
+  float: left;
+  margin-right: 60px;
+  box-shadow: 0 0 0 5px white;
+  position: relative;
+  left: 17px;
+}
+
+.team-profile{
+  float: left;
+  width: 200px;
+}
+
+.team-profile img{
   border-radius: 50%;
   float: left;
   margin-right: 60px;
   box-shadow: 0 0 0 5px white;
 }
 
-.speaker-profile img{
-  position: relative;
-  left: 17px;
+img.linkedin-profile{
+  margin: 0;
 }
 
-
-
-
-
+.team-profile h5{
+  font-size: 14px;
+  font-weight: 400;
+}
 
 
 
