@@ -1,5 +1,5 @@
-/wp-content.php
 .sass-cache/*
 .DS_Store
 .sass-cache
 .htaccess
+wp-config.php
