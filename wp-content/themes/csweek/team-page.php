@@ -19,13 +19,13 @@ get_header(); ?>
       <?php the_content();?>
       <?php $my_query = new WP_Query('showposts=-1&post_type=team'); ?>  
       <?php if($my_query->have_posts()) : ?><?php while($my_query->have_posts()) : $my_query->the_post(); ?>
-      <figure>
+      <div class="team-profile">
         <?php the_post_thumbnail('team-thumb');?>
         <?php $linkedin = get_post_meta($post->ID, 'linked_in', true);?>
         <?php if($linkedin):?>
-        <a href="<?= $linkedin ?>"><img src="#" alt="" /></a>
+        <a href="<?= $linkedin ?>"><img src="/wp-content/themes/csweek/images/linkedin-profile.png" alt="" /></a>
         <?php endif;?>
-      </figure>
+      </div>
       
       <h5><?php the_title();?></h5>
       <?php endwhile; endif; wp_reset_query(); ?> 

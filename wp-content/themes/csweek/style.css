@@ -1714,12 +1714,6 @@ form.bs-docs-example {
   text-decoration: none;
 }
 
-#page img {
-  border-radius: 50%;
-  float: left;
-  margin-right: 60px;
-  box-shadow: 0 0 0 5px white;
-}
 
 #page ol > li {
   font-size 22px;
@@ -1730,8 +1724,11 @@ form.bs-docs-example {
 }
 
 #page .speaker-profile {
-  width: 230px;
+  width: 227px;
   float: left;
+  margin-right: 40px;
+  text-align: center;
+  margin-top: 25px
 }
 
 #page .speaker-profile > h2 {
@@ -1739,11 +1736,17 @@ form.bs-docs-example {
 }
 
 
+.speaker-profile img, .team-profile img{
+  border-radius: 50%;
+  float: left;
+  margin-right: 60px;
+  box-shadow: 0 0 0 5px white;
+}
 
-
-
-
-
+.speaker-profile img{
+  position: relative;
+  left: 17px;
+}
 
 
 

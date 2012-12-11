@@ -9,7 +9,7 @@
 
 get_header(); ?>
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-<!--div id='page'>
+<div id='page'>
   <div class='container'>
     <article class="span11">
       <header>
@@ -21,10 +21,10 @@ get_header(); ?>
       <?php if($my_query->have_posts()) : ?><?php while($my_query->have_posts()) : $my_query->the_post(); ?>
       <div class="speaker-profile">
         <?php the_post_thumbnail();?>
-        <h2><?php the_title();?></h2>
+        <h2><a href=""><?php the_title();?></a></h2>
         <?php the_content(); ?>
-        <?php endwhile; endif; wp_reset_query(); ?> 
       </div>
+      <?php endwhile; endif; wp_reset_query(); ?> 
     </article>
     <?php $extra_content = get_post_meta($post->ID, 'extra_content', true);?>
     <?php if($extra_content):?>
@@ -35,7 +35,7 @@ get_header(); ?>
 <?php endwhile;?>
 
 
-<div id="page">
+<!--div id="page">
   <div class="container">
     <div class="row">
       <div class="span12">
@@ -125,7 +125,7 @@ get_header(); ?>
       </div>
     </div>
   </div>
-</div>
+</div-->
 
 
 <?php get_footer(); ?>
