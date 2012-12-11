@@ -29,7 +29,7 @@ get_header(); ?>
               if ( get_the_author_meta('description') ) :
                 echo "<aside class='wrapper_malandrao'>";
                 echo get_the_author_meta('description');
-                echo "</aside>"
+                echo "</aside>";
             endif;
             ?>
             <?php the_content();?>
