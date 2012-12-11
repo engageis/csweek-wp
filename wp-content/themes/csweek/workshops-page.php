@@ -23,8 +23,8 @@ get_header(); ?>
         <?php the_post_thumbnail();?>
         <h2><?php the_title();?></h2>
         <?php the_content(); ?>
-        <?php endwhile; endif; wp_reset_query(); ?>
       </div> 
+      <?php endwhile; endif; wp_reset_query(); ?>
     </article>
     <?php $extra_content = get_post_meta($post->ID, 'extra_content', true);?>
     <?php if($extra_content):?>
