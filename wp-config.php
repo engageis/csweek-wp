@@ -27,7 +27,7 @@
 
 define('DB_NAME', 'crowds_site');
 define('DB_USER', 'crowds_site');
-define('DB_PASSWORD', 'localhost');
+define('DB_PASSWORD', 'localhost:8888');
 define('DB_HOST', 'localhost');
 define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
