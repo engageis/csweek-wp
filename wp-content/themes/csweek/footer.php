@@ -13,7 +13,7 @@
             <h3>Gold Sponsros</h3>-->
             
 
-            <h2>Crowdsourcing Sponsors</h2>
+            <h2>Crowdsourcing Sponsors <a href="" class="learn-more">(learn more)</a></h2>
             <ul class="sponsors-list">
               <li>
                 <a href='http://www.99designs.com'>
@@ -69,7 +69,11 @@
                   </div>
                 </a>
               </li>
-              
+            </ul>
+        <div class="row">
+          <div class= "span12">
+            <ul class="sponsors-list">
+
               <li>
                 <a href='http://www.razoo.com/'>
                   <div class="sponsor-logo">
@@ -95,12 +99,13 @@
               </li>
 
             </ul>
-            <div class="learn-more">
-              <h3><a href='http://www.crowdsourcingweek.com/learnmore'>LEARN MORE</a></h3>
-            </div>
+          </div>
+        </div>
+
+
         </div>  
         <div class="span12">
-          <h2>Technology partners</h2>
+          <h2>Technology partners <a href="" class="learn-more">(learn more)</a></h2>
             <ul class="sponsors-list">
               <li>
                 <a href='http://www.yoose.com/'>
@@ -151,13 +156,10 @@
 
 
             </ul>
-            <div class="learn-more">
-              <h3><a href='http://www.crowdsourcingweek.com/learnmore'>LEARN MORE</a></h3>
-            </div>
         </div>
 
         <div class="span12">
-          <h2>Media Partners</h2>
+          <h2>Media Partners <a href="" class="learn-more">(learn more)</a> </h2>
           <!--<h3>Global Media Partners</h3>
           <h3>Regional Partners</h3>-->
           <!--h3>Bloggers</h3-->

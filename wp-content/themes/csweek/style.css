@@ -1420,29 +1420,42 @@ form.bs-docs-example {
 }
 
 #open-registration h2 span{
-  display: block;
-  margin: 20px 0;
+  margin: 5px 0;
+  line-height: 92%;
 }
 
+
+
 #welcome .my-cal{
-  background: rgba(255, 255, 255, 0.1);
+  /*background: rgba(255, 255, 255, 0.1);*/
   height: 57px;
-  width: 188px;
-  padding: 0 25px 0 36px;
+  width: 169px;
+  padding: 0 25px 0 40px;
   border-radius: 6px;
-  box-shadow: inset 0 0 10px #333;
-  margin-top: -20px
+  /*box-shadow: inset 0 0 10px #333;*/
+  margin-top: 17px;
+  margin-bottom: -20px;
 }
 
 #calendarDiv{
-  margin: 10px 0px;
-  line-height: 32px;
+  display: none;
+  background-color: #F5C01D;
+  padding: 5px 11px 0px 11px;
+  text-align: left;
+  border-radius: 0 0 6px 6px;
+  border: 1px solid white;
+  box-shadow: inset 0 0px 3px rgba(0, 0, 0, 0.25);
+  
 }
 
-
-#welcome .my-cal a{
+.my-cal a{
   color: white;
-  font-size: 18px;
+  font-size: 17px;
+  text-decoration: underline;
+}
+
+#calendarDiv a{
+  font-size: 14px;
 }
 
 #sponsors{
