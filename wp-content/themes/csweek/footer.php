@@ -50,7 +50,7 @@
               <li>
                 <a href='http://en.eyeka.com/'>
                   <div class="sponsor-logo">
-                    <img src="<?php bloginfo('template_url');?>/images/zooppa.png"> local motors
+                    <img src="<?php bloginfo('template_url');?>/images/zooppa.png">
                   </div>
                 </a>
               </li>
