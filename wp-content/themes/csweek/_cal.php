@@ -23,7 +23,6 @@
   Add to your calendar right now!
 </div>
  -->
-<br />
 <div>
   <a href="javascript: $('#calendarDiv').toggle();"><span class="cal-icon add_to_calendar">&nbsp;</span> Add to my calendar</a><br />
 </div>

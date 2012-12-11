@@ -1452,6 +1452,10 @@ form.bs-docs-example {
   border-bottom: 1px solid silver;
 }
 
+#sponsors .ysing-logo{
+  width: 350px;
+}
+
 #sponsors h2{
   font-family: 'Lato', sans-serif;
   color: #999;

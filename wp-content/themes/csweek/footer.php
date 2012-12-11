@@ -1,11 +1,17 @@
     <div id="sponsors">
       <div class="container">
         <div class="row">
+          <div class="offset4 span8">
+            <img src="wp-content/themes/csweek/images/ysing.jpg" class="ysing-logo"/>
+          </div>
+        </div>
+        <div class="row"> 
           <div class="span12"u>
             <!--<h2>Corporate Sponsors</h2>
             <h3>Official Event Partner</h3>
             <h3>Platinum Sponsors</h3>
             <h3>Gold Sponsros</h3>-->
+            
 
             <h2>Crowdsourcing Sponsors</h2>
             <ul class="sponsors-list">
