@@ -23,6 +23,7 @@ get_header(); ?>
         <?php the_post_thumbnail('team-thumb');?>
         <h5><?php the_title();?></h5>
         <?php $linkedin = get_post_meta($post->ID, 'linked_in', true);?>
+        <?php $twitter = get_post_meta($post->ID, 'twitter', true);?>
         <?php if($linkedin):?>
           <a id="linkedin" href="<?= $linkedin ?>">Linkedin | </a>
         <?php endif;?>

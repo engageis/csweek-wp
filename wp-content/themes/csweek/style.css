@@ -1747,7 +1747,9 @@ form.bs-docs-example {
 
 .team-profile{
   float: left;
-  width: 200px;
+  width: 185px;
+  margin-right: 29px;
+  
 }
 
 .team-profile img, .workshop-profile img{
@@ -1755,6 +1757,10 @@ form.bs-docs-example {
   float: left;
   margin-right: 60px;
   box-shadow: 0 0 0 5px white;
+}
+
+.team-profile img{ 
+  margin-bottom: 20px;
 }
 
 img.linkedin-profile{
