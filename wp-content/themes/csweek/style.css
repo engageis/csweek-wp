@@ -1773,6 +1773,19 @@ img.linkedin-profile{
   margin-top: 50px;
 }
 
+.workshop-content{
+  float: left;
+  width: 75%;
+}
+
+.workshop-content h2{
+  margin-bottom: 0;
+}
+
+.workshop-content h3{
+  margin-top: 0;
+}
+
 
 .cal-icon {
   display: inline-block;
