@@ -34,11 +34,16 @@ get_header(); ?>
 </div-->
 <?php endwhile;?>
 
-<div id="speakers">
+
+<div id="page">
   <div class="container">
     <div class="row">
       <div class="span12">
-
+        
+        <h2>Speakers</h2>        
+        <h3>Crowdsourcing Week Asia 2013 will feature the industry experts who address the latest trends, strategies and innovations within the crowdsourcing industry. Case studies, keynotes and panel discussions are planned for the 30+ sessions for the event. The sessions will focus on best practices in crowdsourcing and strategies to implement them at the organizational level.</h3>
+       
+        </ br>  
         <div class="speaker-box"
           <img src="/wp-content/themes/csweek/images/Stephanie Grosser - Speaker [USAID].png" class="speaker-image" />
           <h4><a href="http://www.linkedin.com/pub/stephanie-grosser/5/428/67">Stephanie Grosser</a></h4>
