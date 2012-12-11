@@ -26,7 +26,7 @@ get_header(); ?>
         <?php $linkedin = get_post_meta($post->ID, 'linked_in', true);?>
         <?php $twitter = get_post_meta($post->ID, 'twitter', true);?>
         <?php if($linkedin):?>
-          <a id="linkedin" href="<?= $linkedin ?>">Linkedin</a>
+          <a id="linkedin" href="<?= $linkedin ?>">Linkedin | </a>
         <?php endif;?>
         <?php if($twitter):?>
           <a id="twitter" href="<?= $twitter ?>">Twitter</a>
