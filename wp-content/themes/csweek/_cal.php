@@ -23,11 +23,10 @@
   Add to your calendar right now!
 </div>
  -->
-<br />
 <div>
-  <a href="javascript: $('#calendarDiv').toggle();"><span class="cal-icon add_to_calendar">&nbsp;</span> Add to my calendar</a><br />
+  <a href="javascript: $('#calendarDiv').toggle();"> Add to my calendar</a><br />
 </div>
-<div id="calendarDiv" style="display: none; margin: 10px 20px; line-height: 26px;">
+<div id="calendarDiv">
   <div>
     <a target="_blank" href="crowdsourcing-week.ics"><span class="cal-icon add_to_outlook">&nbsp;</span> Outlook Calendar</a>
   </div>

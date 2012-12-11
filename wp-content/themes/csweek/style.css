@@ -1420,29 +1420,42 @@ form.bs-docs-example {
 }
 
 #open-registration h2 span{
-  display: block;
-  margin: 20px 0;
+  margin: 5px 0;
+  line-height: 92%;
 }
 
+
+
 #welcome .my-cal{
-  background: rgba(255, 255, 255, 0.1);
+  /*background: rgba(255, 255, 255, 0.1);*/
   height: 57px;
-  width: 188px;
-  padding: 0 25px 0 36px;
+  width: 169px;
+  padding: 0 25px 0 40px;
   border-radius: 6px;
-  box-shadow: inset 0 0 10px #333;
-  margin-top: -20px
+  /*box-shadow: inset 0 0 10px #333;*/
+  margin-top: 17px;
+  margin-bottom: -20px;
 }
 
 #calendarDiv{
-  margin: 10px 0px;
-  line-height: 32px;
+  display: none;
+  background-color: #F5C01D;
+  padding: 5px 11px 0px 11px;
+  text-align: left;
+  border-radius: 0 0 6px 6px;
+  border: 1px solid white;
+  box-shadow: inset 0 0px 3px rgba(0, 0, 0, 0.25);
+  
 }
 
-
-#welcome .my-cal a{
+.my-cal a{
   color: white;
-  font-size: 18px;
+  font-size: 17px;
+  text-decoration: underline;
+}
+
+#calendarDiv a{
+  font-size: 14px;
 }
 
 #sponsors{
@@ -1450,6 +1463,10 @@ form.bs-docs-example {
   padding-top: 20px 0;
   border-top: 1px solid silver;
   border-bottom: 1px solid silver;
+}
+
+#sponsors .ysing-logo{
+  width: 350px;
 }
 
 #sponsors h2{
@@ -1464,6 +1481,22 @@ form.bs-docs-example {
   font-family: 'Lato', sans-serif;
   color: #D90000;
   font-size: 22px;
+}
+
+#sponsors .learn-more{
+  float: right;
+}
+
+#sponsors a{
+  color: #D90000;
+  font-size: 14px;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+  font-weight: 900;
+}
+
+#sponsors a:hover {
+  color: #A50606;
 }
 
 #contact .btn-contact {
@@ -1496,6 +1529,25 @@ form.bs-docs-example {
 	filter: alpha(opacity=80);
 	opacity: 0.8;
 }
+
+#support{
+  border-bottom: 4px solid #EEE;
+}
+
+#support h2{
+  float: left;
+  margin-top: 95px;
+  margin-right: 30px;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+#support img{
+  float: left;
+  width: 120px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+} 
 
 #daily-topics{
   background: transparent url(images/welcome-bg.png);
@@ -1559,6 +1611,9 @@ form.bs-docs-example {
 #contact a{
   color: #F5C01D;
   text-decoration: none;
+  font-size: 22px;
+  font-weight: 400;
+  
 }
 
 #contact a:hover {
@@ -1659,12 +1714,6 @@ form.bs-docs-example {
   text-decoration: none;
 }
 
-#page img {
-  border-radius: 50%;
-  float: left;
-  margin-right: 60px;
-  box-shadow: 0 0 0 5px white;
-}
 
 #page ol > li {
   font-size 22px;
@@ -1675,8 +1724,11 @@ form.bs-docs-example {
 }
 
 #page .speaker-profile {
-  width: 230px;
+  width: 227px;
   float: left;
+  margin-right: 40px;
+  text-align: center;
+  margin-top: 25px
 }
 
 #page .speaker-profile > h2 {
@@ -1684,11 +1736,17 @@ form.bs-docs-example {
 }
 
 
+.speaker-profile img, .team-profile img{
+  border-radius: 50%;
+  float: left;
+  margin-right: 60px;
+  box-shadow: 0 0 0 5px white;
+}
 
-
-
-
-
+.speaker-profile img{
+  position: relative;
+  left: 17px;
+}
 
 
 
