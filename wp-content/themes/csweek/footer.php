@@ -160,12 +160,12 @@
           <h2>Media Partners</h2>
           <!--<h3>Global Media Partners</h3>
           <h3>Regional Partners</h3>-->
-          <h3>Bloggers</h3>
+          <!--h3>Bloggers</h3-->
             <ul class="sponsors-list">
               <li>
                 <a href='http://maxatria.com.sg/'>
                   <div class="sponsor-logo">
-                    <img src="../wp-content/themes/csweek/images/techinasia.png">
+                    <img src="<?php bloginfo('template_url');?>/images/techasia.png">
                   </div>
                 </a>
               </li>
