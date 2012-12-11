@@ -1750,7 +1750,7 @@ form.bs-docs-example {
   width: 200px;
 }
 
-.team-profile img{
+.team-profile img, .workshop-profile img{
   border-radius: 50%;
   float: left;
   margin-right: 60px;
