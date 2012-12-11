@@ -21,8 +21,16 @@ get_header(); ?>
       <?php if($my_query->have_posts()) : ?><?php while($my_query->have_posts()) : $my_query->the_post(); ?>
       <div class="speaker-profile">
         <?php the_post_thumbnail();?>
-        <h2><a href=""><?php the_title();?></a></h2>
+        <h2><?php the_title();?></h2>
         <?php the_content(); ?>
+        <?php $linkedin = get_post_meta($post->ID, 'linked_in', true);?>
+        <?php $twitter = get_post_meta($post->ID, 'twitter', true);?>
+        <?php if($linkedin):?>
+          <a id="linkedin" href="<?= $linkedin ?>">Linkedin</a>
+        <?php endif;?>
+        <?php if($twitter):?>
+          <a id="twitter" href="<?= $twitter ?>">Twitter</a>
+        <?php endif;?>
       </div>
       <?php endwhile; endif; wp_reset_query(); ?> 
     </article>
