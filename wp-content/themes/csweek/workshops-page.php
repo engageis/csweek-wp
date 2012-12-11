@@ -21,8 +21,10 @@ get_header(); ?>
       <?php if($my_query->have_posts()) : ?><?php while($my_query->have_posts()) : $my_query->the_post(); ?>
       <div class="workshop-profile">
         <?php the_post_thumbnail();?>
-        <h2><?php the_title();?></h2>
-        <?php the_content(); ?>
+        <div class="workshop-content">
+          <h2><?php the_title();?></h2>
+          <?php the_content(); ?>
+        </div>
       </div> 
       <?php endwhile; endif; wp_reset_query(); ?>
     </article>

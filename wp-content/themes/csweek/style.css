@@ -1766,6 +1766,12 @@ img.linkedin-profile{
   font-weight: 400;
 }
 
+.workshop-profile {
+  width: 100%;
+  float: left;
+  margin-bottom: 60px;
+  margin-top: 50px;
+}
 
 
 .cal-icon {
