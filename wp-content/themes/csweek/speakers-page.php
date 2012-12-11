@@ -23,6 +23,14 @@ get_header(); ?>
         <?php the_post_thumbnail();?>
         <h2><a href=""><?php the_title();?></a></h2>
         <?php the_content(); ?>
+        <?php $linkedin = get_post_meta($post->ID, 'linked_in', true);?>
+        <?php $twitter = get_post_meta($post->ID, 'twitter', true);?>
+        <?php if($linkedin):?>
+          <a id="linkedin" href="<?= $linkedin ?>">Go to <?php the_title();?>'s profile on linkedin</a>
+        <?php endif;?>
+        <?php if($twitter):?>
+          <a id="twitter" href="<?= $twitter ?>">Go to <?php the_title();?>'s profile on twitter</a>
+        <?php endif;?>
       </div>
       <?php endwhile; endif; wp_reset_query(); ?> 
     </article>
