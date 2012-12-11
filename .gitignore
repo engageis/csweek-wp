@@ -1,4 +1,4 @@
-/wp-content.php
+wp-config.php
 .sass-cache/*
 .DS_Store
 .sass-cache
