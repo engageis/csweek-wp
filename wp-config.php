@@ -25,8 +25,8 @@
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 
-define('DB_NAME', 'crowds_wp');
-define('DB_USER', 'crowds_user');
+define('DB_NAME', 'crowds_site');
+define('DB_USER', 'crowds_site');
 define('DB_PASSWORD', '2hwqXC7t21');
 define('DB_HOST', 'localhost');
 define('DB_CHARSET', 'utf8');
