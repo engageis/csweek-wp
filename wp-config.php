@@ -26,20 +26,10 @@
 /** The name of the database for WordPress */
 
 define('DB_NAME', 'crowds_wp');
-
-/** O nome do utilizador de MySQL */
 define('DB_USER', 'crowds_user');
-
-/** A password do utilizador de MySQL  */
 define('DB_PASSWORD', '2hwqXC7t21');
-
-/** O nome do serviddor de  MySQL  */
 define('DB_HOST', 'localhost');
-
-/** O "Database Charset" a usar na criação das tabelas. */
 define('DB_CHARSET', 'utf8');
-
-/** O "Database Collate type". Se tem dúvidas não mude. */
 define('DB_COLLATE', '');
 
 /**#@+
