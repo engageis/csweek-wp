@@ -2,7 +2,7 @@
       <div class="container">
         <div class="row">
           <div class="offset4 span8">
-            <img src="wp-content/themes/csweek/images/ysing.jpg" class="ysing-logo"/>
+            <img src="<?php bloginfo('template_url');?>/images/ysing.jpg" class="ysing-logo"/>
           </div>
         </div>
         <div class="row"> 

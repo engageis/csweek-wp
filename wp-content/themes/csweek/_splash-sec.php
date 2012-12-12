@@ -14,7 +14,7 @@
     </script--!>
     
     <div class="row">
-      <a href="/">
+      <a href="<?php echo get_settings('home'); ?>">
         <img class="span2" src="<?php bloginfo('template_url');?>/images/logo.png" />
       </a>
 
