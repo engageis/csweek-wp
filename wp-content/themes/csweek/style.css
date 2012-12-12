@@ -1745,6 +1745,11 @@ form.bs-docs-example {
   left: 17px;
 }
 
+.speaker-profile:nth-child(4n){
+  clear: left;
+}
+
+
 .team-profile{
   float: left;
   width: 185px;
@@ -1826,4 +1831,13 @@ img.linkedin-profile{
 
 .add_to_ical {
   background-position: -68px -60px;
+}
+
+article .aligncenter{
+  float: none;
+  clear: both;
+  display: block;
+  margin: 20px auto;
+  padding: 6px;
+  border: 3px solid #EEE;
 }
