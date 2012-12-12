@@ -1500,6 +1500,7 @@ form.bs-docs-example {
   font-family: 'Lato', sans-serif;
   color: #D90000;
   font-size: 17px;
+  text-transform: lowercase;
 }
 
 #sponsors .learn-more{
@@ -1512,6 +1513,7 @@ form.bs-docs-example {
   -webkit-transition: .2s linear;
   transition: .2s linear;
   font-weight: 900;
+  text-transform: lowercase;
 }
 
 #sponsors a:hover {
@@ -1615,7 +1617,6 @@ form.bs-docs-example {
   font-size: 26px;
   margin: 20px 0 10px 0;
   text-align: left;
-  font-weight: 400;
 }
 
 #contact{

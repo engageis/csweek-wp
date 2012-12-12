@@ -35,7 +35,7 @@ get_header(); ?>
     <div class="row">
       <div class="offset4 span8">
         <h2>Supported by</h2>
-        <img src="wp-content/themes/csweek/images/secb.png" id="secb-logo"/>
+        <a href="http://www.yoursingapore.com/content/mice/en/why-singapore/singapore-exhibition-convention-bureau.html"><img src="wp-content/themes/csweek/images/secb.png" id="secb-logo"/></a>
       </div>
     </div>
   </div>

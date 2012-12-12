@@ -128,7 +128,7 @@ $(document).ready(function() {
   
   function draw_line(x1, y1, x2, y2, alpha) {
     //ctx.strokeStyle = 'rgba(0, 0, 0, ' + (alpha * line_opacity) + ')';
-    ctx.strokeStyle = 'rgba(255,255,255, 0.05)';
+    ctx.strokeStyle = 'rgba(255,255,255, 0.2)';
     ctx.beginPath();
     ctx.moveTo(x1, y1);
     ctx.lineTo(x2, y2);
