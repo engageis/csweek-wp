@@ -1350,7 +1350,7 @@ form.bs-docs-example {
   padding-bottom: 40px;
 }
 
-#welcome h2{
+#welcome h2, #page h2{
   font-family: 'Lato', sans-serif;
   color: white;
   font-size: 26px;
@@ -1358,22 +1358,22 @@ form.bs-docs-example {
   font-weight: 400;
 }
 
-#welcome h3{
+#welcome h3, #page h3{
   font-family: 'Lato', sans-serif;
   font-size: 18px;
   font-weight: 300;
   color: white;
 } 
 
-#welcome h4{
+#welcome h4, #page h4{
   font-family: 'Magra', sans-serif;
-  font-size: 16px;
+  font-size: 22px;
   font-weight: normal;
   color: #999;
-  line-height: 165%;
+  line-height: 200%;
 }
 
-#welcome p{
+#welcome p, #page p{
   font-family: 'Magra', sans-serif;
   color: white;
   font-size: 16px;
@@ -1481,7 +1481,7 @@ form.bs-docs-example {
 #sponsors h3{
   font-family: 'Lato', sans-serif;
   color: #D90000;
-  font-size: 22px;
+  font-size: 17px;
 }
 
 #sponsors .learn-more{
@@ -1612,7 +1612,7 @@ form.bs-docs-example {
 #contact a{
   color: #F5C01D;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 17px;
   font-weight: 400;
   
 }
@@ -1645,7 +1645,7 @@ form.bs-docs-example {
   margin-bottom: 70px;
 }
 
-#page h2{
+/* #page h2{
   font-family: 'Lato', sans-serif;
   color: white;
   font-size: 22px;
@@ -1659,7 +1659,7 @@ form.bs-docs-example {
   font-weight: 300;
   color: #666;
   line-height: 165%;
-}
+}*/
 
 .post-info{
   font-family: 'Lato', sans-serif;
@@ -1669,13 +1669,13 @@ form.bs-docs-example {
   line-height: 165%;
 }
 
-#page h4{
+/*#page h4{
   font-family: 'Magra', sans-serif;
   font-size: 20px;
   font-weight: 400;
   color: #D90000;
   margin-bottom: 20px;
-}
+}*/
 
 #page h5{
   font-size: 18px;
@@ -1694,7 +1694,7 @@ form.bs-docs-example {
 #page p, #page li{
   font-family: 'Lato', sans-serif;
   font-size: 18px;
-  font-weight: normal;
+  font-weight: 300;
   color: white;
   line-height: 150%;
 }
