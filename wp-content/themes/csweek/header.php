@@ -99,7 +99,12 @@
       <div class="icon about"></div>
       <div>About</div>
     </a>
-  </li>
+  <li>
+    <a href="<?= get_permalink_by_name("the-speakers"); ?>">
+      <div class="icon sponsors"></div>
+      <div>Sponsors</div>
+    </a>
+  </li> </li>
   <li>
     <a href="<?= get_permalink_by_name("the-speakers"); ?>">
       <div class="icon speakers"></div>

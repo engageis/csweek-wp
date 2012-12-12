@@ -100,7 +100,7 @@
 
         </div>  
         <div class="span12">
-          <h2>Technology & strategy partners <a href="" class="learn-more">(learn more)</a></h2>
+          <h2>Technology & strategic partners <a href="" class="learn-more">(learn more)</a></h2>
             <ul class="sponsors-list">
               <li>
                 <a href='http://www.yoose.com/'>
