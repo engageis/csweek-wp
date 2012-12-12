@@ -18,21 +18,24 @@ get_header(); ?>
       </header>
       <?php the_content();?>
       <?php $my_query = new WP_Query('showposts=-1&post_type=team'); ?>  
-      <?php if($my_query->have_posts()) : ?><?php while($my_query->have_posts()) : $my_query->the_post(); ?>
-      <div class="team-profile">
-        <?php the_post_thumbnail('team-thumb');?>
-        <h5><?php the_title();?></h5>
-        <?php $linkedin = get_post_meta($post->ID, 'linked_in', true);?>
-        <?php $twitter = get_post_meta($post->ID, 'twitter', true);?>
-        <?php if($linkedin):?>
-          <a id="linkedin" href="<?= $linkedin ?>">Linkedin</a>
-        <?php endif;?>
-        <?php if($twitter):?>
-          <a id="twitter" href="<?= $twitter ?>"> | Twitter</a>
-        <?php endif;?>
-      </div>
-      
-      <?php endwhile; endif; wp_reset_query(); ?> 
+      <?php if($my_query->have_posts()) : ?>
+      <div class="team-wrapper">
+        <?php while($my_query->have_posts()) : $my_query->the_post(); ?>
+        <div class="team-profile">
+          <?php the_post_thumbnail('team-thumb');?>
+          <h5><?php the_title();?></h5>
+          <?php $linkedin = get_post_meta($post->ID, 'linked_in', true);?>
+          <?php $twitter = get_post_meta($post->ID, 'twitter', true);?>
+          <?php if($linkedin):?>
+            <a id="linkedin" href="<?= $linkedin ?>">Linkedin</a>
+          <?php endif;?>
+          <?php if($twitter):?>
+            <a id="twitter" href="<?= $twitter ?>"> | Twitter</a>
+          <?php endif;?>
+        </div>
+        <?php endwhile;?>
+      </div>  
+      <?php endif; wp_reset_query(); ?> 
     </article>
     <?php $extra_content = get_post_meta($post->ID, 'extra_content', true);?>
     <?php if($extra_content):?>
