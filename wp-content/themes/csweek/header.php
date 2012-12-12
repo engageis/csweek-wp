@@ -118,7 +118,7 @@
     </a>
   </li>
   <li>
-    <a href="<?= get_permalink_by_name("startup-competition"); ?>">
+    <a href="<?= get_permalink_by_name("start-up-competition"); ?>">
       <div class="icon startup-competition"></div>
       <div>Startup Competition</div>
     </a>
