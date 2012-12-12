@@ -12,7 +12,7 @@
       window.onresize = resize_canvas
       window.onload = resize_canvas
     </script>
-    <a href="/">
+    <a href="<?php echo get_settings('home'); ?>">
       <img src="<?php bloginfo('template_url');?>/images/logo.png" />
     </a>
 
