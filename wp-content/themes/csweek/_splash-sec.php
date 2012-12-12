@@ -11,7 +11,7 @@
       }
       window.onresize = resize_canvas
       window.onload = resize_canvas
-    </script--!>
+    </script> -->
     
     <div class="row">
       <a href="<?php echo get_settings('home'); ?>">
