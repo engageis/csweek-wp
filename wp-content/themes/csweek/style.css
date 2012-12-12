@@ -1267,7 +1267,7 @@ form.bs-docs-example {
 
 #menu li a{
   background: transparent url(images/menu-item-bg.png) no-repeat center !important;
-  width: 100px;
+  width: 94px;
   height: 75px;
   border: none;
   font-family: 'Magra', sans-serif !important;
@@ -1330,6 +1330,11 @@ form.bs-docs-example {
 .icon.the-blog{  
   width: 37px;
   background-position: -365px 0 ;
+}
+
+.icon.sponsors{  
+  width: 37px;
+  background-position: -408px 0 ;
 }
 
 
@@ -1605,8 +1610,22 @@ form.bs-docs-example {
   margin-top: 45px;
 }
 
+#contact a{
+  cursor: pointer;
+} 
+
 #contact p{
   margin-top: 5px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: #666;
+}
+
+#contact span{
+  margin-top: 5px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: white;
 }
 
 #contact a{
@@ -1724,7 +1743,7 @@ form.bs-docs-example {
   line-height: 250%;
 }
 
-#page .speaker-profile {
+#page .speaker-profile, .workshop-profile {
   width: 227px;
   float: left;
   margin-right: 40px;
@@ -1746,7 +1765,7 @@ form.bs-docs-example {
   left: 17px;
 }
 
-.speaker-profile:nth-child(4n){
+.speaker-profile:nth-child(4n+1), .team-profile:nth-child(4n+1){
   clear: left;
 }
 
@@ -1779,12 +1798,12 @@ img.linkedin-profile{
   font-weight: 400;
 }
 
-.workshop-profile {
+/*.workshop-profile {
   width: 100%;
   float: left;
   margin-bottom: 60px;
   margin-top: 50px;
-}
+}*/
 
 .workshop-content{
   float: left;

@@ -11,10 +11,10 @@
       }
       window.onresize = resize_canvas
       window.onload = resize_canvas
-    </script--!>
+    </script> -->
     
     <div class="row">
-      <a href="<?php echo get_settings('home'); ?>">
+      <a href="<?php bloginfo('url'); ?>">
         <img class="span2" src="<?php bloginfo('template_url');?>/images/logo.png" />
       </a>
 

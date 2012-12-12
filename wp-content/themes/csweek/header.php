@@ -99,7 +99,12 @@
       <div class="icon about"></div>
       <div>About</div>
     </a>
-  </li>
+  <li>
+    <a href="<?= get_permalink_by_name("sponsors"); ?>">
+      <div class="icon sponsors"></div>
+      <div>Sponsors</div>
+    </a>
+  </li> </li>
   <li>
     <a href="<?= get_permalink_by_name("the-speakers"); ?>">
       <div class="icon speakers"></div>
@@ -142,7 +147,7 @@
       <div>1-day global summit</div>
     </a>
   </li>
-<!--   <li>
+ <!-- <li>
     <a href="<?= get_permalink_by_name("blog"); ?>">
       <div class="icon the-blog"></div>
       <div>Blog</div>

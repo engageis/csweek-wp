@@ -18,21 +18,25 @@ get_header(); ?>
       </header>
       <?php the_content();?>
       <?php $my_query = new WP_Query('showposts=-1&post_type=speakers'); ?>  
-      <?php if($my_query->have_posts()) : ?><?php while($my_query->have_posts()) : $my_query->the_post(); ?>
-      <div class="speaker-profile">
-        <?php the_post_thumbnail();?>
-        <h2><?php the_title();?></h2>
-        <?php the_content(); ?>
-        <?php $linkedin = get_post_meta($post->ID, 'linked_in', true);?>
-        <?php $twitter = get_post_meta($post->ID, 'twitter', true);?>
-        <?php if($linkedin):?>
-          <a id="linkedin" href="<?= $linkedin ?>">Linkedin | </a>
-        <?php endif;?>
-        <?php if($twitter):?>
-          <a id="twitter" href="<?= $twitter ?>">Twitter</a>
-        <?php endif;?>
+      <?php if($my_query->have_posts()) : ?>
+      <div class="speakers-wrapper">
+        <?php while($my_query->have_posts()) : $my_query->the_post(); ?>
+        <div class="speaker-profile">
+          <?php the_post_thumbnail();?>
+          <h2><?php the_title();?></h2>
+          <?php the_content(); ?>
+          <?php $linkedin = get_post_meta($post->ID, 'linked_in', true);?>
+          <?php $twitter = get_post_meta($post->ID, 'twitter', true);?>
+          <?php if($linkedin):?>
+            <a id="linkedin" href="<?= $linkedin ?>">Linkedin | </a>
+          <?php endif;?>
+          <?php if($twitter):?>
+            <a id="twitter" href="<?= $twitter ?>">Twitter</a>
+          <?php endif;?>
+        </div>
+        <?php endwhile;?>
       </div>
-      <?php endwhile; endif; wp_reset_query(); ?> 
+      <?php endif; wp_reset_query(); ?> 
     </article>
     <?php $extra_content = get_post_meta($post->ID, 'extra_content', true);?>
     <?php if($extra_content):?>
