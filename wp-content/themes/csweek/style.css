@@ -1736,23 +1736,62 @@ form.bs-docs-example {
 }
 
 
-.speaker-profile img, .team-profile img{
+.speaker-profile img{
+  border-radius: 50%;
+  float: left;
+  margin-right: 60px;
+  box-shadow: 0 0 0 5px white;
+  position: relative;
+  left: 17px;
+}
+
+.team-profile{
+  float: left;
+  width: 185px;
+  margin-right: 29px;
+  margin-top: 20px
+  
+}
+
+.team-profile img, .workshop-profile img{
   border-radius: 50%;
   float: left;
   margin-right: 60px;
   box-shadow: 0 0 0 5px white;
 }
 
-.speaker-profile img{
-  position: relative;
-  left: 17px;
+.team-profile img{ 
+  margin-bottom: 20px;
 }
 
+img.linkedin-profile{
+  margin: 0;
+}
 
+.team-profile h5{
+  font-size: 14px;
+  font-weight: 400;
+}
 
+.workshop-profile {
+  width: 100%;
+  float: left;
+  margin-bottom: 60px;
+  margin-top: 50px;
+}
 
+.workshop-content{
+  float: left;
+  width: 75%;
+}
 
+.workshop-content h2{
+  margin-bottom: 0;
+}
 
+.workshop-content h3{
+  margin-top: 0;
+}
 
 
 .cal-icon {

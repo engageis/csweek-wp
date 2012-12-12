@@ -19,10 +19,14 @@ get_header(); ?>
       <?php the_content();?>
       <?php $my_query = new WP_Query('showposts=-1&post_type=workshops'); ?>  
       <?php if($my_query->have_posts()) : ?><?php while($my_query->have_posts()) : $my_query->the_post(); ?>
-      <?php the_post_thumbnail();?>
-      <h2><?php the_title();?></h2>
-      <?php the_content(); ?>
-      <?php endwhile; endif; wp_reset_query(); ?> 
+      <div class="workshop-profile">
+        <?php the_post_thumbnail();?>
+        <div class="workshop-content">
+          <h2><?php the_title();?></h2>
+          <?php the_content(); ?>
+        </div>
+      </div> 
+      <?php endwhile; endif; wp_reset_query(); ?>
     </article>
     <?php $extra_content = get_post_meta($post->ID, 'extra_content', true);?>
     <?php if($extra_content):?>
