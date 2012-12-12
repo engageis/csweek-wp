@@ -1505,6 +1505,10 @@ form.bs-docs-example {
   color: #A50606;
 }
 
+.make-it-bigger{
+  width: 200% !important;
+}
+
 #contact .btn-contact {
   margin: 0;
   margin-left: 42px;
