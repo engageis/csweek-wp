@@ -7,11 +7,6 @@
         </div>
         <div class="row"> 
           <div class="span12"u>
-            <!--<h2>Corporate Sponsors</h2>
-            <h3>Official Event Partner</h3>
-            <h3>Platinum Sponsors</h3>
-            <h3>Gold Sponsros</h3>-->
-            
 
             <h2>Crowdsourcing Sponsors <a href="" class="learn-more">(learn more)</a></h2>
             <ul class="sponsors-list">
@@ -105,7 +100,7 @@
 
         </div>  
         <div class="span12">
-          <h2>Technology partners <a href="" class="learn-more">(learn more)</a></h2>
+          <h2>Technology & strategic partners <a href="" class="learn-more">(learn more)</a></h2>
             <ul class="sponsors-list">
               <li>
                 <a href='http://www.yoose.com/'>
@@ -216,7 +211,7 @@
         </div-->
       </div>
     </div>
-    <?php require '_sponsors.php'; ?> 
+    <!--?php require '_sponsors.php'; ?--> 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
     <script src="<?php bloginfo('template_url');?>/bootstrap/js/bootstrap.js"></script>
@@ -225,5 +220,3 @@
     <?php wp_footer(); ?> 
   </body>
 </html>
-
-

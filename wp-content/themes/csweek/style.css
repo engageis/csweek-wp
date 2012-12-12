@@ -1267,7 +1267,7 @@ form.bs-docs-example {
 
 #menu li a{
   background: transparent url(images/menu-item-bg.png) no-repeat center !important;
-  width: 100px;
+  width: 94px;
   height: 75px;
   border: none;
   font-family: 'Magra', sans-serif !important;
@@ -1332,6 +1332,11 @@ form.bs-docs-example {
   background-position: -365px 0 ;
 }
 
+.icon.sponsors{  
+  width: 37px;
+  background-position: -408px 0 ;
+}
+
 
 /*hr.menu-bar{
   height: 5px;
@@ -1365,12 +1370,12 @@ form.bs-docs-example {
   color: white;
 } 
 
-#welcome h4, #page h4{
+#welcome h4{
   font-family: 'Magra', sans-serif;
-  font-size: 22px;
+  font-size: 16px;
   font-weight: normal;
   color: #999;
-  line-height: 200%;
+  line-height: 165%;
 }
 
 #welcome p, #page p{
@@ -1507,7 +1512,7 @@ form.bs-docs-example {
 
 #contact h3{
   margin-top: -1px;
-
+  line-height: 150%;
 }
 
 #contact #contact-info{
@@ -1605,8 +1610,22 @@ form.bs-docs-example {
   margin-top: 45px;
 }
 
+#contact a{
+  cursor: pointer;
+} 
+
 #contact p{
   margin-top: 5px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: #666;
+}
+
+#contact span{
+  margin-top: 5px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: white;
 }
 
 #contact a{
@@ -1669,13 +1688,13 @@ form.bs-docs-example {
   line-height: 165%;
 }
 
-/*#page h4{
+#page h4{
   font-family: 'Magra', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  color: #D90000;
-  margin-bottom: 20px;
-}*/
+  font-size: 22px;
+  font-weight: normal;
+  color: #999;
+  line-height: 200%;
+}
 
 #page h5{
   font-size: 18px;
@@ -1724,7 +1743,7 @@ form.bs-docs-example {
   line-height: 250%;
 }
 
-#page .speaker-profile {
+#page .speaker-profile, .workshop-profile {
   width: 227px;
   float: left;
   margin-right: 40px;
@@ -1779,12 +1798,12 @@ img.linkedin-profile{
   font-weight: 400;
 }
 
-.workshop-profile {
+/*.workshop-profile {
   width: 100%;
   float: left;
   margin-bottom: 60px;
   margin-top: 50px;
-}
+}*/
 
 .workshop-content{
   float: left;
