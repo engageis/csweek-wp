@@ -185,7 +185,7 @@
 
               <li>
                 <a href='http://www.crowdsourcingblog.de/'>
-                  <div class="sponsor-logo">
+                  <div class="sponsor-logo make-it-bigger">
                     <img src="<?php bloginfo('template_url');?>/images/crowdsourcingblog.png">
                   </div>
                 </a>
