@@ -21,13 +21,17 @@ get_header(); ?>
       <?php if($my_query->have_posts()) : ?><?php while($my_query->have_posts()) : $my_query->the_post(); ?>
       <div class="team-profile">
         <?php the_post_thumbnail('team-thumb');?>
+        <h5><?php the_title();?></h5>
         <?php $linkedin = get_post_meta($post->ID, 'linked_in', true);?>
+        <?php $twitter = get_post_meta($post->ID, 'twitter', true);?>
         <?php if($linkedin):?>
-        <a href="<?= $linkedin ?>"><img src="/wp-content/themes/csweek/images/linkedin-profile.png" alt="" /></a>
+          <a id="linkedin" href="<?= $linkedin ?>">Linkedin | </a>
+        <?php endif;?>
+        <?php if($twitter):?>
+          <a id="twitter" href="<?= $twitter ?>">Twitter</a>
         <?php endif;?>
       </div>
       
-      <h5><?php the_title();?></h5>
       <?php endwhile; endif; wp_reset_query(); ?> 
     </article>
     <?php $extra_content = get_post_meta($post->ID, 'extra_content', true);?>

@@ -15,21 +15,31 @@
  */
 
 // ** Heroku Postgres settings - from Heroku Environment ** //
-// if($_ENV["DATABASE_URL"]){
-//   $db = parse_url($_ENV["DATABASE_URL"]);
-// }else{
-//   $db = array(path => "csweek", user => "csweek", pass => "1234", host => "localhost:5433");
-// }
+if($_ENV["DATABASE_URL"]){
+  $db = parse_url($_ENV["DATABASE_URL"]);
+}else{
+  $db = array(path => "csweek", user => "csweek", pass => "1234", host => "localhost:5432");
+}
 
 // print_r($db);
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 
-define('DB_NAME', 'crowds_site');
-define('DB_USER', 'crowds_site');
-define('DB_PASSWORD', 'localhost:8888');
-define('DB_HOST', 'localhost');
+define('DB_NAME', trim($db["path"],"/"));
+
+/** MySQL database username */
+define('DB_USER', $db["user"]);
+
+/** MySQL database password */
+define('DB_PASSWORD', $db["pass"]);
+
+/** MySQL hostname */
+define('DB_HOST', $db["host"]);
+
+/** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
+
+/** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
 
 /**#@+
