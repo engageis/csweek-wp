@@ -16,7 +16,8 @@
       <img src="<?php bloginfo('template_url');?>/images/logo.png" />
     </a>
 
-    <div style="width: 250px; float: right; background: transparent;" class="fb-like" data-href="http://crowdsourcingweek.com/" data-send="false" data-width="250" data-show-faces="true" data-colorscheme="dark"></div>
+<!--     <div style="width: 250px; float: right; background: transparent;" class="fb-like" data-href="http://crowdsourcingweek.com/" data-send="false" data-width="250" data-show-faces="true" data-colorscheme="dark"></div> -->
+    <div class="fb-like-box" data-href="http://www.facebook.com/platform" data-width="250" data-show-faces="true" data-stream="true" data-header="true"></div>
     <!-- <div class="fb-like" data-href="http://crowdsourcingweek.com/" data-send="false" data-width="450" data-show-faces="true" ></div> -->
 
     <div class="row">
