@@ -1765,7 +1765,7 @@ form.bs-docs-example {
   left: 17px;
 }
 
-.speaker-profile:nth-child(4n+1){
+.speaker-profile:nth-child(4n+1), .team-profile:nth-child(4n+1){
   clear: left;
 }
 
