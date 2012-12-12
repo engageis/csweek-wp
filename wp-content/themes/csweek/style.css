@@ -1605,8 +1605,22 @@ form.bs-docs-example {
   margin-top: 45px;
 }
 
+#contact a{
+  cursor: pointer;
+} 
+
 #contact p{
   margin-top: 5px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: #666;
+}
+
+#contact span{
+  margin-top: 5px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: white;
 }
 
 #contact a{
