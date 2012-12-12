@@ -1491,8 +1491,9 @@ form.bs-docs-example {
   font-family: 'Lato', sans-serif;
   color: #999;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 900;
   text-align: center;
+  text-transform: uppercase;
 }
 
 #sponsors h3{
