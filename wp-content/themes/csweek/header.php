@@ -142,9 +142,10 @@
       <div>1-day global summit</div>
     </a>
   </li>
-  <li>
+<!--   <li>
     <a href="<?= get_permalink_by_name("blog"); ?>">
       <div class="icon the-blog"></div>
       <div>Blog</div>
     </a>
+  </li> -->
 </ul>
