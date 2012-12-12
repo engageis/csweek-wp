@@ -1365,12 +1365,12 @@ form.bs-docs-example {
   color: white;
 } 
 
-#welcome h4, #page h4{
+#welcome h4{
   font-family: 'Magra', sans-serif;
-  font-size: 22px;
+  font-size: 16px;
   font-weight: normal;
   color: #999;
-  line-height: 200%;
+  line-height: 165%;
 }
 
 #welcome p, #page p{
@@ -1669,13 +1669,13 @@ form.bs-docs-example {
   line-height: 165%;
 }
 
-/*#page h4{
+#page h4{
   font-family: 'Magra', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  color: #D90000;
-  margin-bottom: 20px;
-}*/
+  font-size: 22px;
+  font-weight: normal;
+  color: #999;
+  line-height: 200%;
+}
 
 #page h5{
   font-size: 18px;
