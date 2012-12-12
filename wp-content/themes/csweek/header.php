@@ -50,7 +50,7 @@
       <div class="nav-collapse collapse">
         <ul class="nav">
           <li>
-            <em>FIND US HERE >></em>
+            <em>FIND US HERE <span class="red-arrow"> >></span></em>
           </li>
           <li class="">
             <a target="_blank" href="http://www.facebook.com/CrowdsourcingWeek">
