@@ -100,7 +100,7 @@
       <div>About</div>
     </a>
   <li>
-    <a href="<?= get_permalink_by_name("the-speakers"); ?>">
+    <a href="<?= get_permalink_by_name("sponsors"); ?>">
       <div class="icon sponsors"></div>
       <div>Sponsors</div>
     </a>
@@ -147,7 +147,7 @@
       <div>1-day global summit</div>
     </a>
   </li>
-<!--   <li>
+ <!-- <li>
     <a href="<?= get_permalink_by_name("blog"); ?>">
       <div class="icon the-blog"></div>
       <div>Blog</div>
