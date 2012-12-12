@@ -1724,7 +1724,7 @@ form.bs-docs-example {
   line-height: 250%;
 }
 
-#page .speaker-profile {
+#page .speaker-profile, .workshop-profile {
   width: 227px;
   float: left;
   margin-right: 40px;
@@ -1779,12 +1779,12 @@ img.linkedin-profile{
   font-weight: 400;
 }
 
-.workshop-profile {
+/*.workshop-profile {
   width: 100%;
   float: left;
   margin-bottom: 60px;
   margin-top: 50px;
-}
+}*/
 
 .workshop-content{
   float: left;
