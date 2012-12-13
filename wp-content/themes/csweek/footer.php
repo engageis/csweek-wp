@@ -13,7 +13,7 @@
             <ul class="sponsors-list">
               <li>
                 <a href='http://www.99designs.com'>
-                  <div class="sponsor-logo">
+                  <div class="sponsor-logo align-logo">
                     <img src="<?php bloginfo('template_url');?>/images/99design.png">
                   </div>
                 </a>
@@ -21,7 +21,7 @@
 
               <li>
                 <a href='http://www.razoo.com/'>
-                  <div class="sponsor-logo">
+                  <div class="sponsor-log align-logo">
                     <img src="<?php bloginfo('template_url');?>/images/razoo.png">
                   </div>
                 </a>
@@ -45,7 +45,7 @@
 
               <li>
                 <a href='http://zooppa.com/'>
-                  <div class="sponsor-logo">
+                  <div class="sponsor-logo align-logo">
                     <img src="<?php bloginfo('template_url');?>/images/zooppa.png">
                   </div>
                 </a>
@@ -59,7 +59,7 @@
               
               <li>
                 <a href='http://en.eyeka.com/'>
-                  <div class="sponsor-logo">
+                  <div class="sponsor-logo align-logo">
                     <img src="<?php bloginfo('template_url');?>/images/eyeka.png">
                   </div>
                 </a>
@@ -111,7 +111,7 @@
               </li>
               <li>
                 <a href='http://www.appbackr.com/'>
-                  <div class="sponsor-logo">
+                  <div class="sponsor-logo align-logo">
                     <img src="<?php bloginfo('template_url');?>/images/appbackr.png">
                   </div>
                 </a>
@@ -119,7 +119,7 @@
 
               <li>
                 <a href='http://www.bnotions.com/'>
-                  <div class="sponsor-logo">
+                  <div class="sponsor-logo align-logo">
                     <img src="<?php bloginfo('template_url');?>/images/bnotions.png">
                   </div>
                 </a>
@@ -127,7 +127,7 @@
 
               <li>
                 <a href='http://www.yoose.com/'>
-                  <div class="sponsor-logo">
+                  <div class="sponsor-logo align-logo">
                     <img src="<?php bloginfo('template_url');?>/images/yoose.png">
                   </div>
                 </a>
