@@ -14,7 +14,7 @@ $(document).ready(function() {
   var fps = isiPhone() ? 10 : 30;
   var total_nodes = isiPhone() ? 25 : 999;
   var min_speed = 666;
-  var nodes_speed = 111;
+  var nodes_speed = 10;
   var nodes = [];
   var min_dist = 60;
   var move = true;
@@ -71,7 +71,7 @@ $(document).ready(function() {
               
         // ctx.fillStyle = 'rgba(0, 0, 0, ' + ((1 - line_opacity) * 0.5) + ')';
         // ctx.fillStyle = 'rgba(0, 0, 0, 0.3)';
-        ctx.fillStyle = 'rgba(255,255,255, 0.2)';
+        ctx.fillStyle = 'rgba(255,255,255, 0.05)';
         ctx.beginPath();
         ctx.arc(node.cx, node.cy, 1, 0, Math.PI * 2, true); 
         ctx.closePath();

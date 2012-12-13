@@ -1908,3 +1908,10 @@ strong{
 .align-logo{
   margin-top: 22px;
 }
+
+.map{
+  z-index: -1000;
+  opacity: .3;
+  position: absolute;
+  bottom: -114px;
+}

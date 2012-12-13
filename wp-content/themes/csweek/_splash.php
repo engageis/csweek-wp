@@ -2,6 +2,8 @@
 ================================================== -->
 <header class="jumbotron subhead" id="overview">
   <div class="container">
+    <img class="map" src="<?php bloginfo('template_url');?>/images/map.png" />
+
     <canvas id="nodes" height="540px" width="1200px" style="z-index:-1">
     </canvas>
     <script type="text/javascript">
