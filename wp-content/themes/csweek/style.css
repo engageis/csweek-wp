@@ -1534,6 +1534,7 @@ form.bs-docs-example {
 #contact h3{
   margin-top: -1px;
   line-height: 150%;
+  text-transform: none;
 }
 
 #contact #contact-info{
@@ -1802,13 +1803,28 @@ form.bs-docs-example {
   
 }
 
-.team-profile img, .workshop-profile img{
+.team-profile img{
   border-radius: 50%;
   float: left;
   margin-right: 60px;
   box-shadow: 0 0 0 5px white;
   position: relative;
   left: 40px;
+}
+
+.workshop-profile img{
+  left: 22px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 60px;
+  box-shadow: 0 0 0 5px white;
+  position: relative;
+  width: 100px;
+  height: auto;
+}
+
+#page .city{
+  margin-bottom: 0;
 }
 
 .team-profile img{ 

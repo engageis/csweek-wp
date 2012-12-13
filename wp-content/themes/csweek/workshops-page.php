@@ -22,7 +22,7 @@ get_header(); ?>
       <div class="workshop-profile">
         <?php the_post_thumbnail();?>
         <div class="workshop-content">
-          <h2><?php the_title();?></h2>
+          <h2 class="city"><?php the_title();?></h2>
           <?php the_content(); ?>
         </div>
       </div> 

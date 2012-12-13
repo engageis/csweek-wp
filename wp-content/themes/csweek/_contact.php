@@ -19,8 +19,9 @@
         </div>
       </div-->
       <div class="span5">
-        <h2 id="contact-info">Contact</h2>
-        <h3> For media contact, media@crowdsourcingweek.com</h3>
+        <h2 id="contact-info">Contact us</h2>
+        <h3>Send us a <a href="<?= get_permalink_by_name("contact"); ?>">message</a></h3>
+        <h3>Or for media contact,<a href="mailto:media@crowdsourcingweek.com"> media@crowdsourcingweek.com</h3>
       </div>
       <div class="span4">
         <h2>Share it</h2>
@@ -28,10 +29,9 @@
       </div>
       <div class="span3" id="ludvk">
         <a href="www.ludvikplus.com">
-          <img src="wp-content/themes/csweek/images/logo_ludvk.jpg"/>
+          <img src="<?php bloginfo('template_url');?>/images/logo_ludvk.jpg"/>
         </a>
         <p>©2012 Crowdsourcing Week</p>
-        <span>media@crowdsourcingweek.com</span>
       </div>
       </div>
     </div>
