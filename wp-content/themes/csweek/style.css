@@ -1455,7 +1455,8 @@ form.bs-docs-example {
   margin: 0 -11px 0 0;
   position: relative;
   left: -13px;
-  top: 4px;  
+  top: 4px;
+  z-index: 2000;
 }
 
 #calmain{
@@ -1763,7 +1764,7 @@ form.bs-docs-example {
 }
 
 #page .speaker-profile, .workshop-profile {
-  width: 227px;
+  width: 200px;
   float: left;
   margin-right: 40px;
   text-align: center;
@@ -1772,16 +1773,19 @@ form.bs-docs-example {
 
 #page .speaker-profile > h2 {
   margin-bottom: -4px;
+  font-size: 20px;
 }
 
 
 .speaker-profile img{
+  width: 100px;
+  height: auto;
   border-radius: 50%;
   float: left;
   margin-right: 60px;
   box-shadow: 0 0 0 5px white;
   position: relative;
-  left: 17px;
+  left: 48px;
 }
 
 .speaker-profile:nth-child(4n+1), .team-profile:nth-child(4n+1){
