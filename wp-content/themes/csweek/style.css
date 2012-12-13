@@ -1352,7 +1352,7 @@ form.bs-docs-example {
   border-top: 2px solid #555;
   background-color: #333;
   border-bottom: 3px solid #555;
-  padding-bottom: 40px;
+  padding-bottom: 90px;
 }
 
 #welcome h2, #page h2{
@@ -1892,4 +1892,12 @@ article .aligncenter{
 
 strong{
   color: #D90000;
+}
+
+.fb-like{
+  width: 236px;
+  float: right;
+  margin-top: 56px;
+  
+
 }
