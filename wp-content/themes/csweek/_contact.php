@@ -20,7 +20,7 @@
       </div-->
       <div class="span5">
         <h2 id="contact-info">Contact</h2>
-        <h3> Do you want to <a class="" href="https://twitter.com/href">get in touch with us</a> ? For media contact, media@crowdsourcingweek.com</h3>
+        <h3> For media contact, media@crowdsourcingweek.com</h3>
       </div>
       <div class="span4">
         <h2>Share it</h2>
