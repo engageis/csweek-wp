@@ -1792,7 +1792,8 @@ form.bs-docs-example {
   float: left;
   width: 185px;
   margin-right: 29px;
-  margin-top: 20px
+  margin-top: 20px;
+  text-align: center;
   
 }
 
@@ -1801,6 +1802,8 @@ form.bs-docs-example {
   float: left;
   margin-right: 60px;
   box-shadow: 0 0 0 5px white;
+  position: relative;
+  left: 40px;
 }
 
 .team-profile img{ 
