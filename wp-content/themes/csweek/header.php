@@ -15,6 +15,12 @@
 
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 
+    <meta property="og:title" content="Crowdsourcing Week" />
+    <meta property="og:type" content="activity" />
+    <meta property="og:url" content="http://crowdsourcingweek.com" />
+    <meta property="og:image" content="http://crowdsourcingweek.com/wp-content/themes/csweek/images/logo.png" />
+    <meta property="og:site_name" content="Crowdsourcing Week" />
+    <meta property="fb:admins" content="100002101958809" />
 <!--     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="assets/css/docs.css" rel="stylesheet">
