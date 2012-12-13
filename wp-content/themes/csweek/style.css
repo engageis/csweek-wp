@@ -1107,7 +1107,7 @@ form.bs-docs-example {
 
 .jumbotron h1 .where, .jumbotron h1 .year{
   /*line-height: 1;*/
-	font-size: 60px;
+	font-size: 58px;
   line-height: 135px;;
 }
 
@@ -1147,6 +1147,7 @@ form.bs-docs-example {
 
 .save-the-date{
   margin-bottom: 15px;
+  padding-left: 18px;
 }
 
 .save-the-date-box{
