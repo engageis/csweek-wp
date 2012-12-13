@@ -17,11 +17,29 @@ get_header(); ?>
         <?php the_content(); ?>
       </div>
       <div class="offset1 span3">
+<<<<<<< HEAD
         <div class="my-cal btn-save-the-date">
           <? require '_cal.php' ?>
         </div >
         <div class="fb-like">
           <div style="width: 250px; float: right;" class="fb-like-box" data-href="http://www.facebook.com/CrowdsourcingWeek/" data-width="250" data-show-faces="true" data-stream="false" data-header="true"></div>
+=======
+        <!-- <div class="fb-like" data-href="http://www.facebook.com/CrowdsourcingWeek?fref=ts" data-send="false" data-width="250" data-show-faces="true"></div> -->
+
+        <div id="open-registration">
+          <!--<div class="pad">
+            <div class="inner">
+              <h2>
+                <span>save the</span>
+                <span class="open">date</span>-->
+          <div class="my-cal btn-save-the-date">
+            <? require '_cal.php' ?>
+          </div>
+            <!--  </h2>
+            </div>
+          </div>-->
+        <div style="background: white; width: 250px; float: right;" class="fb-like-box" data-href="http://www.facebook.com/CrowdsourcingWeek/" data-width="250" data-show-faces="true" data-stream="false" data-header="true"></div>
+>>>>>>> 4836c31c5c6c284e19e12a14b45e44a089d833bf
         </div>
 
         /div<?php endwhile;?>
