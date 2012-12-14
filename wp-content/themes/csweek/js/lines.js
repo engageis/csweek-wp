@@ -13,7 +13,7 @@ $(document).ready(function() {
           
   var fps = isiPhone() ? 10 : 30;
   var total_nodes = isiPhone() ? 25 : 999;
-  var min_speed = 666;
+  var min_speed = 100;
   var nodes_speed = 10;
   var nodes = [];
   var min_dist = 60;
