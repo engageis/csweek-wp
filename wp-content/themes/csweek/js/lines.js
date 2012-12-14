@@ -11,17 +11,17 @@ $(document).ready(function() {
   var canvas = document.getElementById('nodes');
   var ctx = canvas.getContext('2d');
           
-  var fps = isiPhone() ? 10 : 30;
-  var total_nodes = isiPhone() ? 25 : 999;
+  var fps = isiPhone() ? 10 : 20;
+  var total_nodes = isiPhone() ? 25 : 66;
   var min_speed = 666;
   var nodes_speed = 10;
   var nodes = [];
-  var min_dist = 60;
+  var min_dist = 160;
   var move = true;
   var draw_to_mouse = false;
   var gather_nodes = false;
-  var circle_radius = 100;
-  var line_opacity = 0.7;
+  var circle_radius = 1000;
+  var line_opacity = 0.05;
   
   //
   init_node = function(){
@@ -71,7 +71,7 @@ $(document).ready(function() {
               
         // ctx.fillStyle = 'rgba(0, 0, 0, ' + ((1 - line_opacity) * 0.5) + ')';
         // ctx.fillStyle = 'rgba(0, 0, 0, 0.3)';
-        ctx.fillStyle = 'rgba(255,255,255, 0.05)';
+        ctx.fillStyle = 'rgba(255,255,255, 0.5)';
         ctx.beginPath();
         ctx.arc(node.cx, node.cy, 1, 0, Math.PI * 2, true); 
         ctx.closePath();
@@ -128,7 +128,7 @@ $(document).ready(function() {
   
   function draw_line(x1, y1, x2, y2, alpha) {
     //ctx.strokeStyle = 'rgba(0, 0, 0, ' + (alpha * line_opacity) + ')';
-    ctx.strokeStyle = 'rgba(255,255,255, 0.2)';
+    ctx.strokeStyle = 'rgba(255,255,255, '+line_opacity+')';
     ctx.beginPath();
     ctx.moveTo(x1, y1);
     ctx.lineTo(x2, y2);
