@@ -21,7 +21,7 @@ get_header(); ?>
           <? require '_cal.php' ?>
         </div >
         <div class="fb-like">
-          <div style="width: 250px; float: right;" class="fb-like-box" data-href="http://www.facebook.com/CrowdsourcingWeek/" data-width="250" data-show-faces="true" data-stream="false" data-header="true"></div>
+          <div style="background: white; width: 250px; float: right;" class="fb-like-box" data-href="http://www.facebook.com/CrowdsourcingWeek/" data-width="250" data-show-faces="true" data-stream="false" data-header="true"></div>
         </div>
 
         /div<?php endwhile;?>
