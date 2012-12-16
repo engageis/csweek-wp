@@ -135,7 +135,7 @@
               </li>
 
               <li>
-                <a target="_blank" href='http://www.iminds.com'>
+                <a target="_blank" href='http://www.iminds.be/en'>
                   <div class="sponsor-logo">
                     <img src="<?php bloginfo('template_url');?>/images/iminds.png">
                   </div>
