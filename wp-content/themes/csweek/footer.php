@@ -51,6 +51,7 @@
                 </a>
               </li>
               <li>
+                <a target="_blank" href='http://www.localmotors.com/'>
                   <div class="sponsor-logo">
                     <img src="<?php bloginfo('template_url');?>/images/localmotors.png">
                   </div>
@@ -70,7 +71,7 @@
             <ul class="sponsors-list">
 
               <li>
-                <a target="_blank" href='http://www.razoo.com/'>
+                <a target="_blank" href='http://www.clozette.co'>
                   <div class="sponsor-logo">
                     <img src="<?php bloginfo('template_url');?>/images/clozette.png">
                   </div>
@@ -78,7 +79,7 @@
               </li>
               
               <li>
-                <a target="_blank" href='http://www.razoo.com/'>
+                <a target="_blank" href='http://www.expressinmusic.com/home/default.aspx'>
                   <div class="sponsor-logo">
                     <img src="<?php bloginfo('template_url');?>/images/expressmusic.png">
                   </div>
@@ -168,7 +169,7 @@
               </li>
               
               <li>
-                <a target="_blank" href='#'>
+                <a target="_blank" href='http://sgentrepreneurs.com'>
                   <div class="sponsor-logo">
                     <img src="<?php bloginfo('template_url');?>/images/sge.png">
                   </div>
