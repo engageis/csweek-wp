@@ -3,9 +3,9 @@ VERSION:2.0
 BEGIN:VEVENT
 URL:http://crowdsourcingweek.com/
  
- 
-DTSTART:20130603T110000Z
-DTEND:20130607T213000Z
+
+DTSTART:20130603T010000Z
+DTEND:20130607T093000Z
 SUMMARY:Crowdsourcing Week - Singapore 2013
 DESCRIPTION:For details, click here: http://www.crowdsourcingweek.com
 LOCATION:81 Victoria Street Singapore 188065 Google Map: http://goo.gl/maps/zvJdC
