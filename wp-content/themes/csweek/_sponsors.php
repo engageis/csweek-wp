@@ -105,7 +105,7 @@
 
     </div>  
     <div class="span12">
-      <h2>Technology partners <a href="" class="learn-more">(learn more)</a></h2>
+      <h2>Technology partners</h2>
         <ul class="sponsors-list">
           <li>
             <a target="_blank" href='http://www.yoose.com/'>
@@ -159,7 +159,7 @@
     </div>
 
     <div class="span12">
-      <h2>Media Partners <a href="" class="learn-more">(learn more)</a> </h2>
+      <h2>Media Partners</h2>
       <!--<h3>Global Media Partners</h3>
       <h3>Regional Partners</h3>-->
       <!--h3>Bloggers</h3-->

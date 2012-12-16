@@ -100,7 +100,7 @@
 
         </div>  
         <div class="span12">
-          <h2>Technology & strategic partners <a href="<?= get_permalink_by_name("sponsors"); ?>" class="learn-more">(learn more)</a></h2>
+          <h2>Technology & strategic partners</h2>
             <ul class="sponsors-list">
               <li>
                 <a target="_blank" href='http://www.powertothecrowd.com/'>
@@ -154,7 +154,7 @@
         </div>
 
         <div class="span12">
-          <h2>Media Partners <a href="http://www.crowdsourcing.com/sponsors" class="learn-more">(learn more)</a> </h2>
+          <h2>Media Partners</h2>
           <!--<h3>Global Media Partners</h3>
           <h3>Regional Partners</h3>-->
           <!--h3>Bloggers</h3-->
