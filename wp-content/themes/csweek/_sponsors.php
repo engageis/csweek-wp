@@ -16,7 +16,7 @@
         <h2>Crowdsourcing Sponsors <a href="" class="learn-more">(learn more)</a></h2>
         <ul class="sponsors-list">
           <li>
-            <a href='http://www.99designs.com'>
+            <a target="_blank" href='http://www.99designs.com'>
               <div class="sponsor-logo">
                 <img src="<?php bloginfo('template_url');?>/images/99design.png">
               </div>
@@ -24,7 +24,7 @@
           </li>
 
           <li>
-            <a href='http://www.chaordix.com/'>
+            <a target="_blank" href='http://www.chaordix.com/'>
               <div class="sponsor-logo">
                 <img src="<?php bloginfo('template_url');?>/images/razoo.png">
               </div>
@@ -32,7 +32,7 @@
           </li>
 
           <li>
-            <a href='http://zooppa.com/'>
+            <a target="_blank" href='http://zooppa.com/'>
               <div class="sponsor-logo">
                 <img src="<?php bloginfo('template_url');?>/images/imagebrief.png">
               </div>
@@ -40,7 +40,7 @@
           </li>
 
           <li>
-            <a href='http://www.imagebrief.com/'>
+            <a target="_blank" href='http://www.imagebrief.com/'>
               <div class="sponsor-logo">
                 <img src="<?php bloginfo('template_url');?>/images/chaordix.png">
               </div>
@@ -48,14 +48,14 @@
           </li>
 
           <li>
-            <a href='http://en.eyeka.com/'>
+            <a target="_blank" href='http://en.eyeka.com/'>
               <div class="sponsor-logo">
                 <img src="<?php bloginfo('template_url');?>/images/zooppa.png">
               </div>
             </a>
           </li>
           <li>
-            <a href='http://crowdflower.com/'>
+            <a target="_blank" href='http://crowdflower.com/'>
               <div class="sponsor-logo">
                 <img src="<?php bloginfo('template_url');?>/images/localmotors.png">
               </div>
@@ -63,7 +63,7 @@
           </li>
           
           <li>
-            <a href='http://www.growvc.com/main/'>
+            <a target="_blank" href='http://www.growvc.com/main/'>
               <div class="sponsor-logo">
                 <img src="<?php bloginfo('template_url');?>/images/eyeka.png">
               </div>
@@ -75,7 +75,7 @@
         <ul class="sponsors-list">
 
           <li>
-            <a href='http://www.razoo.com/'>
+            <a target="_blank" href='http://www.razoo.com/'>
               <div class="sponsor-logo">
                 <img src="<?php bloginfo('template_url');?>/images/clozette.png">
               </div>
@@ -83,7 +83,7 @@
           </li>
           
           <li>
-            <a href='http://www.razoo.com/'>
+            <a target="_blank" href='http://www.razoo.com/'>
               <div class="sponsor-logo">
                 <img src="<?php bloginfo('template_url');?>/images/expressmusic.png">
               </div>
@@ -91,7 +91,7 @@
           </li>
 
           <li>
-            <a href='http://www.razoo.com/'>
+            <a target="_blank" href='http://www.razoo.com/'>
               <div class="sponsor-logo">
                 <img src="<?php bloginfo('template_url');?>/images/growvc.png">
               </div>
@@ -108,14 +108,14 @@
       <h2>Technology partners <a href="" class="learn-more">(learn more)</a></h2>
         <ul class="sponsors-list">
           <li>
-            <a href='http://www.yoose.com/'>
+            <a target="_blank" href='http://www.yoose.com/'>
               <div class="sponsor-logo">
                 <img src="<?php bloginfo('template_url');?>/images/engage.png">
               </div>
             </a>
           </li>
           <li>
-            <a href='http://www.appbackr.com/'>
+            <a target="_blank" href='http://www.appbackr.com/'>
               <div class="sponsor-logo">
                 <img src="<?php bloginfo('template_url');?>/images/appbackr.png">
               </div>
@@ -123,7 +123,7 @@
           </li>
 
           <li>
-            <a href='http://www.razoo.com/'>
+            <a target="_blank" href='http://www.razoo.com/'>
               <div class="sponsor-logo">
                 <img src="<?php bloginfo('template_url');?>/images/bnotions.png">
               </div>
@@ -131,7 +131,7 @@
           </li>
 
           <li>
-            <a href='http://www.razoo.com/'>
+            <a target="_blank" href='http://www.razoo.com/'>
               <div class="sponsor-logo">
                 <img src="<?php bloginfo('template_url');?>/images/yoose.png">
               </div>
@@ -139,7 +139,7 @@
           </li>
 
           <li>
-            <a href='http://www.engage.is'>
+            <a target="_blank" href='http://www.engage.is'>
               <div class="sponsor-logo">
                 <img src="<?php bloginfo('template_url');?>/images/iminds.png">
               </div>
@@ -147,7 +147,7 @@
           </li>
 
           <li>
-            <a href='http://www.razoo.com/'>
+            <a target="_blank" href='http://www.razoo.com/'>
               <div class="sponsor-logo">
                 <img src="<?php bloginfo('template_url');?>/images/internetmedialabs.png">
               </div>
@@ -165,7 +165,7 @@
       <!--h3>Bloggers</h3-->
         <ul class="sponsors-list">
           <li>
-            <a href='http://maxatria.com.sg/'>
+            <a target="_blank" href='http://maxatria.com.sg/'>
               <div class="sponsor-logo">
                 <img src="<?php bloginfo('template_url');?>/images/techasia.png">
               </div>
@@ -173,7 +173,7 @@
           </li>
           
           <li>
-            <a href='http://www.razoo.com/'>
+            <a target="_blank" href='http://www.razoo.com/'>
               <div class="sponsor-logo">
                 <img src="<?php bloginfo('template_url');?>/images/sge.png">
               </div>
@@ -181,7 +181,7 @@
           </li>
       
           <li>
-            <a href='http://www.razoo.com/'>
+            <a target="_blank" href='http://www.razoo.com/'>
               <div class="sponsor-logo">
                 <img src="<?php bloginfo('template_url');?>/images/e27.png">
               </div>
@@ -189,7 +189,7 @@
           </li>
 
           <li>
-            <a href='http://www.razoo.com/'>
+            <a target="_blank" href='http://www.razoo.com/'>
               <div class="sponsor-logo">
                 <img src="<?php bloginfo('template_url');?>/images/crowdsourcingblog.png">
               </div>

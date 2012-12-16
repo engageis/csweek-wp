@@ -12,7 +12,7 @@ $(document).ready(function() {
   var ctx = canvas.getContext('2d');
           
   var fps = isiPhone() ? 10 : 30;
-  var total_nodes = isiPhone() ? 25 : 999;
+  var total_nodes = isiPhone() ? 25 : 111;
   var min_speed = 100;
   var nodes_speed = 10;
   var nodes = [];
