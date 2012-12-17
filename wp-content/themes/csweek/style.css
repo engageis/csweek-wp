@@ -1778,6 +1778,11 @@ form.bs-docs-example {
   font-size: 20px;
 }
 
+#page .speaker-profile > h5 {
+  margin-top: 2px;
+  color: #C5C5C5;
+} 
+
 
 .speaker-profile img{
   width: 103px;
@@ -1801,7 +1806,6 @@ form.bs-docs-example {
   margin-right: 29px;
   margin-top: 20px;
   text-align: center;
-  
 }
 
 .team-profile img{
@@ -1840,13 +1844,6 @@ img.linkedin-profile{
   font-size: 14px;
   font-weight: 400;
 }
-
-/*.workshop-profile {
-  width: 100%;
-  float: left;
-  margin-bottom: 60px;
-  margin-top: 50px;
-}*/
 
 .workshop-content{
   float: left;
