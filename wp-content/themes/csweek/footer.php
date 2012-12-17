@@ -3,7 +3,7 @@
       <div class="container">
         <div class="row">
           <div class="offset4 span8">
-            <a href="http://www.yoursingapore.com/content/traveller/en/experience.html"><img src="<?php bloginfo('template_url');?>/images/ysing.jpg" class="ysing-logo"/></a>
+            <a target="_blank" href="http://www.yoursingapore.com/content/traveller/en/experience.html"><img src="<?php bloginfo('template_url');?>/images/ysing.jpg" class="ysing-logo"/></a>
           </div>
         </div>
         <div class="row"> 
@@ -44,13 +44,14 @@
               </li>
 
               <li>
-                <a target="_blank" href='http://zooppa.com/'>
+                <a target="_blank" href='http://www.zooppa.com/'>
                   <div class="sponsor-logo align-logo">
                     <img src="<?php bloginfo('template_url');?>/images/zooppa.png">
                   </div>
                 </a>
               </li>
               <li>
+                <a target="_blank" href='http://www.localmotors.com/'>
                   <div class="sponsor-logo">
                     <img src="<?php bloginfo('template_url');?>/images/localmotors.png">
                   </div>
@@ -70,7 +71,7 @@
             <ul class="sponsors-list">
 
               <li>
-                <a target="_blank" href='http://www.razoo.com/'>
+                <a target="_blank" href='http://www.clozette.co'>
                   <div class="sponsor-logo">
                     <img src="<?php bloginfo('template_url');?>/images/clozette.png">
                   </div>
@@ -78,7 +79,7 @@
               </li>
               
               <li>
-                <a target="_blank" href='http://www.razoo.com/'>
+                <a target="_blank" href='http://www.expressinmusic.com/home/default.aspx'>
                   <div class="sponsor-logo">
                     <img src="<?php bloginfo('template_url');?>/images/expressmusic.png">
                   </div>
@@ -134,7 +135,7 @@
               </li>
 
               <li>
-                <a target="_blank" href='http://www.iminds.com'>
+                <a target="_blank" href='http://www.iminds.be/en'>
                   <div class="sponsor-logo">
                     <img src="<?php bloginfo('template_url');?>/images/iminds.png">
                   </div>
@@ -168,7 +169,7 @@
               </li>
               
               <li>
-                <a target="_blank" href='#'>
+                <a target="_blank" href='http://sgentrepreneurs.com'>
                   <div class="sponsor-logo">
                     <img src="<?php bloginfo('template_url');?>/images/sge.png">
                   </div>
