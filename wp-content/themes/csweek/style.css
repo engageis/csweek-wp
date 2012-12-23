@@ -1933,3 +1933,7 @@ strong{
   position: absolute;
   bottom: -114px;
 }
+
+.invert-align{
+  margin-top: -30px;
+}
