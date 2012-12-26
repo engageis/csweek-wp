@@ -1742,7 +1742,7 @@ form.bs-docs-example {
 
 #page a {
   color: #F5C01D;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 #page a:hover {
@@ -1752,7 +1752,7 @@ form.bs-docs-example {
 }
 
 #page span {
-  color: #333;
+  color: #ccc;
   text-decoration: none;
 }
 
@@ -1910,7 +1910,7 @@ article .aligncenter{
 }
 
 strong{
-  color: #D90000;
+  font-weight: 700;
 }
 
 .fb-like{
