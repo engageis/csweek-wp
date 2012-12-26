@@ -1902,6 +1902,10 @@ article .aligncenter{
   border: 3px solid #EEE;
 }
 
+article h2{
+  margin-top: 0;
+} 
+
 .red-arrow{
   color: red;
   font-size: 22px;
@@ -1910,7 +1914,7 @@ article .aligncenter{
 }
 
 strong{
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .fb-like{
