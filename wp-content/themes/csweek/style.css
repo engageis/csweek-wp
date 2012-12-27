@@ -1935,6 +1935,12 @@ strong{
   font-size: 14px;
 }
 
+#page .the-content{
+  float: left;
+  width: 75%;
+  margin-right: 15px;
+}
+
 .fb-like{
   width: 236px;
   float: right;
