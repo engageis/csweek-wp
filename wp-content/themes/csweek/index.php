@@ -30,9 +30,7 @@
       <hr style="border-top: 1px solid rgba(0,0,0,0.2); border-bottom: 1px solid rgba(255,255,255,0.2)" />
       </div>
     <?php endwhile; // End the loop. Whew. ?>
-    <div id="sidebar-out">
       <?php get_sidebar(); ?>
-    </div>
 
     <aside class="pagination">
       <?php if(get_next_posts_link()):?>
