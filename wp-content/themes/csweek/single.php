@@ -31,12 +31,12 @@ get_header(); ?>
       endif;?>-->
       <div class="the-content"> 
         <?php the_content();?>
+        <footer class="authbio">
+          <!-- <img src="<?php bloginfo('template_url'); ?>/images/<?php the_author_firstname(); ?>.jpg" alt="" class="alignleft"/> -->
+          <?php echo get_avatar( get_the_author_email(), '80' ); ?>
+          <?php the_author_description(); ?>
+        </footer>
       </div>
-      <footer class="authbio">
-        <!-- <img src="<?php bloginfo('template_url'); ?>/images/<?php the_author_firstname(); ?>.jpg" alt="" class="alignleft"/> -->
-        <?php echo get_avatar( get_the_author_email(), '80' ); ?>
-        <?php the_author_description(); ?>
-      </footer>
     </article>
     <?php get_sidebar(); ?>
 
