@@ -31,11 +31,11 @@ get_header(); ?>
       endif;
       ?>
       <?php the_content();?>
+      <?php $extra_content = get_post_meta($post->ID, 'extra_content', true);?>
+      <?php if($extra_content):?>
+      <aside class="span2" id="extra_content"><?php echo $extra_content;?></aside>
     </article>
-    <? require '_add-this.php' ?>
-    <?php $extra_content = get_post_meta($post->ID, 'extra_content', true);?>
-    <?php if($extra_content):?>
-    <aside id="extra_content"><?php echo $extra_content;?></aside>
+    <!--<? require '_add-this.php' ?>-->
     <?php endif;?>
 
     <?php

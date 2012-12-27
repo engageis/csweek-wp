@@ -9,8 +9,8 @@
 
     <?php if ( ! have_posts() ) : ?>
       <article class="post e404">
-        <h2>Opa, ainda não há conteúdo aqui...</h2>
-        <p>Alguma explicação.</p>
+        <h2>Ops, you might be in the wrong place.</h2>
+        <p>If you need to get in touch with us, send an email to contact@crowdsourcingweek.com. Thanks!</p>
       </article>
     <?php endif; ?>
     <?php while ( have_posts() ) : the_post(); ?>
