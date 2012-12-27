@@ -31,12 +31,11 @@ get_header(); ?>
       endif;
       ?>
       <?php the_content();?>
-      <?php $extra_content = get_post_meta($post->ID, 'extra_content', true);?>
-      <?php if($extra_content):?>
-      <aside class="span2" id="extra_content"><?php echo $extra_content;?></aside>
+      <aside class="side-bar">
+        <?php get_sidebar(); ?>
+      </aside>
     </article>
     <!--<? require '_add-this.php' ?>-->
-    <?php endif;?>
 
     <?php
     global $withcomments;
@@ -46,5 +45,4 @@ get_header(); ?>
     <?php endwhile;?>
   </div>
 </div>
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
