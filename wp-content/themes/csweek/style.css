@@ -1902,9 +1902,19 @@ article .aligncenter{
   border: 3px solid #EEE;
 }
 
-article h2{
-  margin-top: 0;
-} 
+#page article h2{
+  margin-bottom: 0;
+}
+
+.post-info{
+  margin-bottom: 15px;  
+}
+
+#page blockquote{
+  padding: 0 0 0 15px;
+  margin: 0 0 20px;
+  border-left: 2px solid #EEE;
+}
 
 .red-arrow{
   color: red;
@@ -1915,6 +1925,14 @@ article h2{
 
 strong{
   font-weight: 500;
+}
+
+.container article img {
+  border: 2px solid white;
+}
+
+#page article .wp-caption-text{
+  font-size: 14px;
 }
 
 .fb-like{
