@@ -29,10 +29,10 @@ get_header(); ?>
           echo get_the_author_meta('description');
           echo "</aside>";
       endif;?>-->
-      <div class="span9"> 
+      <div class="the-content"> 
         <?php the_content();?>
       </div>
-      <aside class="side-bar span3">
+      <aside class="the-sidebar">
         <?php get_sidebar(); ?>
       </aside>
     </article>
