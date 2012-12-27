@@ -16,6 +16,7 @@ get_header(); ?>
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 <div id='page'>
   <div class='container'>
+    <h2> Blog </h2>
     <article>
       <header>
         <?php $page_quoted_title = get_post_meta($post->ID, 'page_quoted_title', true);?>

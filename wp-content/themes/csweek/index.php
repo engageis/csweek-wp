@@ -14,22 +14,23 @@
       </article>
     <?php endif; ?>
     <?php while ( have_posts() ) : the_post(); ?>
-      <article style="margin-bottom:30px" <?php post_class(); ?>>
-        <header>
-          <h2 style="margin:0" class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
-          <span style="color:#999" class="category-show">
-            <?php the_time('l, j \d\e F \d\e Y');?>
-          </span>
-        </header>
-        <div class="entry-content">
-          <?php if(has_post_thumbnail($post->ID)):?><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_post_thumbnail('big-thumb');?></a><?php endif;?>
-          <?php the_excerpt(); ?>
-        </div>
-      </article>
+      <div class="the-content">
+        <article style="margin-bottom:30px" <?php post_class(); ?>>
+          <header>
+            <h2 style="margin:0" class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
+            <span style="color:#999" class="category-show">
+              <?php the_time('l, j \d\e F \d\e Y');?>
+            </span>
+          </header>
+          <div class="entry-content">
+            <?php if(has_post_thumbnail($post->ID)):?><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_post_thumbnail('big-thumb');?></a><?php endif;?>
+            <?php the_excerpt(); ?>
+          </div>
+        </article>
       <hr style="border-top: 1px solid rgba(0,0,0,0.2); border-bottom: 1px solid rgba(255,255,255,0.2)" />
+      </div>
     <?php endwhile; // End the loop. Whew. ?>
-    
-    <?php get_sidebar(); ?>
+      <?php get_sidebar(); ?>
 
     <aside class="pagination">
       <?php if(get_next_posts_link()):?>
