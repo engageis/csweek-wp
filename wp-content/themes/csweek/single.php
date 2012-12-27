@@ -16,26 +16,26 @@ get_header(); ?>
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 <div id='page'>
   <div class='container'>
-    <article class="span10">
+    <article>
       <header>
         <?php $page_quoted_title = get_post_meta($post->ID, 'page_quoted_title', true);?>
         <h2><?php if($page_quoted_title){echo nl2br($page_quoted_title);} else {the_title();} ?></h2>
         <div class='post-info'><?php the_time(get_option('date_format')); ?></div>
       </header>
       
-      <?
+      <!--<?
         if ( get_the_author_meta('description') ) :
           echo "<aside class='wrapper_malandrao'>";
           echo get_the_author_meta('description');
           echo "</aside>";
-      endif;
-      ?>
-      <?php the_content();?>
-      <aside class="side-bar">
+      endif;?>-->
+      <div class="span9"> 
+        <?php the_content();?>
+      </div>
+      <aside class="side-bar span3">
         <?php get_sidebar(); ?>
       </aside>
     </article>
-    <!--<? require '_add-this.php' ?>-->
 
     <?php
     global $withcomments;
