@@ -6,7 +6,7 @@
 </style>
 <div id='page'>
   <div class='container'>
-
+    <?php get_sidebar(); ?>
     <?php if ( ! have_posts() ) : ?>
       <article class="post e404">
         <h2>Ops, you might be in the wrong place.</h2>
@@ -30,8 +30,6 @@
       <hr style="border-top: 1px solid rgba(0,0,0,0.2); border-bottom: 1px solid rgba(255,255,255,0.2)" />
       </div>
     <?php endwhile; // End the loop. Whew. ?>
-      <?php get_sidebar(); ?>
-
     <aside class="pagination">
       <?php if(get_next_posts_link()):?>
       <div id="prev_post">
