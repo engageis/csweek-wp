@@ -2023,6 +2023,7 @@ strong{
 
 #page article .authbio p {
   float: right;
+  width: 80%;
 }
 
 #page article .authbio img {
