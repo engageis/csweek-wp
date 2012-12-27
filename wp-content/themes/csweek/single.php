@@ -22,19 +22,11 @@ get_header(); ?>
         <h2><?php if($page_quoted_title){echo nl2br($page_quoted_title);} else {the_title();} ?></h2>
         <div class='post-info'><?php the_time(get_option('date_format')); ?></div>
       </header>
-      
-      <!--<?
-        if ( get_the_author_meta('description') ) :
-          echo "<aside class='wrapper_malandrao'>";
-          echo get_the_author_meta('description');
-          echo "</aside>";
-      endif;?>-->
       <div class="the-content"> 
         <?php the_content();?>
         <footer class="authbio">
-          <!-- <img src="<?php bloginfo('template_url'); ?>/images/<?php the_author_firstname(); ?>.jpg" alt="" class="alignleft"/> -->
           <?php echo get_avatar( get_the_author_email(), '80' ); ?>
-          <?php the_author_description(); ?>
+          <?php echo get_the_author_meta('description'); ?>
         </footer>
       </div>
     </article>
