@@ -32,10 +32,8 @@ get_header(); ?>
       <div class="the-content"> 
         <?php the_content();?>
       </div>
-      <aside class="the-sidebar">
-        <?php get_sidebar(); ?>
-      </aside>
     </article>
+    <?php get_sidebar(); ?>
 
     <?php
     global $withcomments;
