@@ -1941,6 +1941,14 @@ strong{
   margin-right: 15px;
 }
 
+#page .the-side-bar{ 
+  width: 18%;
+  float: left;
+  margin-left: 20px;
+  padding-left: 30px;
+  border-left: 1px solid #666;
+}
+
 .fb-like{
   width: 236px;
   float: right;
