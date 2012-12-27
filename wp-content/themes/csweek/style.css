@@ -2018,4 +2018,13 @@ strong{
   padding-top: 40px;
   padding-bottom: 30px;
   margin-bottom: 20px;
+  height: 60px;
+}
+
+#page article .authbio p {
+  float: right;
+}
+
+#page article .authbio img {
+  float: left;
 }
