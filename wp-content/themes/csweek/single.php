@@ -32,6 +32,11 @@ get_header(); ?>
       <div class="the-content"> 
         <?php the_content();?>
       </div>
+      <footer class="authbio">
+        <!-- <img src="<?php bloginfo('template_url'); ?>/images/<?php the_author_firstname(); ?>.jpg" alt="" class="alignleft"/> -->
+        <?php echo get_avatar( get_the_author_email(), '80' ); ?>
+        <?php the_author_description(); ?>
+      </footer>
     </article>
     <?php get_sidebar(); ?>
 
@@ -40,6 +45,7 @@ get_header(); ?>
     $withcomments = 1; // force comments form and comments to show on front page
     comments_template();
     ?>
+    <div class="fb-recommendations-bar" data-href="<?php the_permalink();?>" data-read-time="10"></div>
     <?php endwhile;?>
   </div>
 </div>
