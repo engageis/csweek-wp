@@ -23,7 +23,8 @@ get_header(); ?>
         <h2><?php if($page_quoted_title){echo nl2br($page_quoted_title);} else {the_title();} ?></h2>
         <div class='post-info'><?php the_time('l, F j, Y');?></div>
       </header>
-      <div class="the-content"> 
+      <div class="the-content">
+
         <?php the_content();?>
         <? require '_add-this.php' ?>
         <footer class="authbio">

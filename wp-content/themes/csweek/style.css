@@ -2059,3 +2059,14 @@ strong{
   margin-right: 8px;
 }
 
+.pagination{
+  float: left;
+  width: 70%;
+  font-size: 22px;
+  font-weight: bold;
+}
+  
+
+#prev_post{
+  float: right;
+}
