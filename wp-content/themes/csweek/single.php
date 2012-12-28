@@ -21,7 +21,7 @@ get_header(); ?>
       <header>
         <?php $page_quoted_title = get_post_meta($post->ID, 'page_quoted_title', true);?>
         <h2><?php if($page_quoted_title){echo nl2br($page_quoted_title);} else {the_title();} ?></h2>
-        <div class='post-info'><?php the_time(get_option('date_format')); ?></div>
+        <div class='post-info'><?php the_time('l, F j, Y');?></div>
       </header>
       <div class="the-content"> 
         <?php the_content();?>

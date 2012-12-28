@@ -19,7 +19,7 @@
           <header>
             <h2 style="margin:0" class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
             <span style="color:#999" class="category-show">
-              <?php the_time('l, j \d\e F \d\e Y');?>
+              <?php the_time('l, F j, Y');?>
             </span>
           </header>
           <div class="entry-content">
@@ -34,12 +34,12 @@
     <aside class="pagination">
       <?php if(get_next_posts_link()):?>
       <div id="prev_post">
-        <?php next_posts_link('Antigos');?>
+        <?php next_posts_link('Older');?>
       </div>
       <?php endif;?>
       <?php if(get_previous_posts_link()):?>
       <div id="next_post">
-        <?php previous_posts_link('Novos');?>
+        <?php previous_posts_link('Newer');?>
       </div>
       <?php endif;?>
     </aside>
