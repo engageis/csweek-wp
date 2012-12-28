@@ -27,6 +27,16 @@ get_header(); ?>
 
         <?php the_content();?>
         <? require '_add-this.php' ?>
+        <section class="tags">
+          <?php $category_list = get_the_category_list( ', ' ); ?>
+          <?php if ( $category_list ): ?>
+             <p>Categories: <?=$category_list;?></p>
+          <?php endif; ?>
+          <?php $tags_list = get_the_tag_list( '', ', ' ); ?>
+          <?php if ( $tags_list ): ?>
+             <p>Tags: <?=$tags_list;?></p>
+          <?php endif; ?>
+        </section>
         <footer class="authbio">
           <?php echo get_avatar( get_the_author_email(), '80' ); ?>
           <h4><?php the_author_posts_link();?></h4>
@@ -52,7 +62,7 @@ get_header(); ?>
     $withcomments = 1; // force comments form and comments to show on front page
     comments_template();
     ?>
-    <div class="fb-recommendations-bar" data-href="<?php the_permalink();?>" data-read-time="10"></div>
+    <!-- <div class="fb-recommendations-bar" data-href="<?php the_permalink();?>" data-read-time="10"></div> -->
     <?php endwhile;?>
   </div>
 </div>
