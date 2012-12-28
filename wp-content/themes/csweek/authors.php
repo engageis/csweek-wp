@@ -25,6 +25,17 @@ get_header(); ?>
           <?php echo get_avatar( $user->user_email, '80' ); ?>
           <h4><?php echo $user->display_name; ?></h4>
           <p><?php echo $user->description; ?></p>
+          <?php $linkedin = get_the_author_meta('linkedin', $user->ID);?>
+          <?php $twitter = get_the_author_meta('twitter', $user->ID);?>
+          <?php if($linkedin):?>
+            <a target="_blank" id="linkedin" href="<?= $linkedin ?>">Linkedin </a>
+          <?php endif;?>
+          <?php if($twitter && $linkedin):?>
+             | 
+          <?php endif;?>
+          <?php if($twitter):?>
+            <a target="_blank" id="twitter" href="<?= $twitter ?>"> Twitter</a>
+          <?php endif;?>
         </div>
         <?php }
       };?> 

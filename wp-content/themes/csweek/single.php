@@ -29,8 +29,8 @@ get_header(); ?>
           <?php echo get_avatar( get_the_author_email(), '80' ); ?>
           <h4><?php the_author();?></h4>
           <p><?php echo get_the_author_meta('description'); ?></p>
-          <?php $linkedin = get_the_author_meta('linkedin', get_the_author());?>
-          <?php $twitter = get_the_author_meta('twitter', get_the_author());?>
+          <?php $linkedin = get_the_author_meta('linkedin', $post->post_author);?>
+          <?php $twitter = get_the_author_meta('twitter', $post->post_author);?>
           <?php if($linkedin):?>
             <a target="_blank" id="linkedin" href="<?= $linkedin ?>">Linkedin </a>
           <?php endif;?>
