@@ -17,6 +17,19 @@ function csweek_setup() {
 }
 endif;
 
+function add_contactmethods( $contactmethods ) {
+  // Add Twitter
+  unset($contactmethods['aim']);
+  unset($contactmethods['yim']);
+  unset($contactmethods['jabber']);
+  // $contactmethods['facebook'] = 'Facebook';
+  $contactmethods['twitter'] = 'Twitter';
+  $contactmethods['linkedin'] = 'LinkedIn';
+  
+  return $contactmethods;
+}
+add_filter('user_contactmethods','add_contactmethods',10,1);
+
 function roots_widgets_init() {
   // Register widgetized areas
   register_sidebar(array(
