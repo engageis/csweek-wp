@@ -23,8 +23,8 @@ get_header(); ?>
         <div class="authbio">
           <?php $user = get_userdata($user_data->ID);?>
           <?php echo get_avatar( $user->user_email, '80' ); ?>
-          <h4><?php echo $user->display_name; ?></h4>
-          <p><?php echo $user->description; ?></p>
+          <h4><a href="<?php echo get_author_posts_url($user->ID); ?>"><?php echo $user->display_name; ?></a></h4>
+          <p><?php echo nl2br($user->description); ?></p>
           <?php $linkedin = get_the_author_meta('linkedin', $user->ID);?>
           <?php $twitter = get_the_author_meta('twitter', $user->ID);?>
           <?php if($linkedin):?>
