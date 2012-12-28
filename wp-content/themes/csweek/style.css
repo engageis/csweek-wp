@@ -2012,7 +2012,7 @@ strong{
   margin-top: -30px;
 }
 
-.authbio{
+#page article .authbio{
   margin-top: 40px;
   border-top: 1px solid #666;
   padding-top: 10px;
@@ -2021,18 +2021,18 @@ strong{
   height: 60px;
 }
 
-.authbio p {
+#page article .authbio p {
   float: right;
   width: 86%;
   font-size: 14px;
 }
 
-.authbio img {
+#page article .authbio img {
   float: left;
   margin-top: 25px;
 }
 
-.authbio h4 {
+#page article .authbio h4 {
   float: left;
   width: 20%;
   margin-left: 29px;
@@ -2043,6 +2043,7 @@ strong{
      -moz-box-shadow: 0 0 0 2px white;
           box-shadow: 0 0 0 2px white;
 }
+
 
 .screen-reader-text{
   display: none;
