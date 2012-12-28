@@ -25,17 +25,19 @@ get_header(); ?>
           <?php echo get_avatar( $user->user_email, '80' ); ?>
           <h4><a href="<?php echo get_author_posts_url($user->ID); ?>"><?php echo $user->display_name; ?></a></h4>
           <p><?php echo nl2br($user->description); ?></p>
-          <?php $linkedin = get_the_author_meta('linkedin', $user->ID);?>
-          <?php $twitter = get_the_author_meta('twitter', $user->ID);?>
-          <?php if($linkedin):?>
-            <a target="_blank" id="linkedin" href="<?= $linkedin ?>">Linkedin </a>
-          <?php endif;?>
-          <?php if($twitter && $linkedin):?>
-             | 
-          <?php endif;?>
-          <?php if($twitter):?>
-            <a target="_blank" id="twitter" href="<?= $twitter ?>"> Twitter</a>
-          <?php endif;?>
+          <div class="author-social">
+            <?php $linkedin = get_the_author_meta('linkedin', $user->ID);?>
+            <?php $twitter = get_the_author_meta('twitter', $user->ID);?>
+            <?php if($linkedin):?>
+              <a target="_blank" id="linkedin" href="<?= $linkedin ?>">Linkedin </a>
+            <?php endif;?>
+            <?php if($twitter && $linkedin):?>
+               | 
+            <?php endif;?>
+            <?php if($twitter):?>
+              <a target="_blank" id="twitter" href="<?= $twitter ?>"> Twitter</a>
+            <?php endif;?>
+          </div>
         </div>
         <?php }
       };?> 
