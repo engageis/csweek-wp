@@ -35,7 +35,7 @@ get_header(); ?>
                | 
             <?php endif;?>
             <?php if($twitter):?>
-              <a target="_blank" id="twitter" href="<?= $twitter ?>"> Twitter</a>
+              <a target="_blank" id="twitter" href="<?= $twitter ?>">| Twitter</a>
             <?php endif;?>
           </div>
         </div>

@@ -2031,6 +2031,7 @@ strong{
 #page article .authbio img {
   float: left;
   margin-top: 25px;
+  margin-left: 6px;
   -webkit-border-radius: 50%;
      -moz-border-radius: 50%;
           border-radius: 50%;
@@ -2043,6 +2044,11 @@ strong{
   float: left;
   width: 20%;
   margin-left: 29px;
+}
+
+.author-social{
+  float: left;
+  margin-left: 119px;
 }
 
 
