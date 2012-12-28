@@ -2022,9 +2022,10 @@ strong{
 }
 
 #page article .authbio p {
-  float: right;
+  float: left;
   width: 86%;
   font-size: 14px;
+  margin-left: 29px;
 }
 
 #page article .authbio img {
