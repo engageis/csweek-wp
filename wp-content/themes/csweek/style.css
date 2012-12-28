@@ -1790,7 +1790,7 @@ form.bs-docs-example {
   border-radius: 50%;
   float: left;
   margin-right: 60px;
-  box-shadow: 0 0 0 5px white;
+  box-shadow: 0 0 0 2px white;
   position: relative;
   left: 48px;
 }
@@ -1812,7 +1812,7 @@ form.bs-docs-example {
   border-radius: 50%;
   float: left;
   margin-right: 60px;
-  box-shadow: 0 0 0 5px white;
+  box-shadow: 0 0 0 2px white;
   position: relative;
   left: 40px;
 }
@@ -2036,6 +2036,12 @@ strong{
   float: left;
   width: 20%;
   margin-left: 29px;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+  -webkit-box-shadow: 0 0 0 2px white;
+     -moz-box-shadow: 0 0 0 2px white;
+          box-shadow: 0 0 0 2px white;
 }
 
 
