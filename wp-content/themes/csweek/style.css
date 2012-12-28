@@ -2015,7 +2015,7 @@ strong{
 #page article .authbio{
   margin-top: 40px;
   border-top: 1px solid #666;
-  padding-top: 40px;
+  padding-top: 10px;
   padding-bottom: 30px;
   margin-bottom: 20px;
   height: 60px;
@@ -2024,10 +2024,18 @@ strong{
 #page article .authbio p {
   float: right;
   width: 86%;
+  font-size: 14px;
 }
 
 #page article .authbio img {
   float: left;
+  margin-top: 25px;
+}
+
+#page article .authbio h4 {
+  float: left;
+  width: 20%;
+  margin-left: 29px;
 }
 
 
@@ -2046,11 +2054,19 @@ strong{
   margin-top: 6px;
 }
 
-#page .addthis_button_facebook_like{
-  margin-top: 5px;
-  margin-right: 9px;
+
+#page .social-share-margin{
+  margin-right: 8px;
 }
 
-#page .addthis_button_pinterest_pinit{
-  margin-top: 5px;
+.pagination{
+  float: left;
+  width: 70%;
+  font-size: 22px;
+  font-weight: bold;
+}
+  
+
+#prev_post{
+  float: right;
 }
