@@ -27,6 +27,7 @@ get_header(); ?>
         <?php the_content();?>
         <footer class="authbio">
           <?php echo get_avatar( get_the_author_email(), '80' ); ?>
+          <h4><?php the_author();?></h4>
           <p><?php echo get_the_author_meta('description'); ?></p>
         </footer>
       </div>
