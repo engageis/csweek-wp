@@ -2029,3 +2029,15 @@ strong{
 #page article .authbio img {
   float: left;
 }
+
+
+.screen-reader-text{
+  display: none;
+}
+
+#page article .entry-content .attachment-big-thumb{
+  width: 20%;
+  float: left;
+  margin-right: 36px;
+  margin-top: 10px;
+}
