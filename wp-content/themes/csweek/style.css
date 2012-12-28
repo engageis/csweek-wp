@@ -2030,18 +2030,18 @@ strong{
 #page article .authbio img {
   float: left;
   margin-top: 25px;
-}
-
-#page article .authbio h4 {
-  float: left;
-  width: 20%;
-  margin-left: 29px;
   -webkit-border-radius: 50%;
      -moz-border-radius: 50%;
           border-radius: 50%;
   -webkit-box-shadow: 0 0 0 2px white;
      -moz-box-shadow: 0 0 0 2px white;
           box-shadow: 0 0 0 2px white;
+}
+
+#page article .authbio h4 {
+  float: left;
+  width: 20%;
+  margin-left: 29px;
 }
 
 
