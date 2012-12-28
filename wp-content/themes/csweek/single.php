@@ -25,6 +25,7 @@ get_header(); ?>
       </header>
       <div class="the-content"> 
         <?php the_content();?>
+        <? require '_add-this.php' ?>
         <footer class="authbio">
           <?php echo get_avatar( get_the_author_email(), '80' ); ?>
           <h4><?php the_author();?></h4>
