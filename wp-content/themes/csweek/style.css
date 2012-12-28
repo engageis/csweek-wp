@@ -2035,9 +2035,22 @@ strong{
   display: none;
 }
 
+#page article .entry-content{
+  margin-top: 15px;
+}
+
 #page article .entry-content .attachment-big-thumb{
   width: 20%;
   float: left;
   margin-right: 36px;
-  margin-top: 10px;
+  margin-top: 6px;
+}
+
+#page .addthis_button_facebook_like{
+  margin-top: 5px;
+  margin-right: 9px;
+}
+
+#page .addthis_button_pinterest_pinit{
+  margin-top: 5px;
 }

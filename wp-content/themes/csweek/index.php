@@ -27,6 +27,7 @@
             <?php the_excerpt(); ?>
           </div>
         </article>
+      <? require '_add-this.php' ?>
       <hr style="border-top: 1px solid rgba(0,0,0,0.2); border-bottom: 1px solid rgba(255,255,255,0.2)" />
       </div>
     <?php endwhile; // End the loop. Whew. ?>
