@@ -2018,7 +2018,7 @@ strong{
   padding-top: 10px;
   padding-bottom: 30px;
   margin-bottom: 20px;
-  height: 60px;
+  overflow: hidden;
 }
 
 #page article .authbio p {
