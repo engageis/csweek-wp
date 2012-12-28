@@ -21,13 +21,25 @@ get_header(); ?>
       <header>
         <?php $page_quoted_title = get_post_meta($post->ID, 'page_quoted_title', true);?>
         <h2><?php if($page_quoted_title){echo nl2br($page_quoted_title);} else {the_title();} ?></h2>
-        <div class='post-info'><?php the_time(get_option('date_format')); ?></div>
+        <div class='post-info'><?php the_time('l, F j, Y');?></div>
       </header>
       <div class="the-content"> 
         <?php the_content();?>
         <footer class="authbio">
           <?php echo get_avatar( get_the_author_email(), '80' ); ?>
+          <h4><?php the_author();?></h4>
           <p><?php echo get_the_author_meta('description'); ?></p>
+          <?php $linkedin = get_the_author_meta('linkedin', $post->post_author);?>
+          <?php $twitter = get_the_author_meta('twitter', $post->post_author);?>
+          <?php if($linkedin):?>
+            <a target="_blank" id="linkedin" href="<?= $linkedin ?>">Linkedin </a>
+          <?php endif;?>
+          <?php if($twitter && $linkedin):?>
+             | 
+          <?php endif;?>
+          <?php if($twitter):?>
+            <a target="_blank" id="twitter" href="<?= $twitter ?>"> Twitter</a>
+          <?php endif;?>
         </footer>
       </div>
     </article>
