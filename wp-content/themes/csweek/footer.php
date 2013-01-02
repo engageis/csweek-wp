@@ -44,7 +44,7 @@
               </li>
 
               <li>
-                <a target="_blank" href='http://www.zooppa.com/'>
+                <a target="_blank" href='http://zooppa.com/corporate/overview '>
                   <div class="sponsor-logo align-logo">
                     <img src="<?php bloginfo('template_url');?>/images/zooppa.png">
                   </div>
@@ -93,6 +93,23 @@
                   </div>
                 </a>
               </li>
+
+              <li>
+                <a target="_blank" href='http://www.frogdesign.com'>
+                  <div class="sponsor-logo invert-align">
+                    <img src="<?php bloginfo('template_url');?>/images/frog.png">
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a target="_blank" href='http://www.talenthouse.com'>
+                  <div class="sponsor-logo make-it-bigger">
+                    <img src="<?php bloginfo('template_url');?>/images/talenthouse.jpg">
+                  </div>
+                </a>
+              </li>
+
 
             </ul>
           </div>

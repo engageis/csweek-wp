@@ -1,9 +1,4 @@
 <?php get_header(); ?>
-<style type="text/css">
-#page .entry-content p{
-  color: #ddd;
-}
-</style>
 <div id='page'>
   <div class='container'>
     <?php get_sidebar(); ?>
@@ -13,7 +8,27 @@
         <p>If you need to get in touch with us, send an email to contact@crowdsourcingweek.com. Thanks!</p>
       </article>
     <?php endif; ?>
+    <?php $first = true;?> 
     <?php while ( have_posts() ) : the_post(); ?>
+      <?php if($first):?>
+        <header class="authbio">
+          <h2>Author archives: <?php the_author();?></h2>
+          <?php echo get_avatar( get_the_author_email(), '80' ); ?>
+          <p><?php echo nl2br(get_the_author_meta('description')); ?></p>
+          <?php $linkedin = get_the_author_meta('linkedin', $post->post_author);?>
+          <?php $twitter = get_the_author_meta('twitter', $post->post_author);?>
+          <?php if($linkedin):?>
+            <a target="_blank" id="linkedin" href="<?= $linkedin ?>">Linkedin </a>
+          <?php endif;?>
+          <?php if($twitter && $linkedin):?>
+             | 
+          <?php endif;?>
+          <?php if($twitter):?>
+            <a target="_blank" id="twitter" href="<?= $twitter ?>"> Twitter</a>
+          <?php endif;?>
+        </header>
+      <?php $first = false;?> 
+      <?php endif;?> 
       <div class="the-content">
         <article style="margin-bottom:30px" <?php post_class(); ?>>
           <header>
