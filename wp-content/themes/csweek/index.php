@@ -34,14 +34,14 @@
               <?php endif; ?>
               <?php $tags_list = get_the_tag_list(); ?>
               <?php if ( $tags_list ): ?>
-                 <p>Tags<?=$tags_list;?></p>
+                 <p><?=$tags_list;?></p>
               <?php endif; ?>
             </section>
           </div>
+          <section class="add-this">
+            <p> Share it<? require '_add-this.php' ?></p>
+          </section>
         </article>
-      <section class="add-this">
-        <p> Share it<? require '_add-this.php' ?></p>
-      </section>
       </div>
     <?php endwhile; // End the loop. Whew. ?>
     <aside class="pagination">
