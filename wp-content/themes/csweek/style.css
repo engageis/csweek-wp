@@ -2088,7 +2088,7 @@ strong{
 
 .categories{
   padding-top: 22px;
-  margin-top: 18px;
+  margin-top: -15px;
 }
 
 .add-this p{
@@ -2096,26 +2096,18 @@ strong{
   font-size: 13px !important;
   font-weight: 700 !important;
   float: left;
+  margin-right: 15px;
 }
 
 .addthis_toolbox{
   float: left;
-  width: 300px;
+  width: 330px;
   
 }
 
 #page .tags{
   margin-bottom: 20px;
   padding-top: 0;
-}
-
-.post-categories ul{
-  margin-left: 0;
-}
-
-.post-categories ul li{
-  display: inline-block;
-
 }
 
 
