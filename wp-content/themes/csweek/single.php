@@ -22,16 +22,16 @@ get_header(); ?>
         <?php $page_quoted_title = get_post_meta($post->ID, 'page_quoted_title', true);?>
         <h2><?php if($page_quoted_title){echo nl2br($page_quoted_title);} else {the_title();} ?></h2>
         <div class='post-info'><?php the_time('l, F j, Y');?></div>
+        <?php $category_list = get_the_category_list( ', ' ); ?>
+        <?php if ( $category_list ): ?>
+           <p>Categories: <?=$category_list;?></p>
+        <?php endif; ?>
       </header>
       <div class="the-content">
 
         <?php the_content();?>
         <? require '_add-this.php' ?>
         <section class="tags">
-          <?php $category_list = get_the_category_list( ', ' ); ?>
-          <?php if ( $category_list ): ?>
-             <p>Categories: <?=$category_list;?></p>
-          <?php endif; ?>
           <?php $tags_list = get_the_tag_list( '', ', ' ); ?>
           <?php if ( $tags_list ): ?>
              <p>Tags: <?=$tags_list;?></p>
