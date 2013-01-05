@@ -2116,6 +2116,7 @@ strong{
   text-transform: uppercase;
   font-weight: bold;
   padding-right: 15px;
+  color: #D90000;
 }
 
 #page .tags a:before { content: "#"; }

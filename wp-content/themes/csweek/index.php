@@ -32,9 +32,9 @@
             </section>
             <section class="tags">
               <?php endif; ?>
-              <?php $tags_list = get_the_tag_list(', '); ?>
+              <?php $tags_list = get_the_tag_list(); ?>
               <?php if ( $tags_list ): ?>
-                 <p>Tags:<?=$tags_list;?></p>
+                 <p><?=$tags_list;?></p>
               <?php endif; ?>
             </section>
           </div>
