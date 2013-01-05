@@ -2106,7 +2106,6 @@ strong{
 }
 
 #page .tags{
-  margin-bottom: 20px;
   padding-top: 0;
 }
 
@@ -2134,7 +2133,7 @@ strong{
 }
 
 .add-this{
-  width: 370px;
+  width: 410px;
   overflow: hidden;
   margin: 20px 0;
 }
