@@ -25,6 +25,9 @@
           <div class="entry-content">
             <?php if(has_post_thumbnail($post->ID)):?><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_post_thumbnail('big-thumb');?></a><?php endif;?>
             <?php the_excerpt(); ?>
+            <section class="add-this">
+              <p><? require '_add-this.php' ?></p>
+            </section>
             <section class="categories">
               <?php $category_list = get_the_category_list( ', ' ); ?>
               <?php if ( $category_list ): ?>
@@ -38,9 +41,6 @@
               <?php endif; ?>
             </section>
           </div>
-          <section class="add-this">
-            <p> Share it<? require '_add-this.php' ?></p>
-          </section>
         </article>
       </div>
     <?php endwhile; // End the loop. Whew. ?>

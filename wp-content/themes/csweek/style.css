@@ -2088,7 +2088,7 @@ strong{
 
 .categories{
   padding-top: 22px;
-  margin-top: 25px;
+  margin-top: 18px;
 }
 
 .add-this p{
@@ -2099,7 +2099,7 @@ strong{
 }
 
 .addthis_toolbox{
-  float: right;
+  float: left;
   width: 300px;
   
 }
@@ -2134,6 +2134,7 @@ strong{
 
 .add-this{
   width: 370px;
+  overflow: hidden;
 }
 
 #page .tags a{
