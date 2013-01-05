@@ -26,7 +26,7 @@
             <?php if(has_post_thumbnail($post->ID)):?><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_post_thumbnail('big-thumb');?></a><?php endif;?>
             <?php the_excerpt(); ?>
             <section class="categories">
-              <?php $category_list = get_the_category_list(); ?>
+              <?php $category_list = get_the_category_list( ', ' ); ?>
               <?php if ( $category_list ): ?>
                  <p>Categories: <?=$category_list;?></p>
             </section>
