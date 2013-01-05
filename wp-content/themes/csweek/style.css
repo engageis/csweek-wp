@@ -2110,3 +2110,12 @@ strong{
   background-color: #666;
   color: #E6E0E0;
 }
+
+#page .tags a{
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-right: 15px;
+}
+
+#page .tags a:before { content: "#"; }
