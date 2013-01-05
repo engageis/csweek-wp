@@ -1904,6 +1904,7 @@ article .aligncenter{
 
 #page article h2{
   margin-bottom: 0;
+  font-weight: bold;
 }
 
 .post-info{
@@ -2079,7 +2080,10 @@ strong{
   font-weight: bold;
 }
   
-
 #prev_post{
   float: right;
+}
+
+.tags{
+  padding-top: 12px;
 }
