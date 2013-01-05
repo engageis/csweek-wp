@@ -2109,6 +2109,16 @@ strong{
   padding-top: 0;
 }
 
+.post-categories ul{
+  margin-left: 0;
+}
+
+.post-categories ul li{
+  display: inline-block;
+
+}
+
+
 #page .categories a{
   background-color: #474745;
   border-radius: 3px;
