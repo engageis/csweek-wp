@@ -34,7 +34,7 @@
               <?php endif; ?>
               <?php $tags_list = get_the_tag_list( '', ', ' ); ?>
               <?php if ( $tags_list ): ?>
-                 <p>Tags: <?=$tags_list;?></p>
+                 <p>Tags <?=$tags_list;?></p>
               <?php endif; ?>
             </section>
           </div>

@@ -1735,7 +1735,7 @@ form.bs-docs-example {
 #page p, #page li{
   font-family: 'Lato', sans-serif;
   font-size: 17px;
-  font-weight: 400;
+  font-weight: 300;
   color: white;
   line-height: 150%;
 }
@@ -1904,7 +1904,7 @@ article .aligncenter{
 
 #page article h2{
   margin-bottom: 0;
-  font-weight: bold;
+  line-height: 130%;
 }
 
 .post-info{
@@ -2089,8 +2089,13 @@ strong{
   padding-top: 12px;
 }
 
+#page .tags{
+  margin-bottom: 50px;
+}
+
+
 #page .tags a{
-  background-color: #FFAD00;
+  background-color: #474745;
   border-radius: 3px;
   padding: 2px 12px;
   margin-right: 5px;
