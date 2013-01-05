@@ -2101,12 +2101,14 @@ strong{
 
 .addthis_toolbox{
   float: left;
-  width: 330px;
+  width: 300px;
   
 }
 
 #page .tags{
   padding-top: 0;
+  margin-bottom: 10px;
+  overflow: hidden;
 }
 
 
@@ -2133,7 +2135,7 @@ strong{
 }
 
 .add-this{
-  width: 250px;
+  width: 377px;
   overflow: hidden;
 }
 
