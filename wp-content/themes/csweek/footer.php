@@ -44,7 +44,7 @@
               </li>
 
               <li>
-                <a target="_blank" href='http://zooppa.com/corporate/overview '>
+                <a target="_blank" href='http://www.zooppa.com'>
                   <div class="sponsor-logo align-logo">
                     <img src="<?php bloginfo('template_url');?>/images/zooppa.png">
                   </div>
