@@ -20,6 +20,7 @@ body {
   padding-top: 40px;
 }
 
+
 /* Code in headings */
 h3 code {
   font-size: 14px;
@@ -887,7 +888,7 @@ form.bs-docs-example {
 
 /* Tablet
 ------------------------- */
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
   /* Remove any padding from the body */
   body {
     padding-top: 0;
@@ -1269,11 +1270,11 @@ form.bs-docs-example {
 
 #menu li a{
   background: transparent url(images/menu-item-bg.png) no-repeat center !important;
-  width: 94px;
-  height: 75px;
+  width: 6.5em;
+  height: 5.4em;
   border: none;
   font-family: 'Magra', sans-serif !important;
-  font-size: 14px;
+  font-size: 1em;
   font-weight: 500;
   text-transform: uppercase;
   color: white;
@@ -2087,6 +2088,20 @@ strong{
 
 .categories{
   padding-top: 22px;
+  margin-top: 25px;
+}
+
+.add-this p{
+  text-transform: uppercase;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  float: left;
+}
+
+.addthis_toolbox{
+  float: right;
+  width: 300px;
+  
 }
 
 #page .tags{
@@ -2094,21 +2109,31 @@ strong{
   padding-top: 0;
 }
 
-
 #page .categories a{
   background-color: #474745;
   border-radius: 3px;
   padding: 2px 12px;
   margin-right: 5px;
+  margin-left: 5px;
   color: white;
   text-transform: uppercase;
   font-size: 14px;
+  font-weight: 300 !important;
+
 }
 
 #page .categories a:hover{
   text-decoration: none;
   background-color: #666;
   color: #E6E0E0;
+}
+
+.tags, .categories, .add-this{
+  padding-top: 0;
+}
+
+.add-this{
+  width: 370px;
 }
 
 #page .tags a{
