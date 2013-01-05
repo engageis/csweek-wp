@@ -26,10 +26,10 @@
             <?php if(has_post_thumbnail($post->ID)):?><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_post_thumbnail('big-thumb');?></a><?php endif;?>
             <?php the_excerpt(); ?>
             <section class="add-this">
-              <p><? require '_add-this.php' ?></p>
+              <p>share it<? require '_add-this.php' ?></p>
             </section>
             <section class="categories">
-              <?php $category_list = get_the_category_list( ', ' ); ?>
+              <?php $category_list = get_the_category_list(); ?>
               <?php if ( $category_list ): ?>
                  <p><?=$category_list;?></p>
             </section>
