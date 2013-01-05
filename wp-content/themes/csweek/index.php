@@ -29,7 +29,7 @@
               <p>share it<? require '_add-this.php' ?></p>
             </section>
             <section class="categories">
-              <?php $category_list = get_the_category_list(); ?>
+              <?php $category_list = get_the_category_list(' '); ?>
               <?php if ( $category_list ): ?>
                  <p><?=$category_list;?></p>
             </section>
