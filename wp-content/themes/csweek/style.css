@@ -2086,7 +2086,7 @@ strong{
 }
 
 .categories{
-  padding-top: 12px;
+  padding-top: 22px;
 }
 
 #page .tags{
@@ -2112,11 +2112,10 @@ strong{
 }
 
 #page .tags a{
-  font-size: 14px;
+  font-size: 12px;
   text-transform: uppercase;
-  font-weight: bold;
   padding-right: 15px;
-  color: #D90000;
+  color: #ADAAAA;
 }
 
 #page .tags a:before { content: "#"; }
