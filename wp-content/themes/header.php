@@ -113,7 +113,7 @@
       <div>About</div>
     </a>
   <li>
-    <a href="<?= get_permalink_by_name("the-sponsors"); ?>">
+    <a href="<?= get_permalink_by_name("sponsors"); ?>">
       <div class="icon sponsors"></div>
       <div>Sponsors</div>
     </a>

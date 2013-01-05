@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>  Page not found</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="engage.is">
+    <meta property="og:title" content="Crowdsourcing Week" />
+    <meta property="og:type" content="activity" />
+    <meta property="og:url" content="http://crowdsourcingweek.com" />
+    <meta property="og:image" content="http://crowdsourcingweek.com/wp-content/themes/csweek/images/logo.png" />
+    <meta property="og:site_name" content="Crowdsourcing Week" />
+    <meta property="fb:admins" content="100002101958809" />
+
+    <link rel="stylesheet" type="text/css" media="all" href="http://crowdsourcingweek.com/wp-content/themes/csweek/style.css" />
+
+    <meta property="og:title" content="Crowdsourcing Week" />
+    <meta property="og:type" content="activity" />
+    <meta property="og:url" content="http://crowdsourcingweek.com" />
+    <meta property="og:image" content="http://crowdsourcingweek.com/wp-content/themes/csweek/images/logo.png" />
+    <meta property="og:site_name" content="Crowdsourcing Week" />
+    <meta property="fb:admins" content="100002101958809" />
+<!--     <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/docs.css" rel="stylesheet">
+ -->  
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+  </head>
+<body class="error404" data-spy="scroll" data-target=".bs-docs-sidebar">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=387300048014375";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Navbar
+================================================== -->
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <div class="nav-collapse collapse">
+        <ul class="nav">
+          <li>
+            <em>FIND US HERE <span class="red-arrow"> >></span></em>
+          </li>
+          <li class="">
+            <a target="_blank" href="http://www.facebook.com/CrowdsourcingWeek">
+              <img src="http://crowdsourcingweek.com/wp-content/themes/csweek/images/facebook.png" />
+              Facebook</a>
+          </li>
+          <li>
+            <a target="_blank" href="http://www.twitter.com/CrowdWeek">
+              <img src="http://crowdsourcingweek.com/wp-content/themes/csweek/images/twitter.png" />
+              Twitter</a>
+          </li>
+          <li class="">
+            <a target="_blank" href="http://www.linkedin.com/groups/CROWDSOURCING-WEEK-4335947?gid=4335947&trk=hb_side_g">
+              <img src="http://crowdsourcingweek.com/wp-content/themes/csweek/images/linkedin.png" />
+              LinkedIn</a>
+          </li>
+          <li class="">
+            <a target="_blank" href="http://plus.google.com/116414871015404417703">
+            <img src="http://crowdsourcingweek.com/wp-content/themes/csweek/images/plus.png" />
+            Google</a>
+          </li>
+          <li class="">
+            <a target="_blank" href="http://www.youtube.com/crowdsourcingweek">
+              <img src="http://crowdsourcingweek.com/wp-content/themes/csweek/images/youtube.png" />
+              Youtube</a>
+          </li>
+          <li class="">
+            <a href="http://crowdsourcingweek.com/contact/">
+              <img src="http://crowdsourcingweek.com/wp-content/themes/csweek/images/contact.png" />
+              Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Subheader for secondery pages
+================================================== -->
+<header class="jumbotron subhead" id="overview">
+  <div class="container">
+    <!--canvas id="nodes" height="180px" width="1200px" style="z-index:-1">
+    </canvas>
+    <script type="text/javascript">
+      resize_canvas = function(e){
+        var canvas = document.getElementsByTagName('canvas')[0];
+        canvas.width  = window.innerWidth - 200;
+      }
+      window.onresize = resize_canvas
+      window.onload = resize_canvas
+    </script> -->
+    
+    <div class="row">
+      <a href="http://crowdsourcingweek.com">
+        <img class="span2" src="http://crowdsourcingweek.com/wp-content/themes/csweek/images/logo.png" />
+      </a>
+
+      <div class="small-lettering span4 offset2">
+        <div class="row-fluid">
+          <div class="span12">
+            <h1>
+              <span class="days">03-07</span>
+              <span class="month">JUNE</span>
+            </h1>
+          </div>
+        </div>
+        <div class="row-fluid">
+          <div class="span12">
+            <h1>
+              <span class="year">2013</span>
+              <span class="where">SINGAPORE</span>
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div class="save-the-date span4">
+              </div>
+    </div>
+    
+  </div>
+</header>
+      
+<!-- <hr class="menu-bar" /> -->
+<ul id="menu" class="pager">
+  <li>
+    <a href="http://crowdsourcingweek.com/about/">
+      <div class="icon about"></div>
+      <div>About</div>
+    </a>
+  <li>
+    <a href="http://crowdsourcingweek.com/sponsors/">
+      <div class="icon sponsors"></div>
+      <div>Sponsors</div>
+    </a>
+  </li> </li>
+  <li>
+    <a href="http://crowdsourcingweek.com/the-speakers/">
+      <div class="icon speakers"></div>
+      <div>Speakers</div>
+    </a>
+  </li>
+  <li>
+    <a href="http://crowdsourcingweek.com/schedule/">
+      <div class="icon schedule"></div>
+      <div>Schedule</div>
+    </a>
+  </li>
+  <li>
+    <a href="http://crowdsourcingweek.com/start-up-competition/">
+      <div class="icon startup-competition"></div>
+      <div>Startup Competition</div>
+    </a>
+  </li>
+  <li>
+    <a href="http://crowdsourcingweek.com/board-of-advisors/">
+      <div class="icon how-to-get-involved"></div>
+      <div>Board of advisors</div>
+    </a>
+  </li>
+  <li>
+    <a href="http://crowdsourcingweek.com/how-to-get-involved/">
+      <div class="icon the-team"></div>
+      <div>How to get involved</div>
+    </a>
+  </li>
+  <li>
+    <a href="http://crowdsourcingweek.com/the-team/">
+      <div class="icon board-of-advisors "></div>
+      <div>The team</div>
+    </a>
+  </li>
+  <li>
+    <a href="http://crowdsourcingweek.com/1-day-global-summit/">
+      <div class="icon csw-global"></div>
+      <div>1-day global summit</div>
+    </a>
+  </li>
+  <li>
+    <a href="http://crowdsourcingweek.com/blog/">
+      <div class="icon the-blog"></div>
+      <div>Blog</div>
+    </a>
+  </li>
+</ul>
+<style type="text/css">
+#page .entry-content p{
+  color: #ddd;
+}
+</style>
+<div id='page'>
+  <div class='container'>
+    <aside id="sidebar" class="the-sidebar">
+  <section id="search-3" class="widget widget_search"><div class="widget-inner"><form role="search" method="get" id="searchform" action="http://crowdsourcingweek.com/" >
+	<div><label class="screen-reader-text" for="s">Search for:</label>
+	<input type="text" value="" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Search" />
+	</div>
+	</form></div></section><section id="categories-3" class="widget widget_categories"><div class="widget-inner"><h3>Categories</h3>		<ul>
+	<li class="cat-item cat-item-13"><a href="http://crowdsourcingweek.com/category/crowdsourcing-2/" title="View all posts filed under Crowdsourcing">Crowdsourcing</a>
+</li>
+		</ul>
+</div></section><section id="tag_cloud-2" class="widget widget_tag_cloud"><div class="widget-inner"><h3>Tags</h3><div class="tagcloud"></div>
+</div></section><section id="text-2" class="widget widget_text"><div class="widget-inner">			<div class="textwidget"><a href="http://www.crowdsourcingweek.com/authors">Our contribuitors</a></div>
+		</div></section><section id="archives-3" class="widget widget_archive"><div class="widget-inner"><h3>Archives</h3>		<ul>
+			<li><a href='http://crowdsourcingweek.com/2012/11/' title='November 2012'>November 2012</a>&nbsp;(8)</li>
+	<li><a href='http://crowdsourcingweek.com/2012/10/' title='October 2012'>October 2012</a>&nbsp;(1)</li>
+	<li><a href='http://crowdsourcingweek.com/2012/09/' title='September 2012'>September 2012</a>&nbsp;(2)</li>
+	<li><a href='http://crowdsourcingweek.com/2012/08/' title='August 2012'>August 2012</a>&nbsp;(6)</li>
+	<li><a href='http://crowdsourcingweek.com/2012/07/' title='July 2012'>July 2012</a>&nbsp;(10)</li>
+	<li><a href='http://crowdsourcingweek.com/2012/06/' title='June 2012'>June 2012</a>&nbsp;(14)</li>
+	<li><a href='http://crowdsourcingweek.com/2012/05/' title='May 2012'>May 2012</a>&nbsp;(7)</li>
+	<li><a href='http://crowdsourcingweek.com/2012/04/' title='April 2012'>April 2012</a>&nbsp;(10)</li>
+	<li><a href='http://crowdsourcingweek.com/2012/03/' title='March 2012'>March 2012</a>&nbsp;(11)</li>
+		</ul>
+</div></section></aside>              <div class="the-content">
+        <article style="margin-bottom:30px" class="post-1327 post type-post status-publish format-standard hentry category-crowdsourcing-2">
+          <header>
+            <h2 style="margin:0" class="entry-title"><a href="http://crowdsourcingweek.com/self-proclaimed-kickstarter-reject-creates-open-source-crowdfunding-website/" rel="bookmark">Self-Proclaimed Kickstarter Reject Creates Open Source Crowdfunding Website</a></h2>
+            <span style="color:#999" class="category-show">
+              Tuesday, November 20, 2012            </span>
+          </header>
+          <div class="entry-content">
+            <a href="http://crowdsourcingweek.com/self-proclaimed-kickstarter-reject-creates-open-source-crowdfunding-website/" rel="bookmark"><img width="1280" height="800" src="http://crowdsourcingweek.com/wp-content/uploads/2012/11/Screen-shot-2012-12-27-at-10.54.18-PM.png" class="attachment-big-thumb wp-post-image" alt="Screen shot 2012-12-27 at 10.54.18 PM" /></a>            <p>After Kickstarter released stringent rules governing hardware projects, startup company Lockitron decided it was time to take action. To fund their hardware project, the founders wrote their source crowdfunding platform, which is now open sourced. According to their website, selfstarter.us, to get started, “all you need is a great product.” Lockitron is their own first success [...]</p>
+            <section class="tags">
+                                             <p>Categories: <a href="http://crowdsourcingweek.com/category/crowdsourcing-2/" title="View all posts in Crowdsourcing" rel="category tag">Crowdsourcing</a></p>
+                                                      </section>
+          </div>
+        </article>
+      <!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+<a class="addthis_button_facebook social-share-margin"></a>
+<a class="addthis_button_twitter social-share-margin"></a>
+<a class="addthis_button_linkedin social-share-margin"></a>
+<a class="addthis_button_google_plusone_badge social-share-margin"></a>
+<a class="addthis_button_compact social-share-margin"></a>
+<a class="addthis_counter addthis_bubble_style"></a>
+</div>
+<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50be10b95acf3a88"></script>
+<!-- AddThis Button END -->
+
+
+
+
+<!-- AddThis Button END -->
+      <hr style="border-top: 1px solid rgba(0,0,0,0.2); border-bottom: 1px solid rgba(255,255,255,0.2)" />
+      </div>
+          <div class="the-content">
+        <article style="margin-bottom:30px" class="post-1329 post type-post status-publish format-standard hentry category-crowdsourcing-2">
+          <header>
+            <h2 style="margin:0" class="entry-title"><a href="http://crowdsourcingweek.com/crowdfunding-infographic-the-us-jobs-act-explained/" rel="bookmark">Crowdfunding Infographic &#8211; The US JOBS Act Explained</a></h2>
+            <span style="color:#999" class="category-show">
+              Friday, November 16, 2012            </span>
+          </header>
+          <div class="entry-content">
+                        <p>Crowdfunding is a way that businesses can seek money from a &#8220;crowd&#8221; to start-up, finance a new product, or expand their operations. Instead of pursuing big VC&#8217;s and investors, businesses pursue the crowd. The &#8220;crowd&#8221; pledges money to the effort &#8211; could be a start-up, cause or non-profit, in response to an appeal or request. The [...]</p>
+            <section class="tags">
+                                             <p>Categories: <a href="http://crowdsourcingweek.com/category/crowdsourcing-2/" title="View all posts in Crowdsourcing" rel="category tag">Crowdsourcing</a></p>
+                                                      </section>
+          </div>
+        </article>
+      <!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+<a class="addthis_button_facebook social-share-margin"></a>
+<a class="addthis_button_twitter social-share-margin"></a>
+<a class="addthis_button_linkedin social-share-margin"></a>
+<a class="addthis_button_google_plusone_badge social-share-margin"></a>
+<a class="addthis_button_compact social-share-margin"></a>
+<a class="addthis_counter addthis_bubble_style"></a>
+</div>
+<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50be10b95acf3a88"></script>
+<!-- AddThis Button END -->
+
+
+
+
+<!-- AddThis Button END -->
+      <hr style="border-top: 1px solid rgba(0,0,0,0.2); border-bottom: 1px solid rgba(255,255,255,0.2)" />
+      </div>
+          <div class="the-content">
+        <article style="margin-bottom:30px" class="post-1310 post type-post status-publish format-standard hentry category-crowdsourcing-2">
+          <header>
+            <h2 style="margin:0" class="entry-title"><a href="http://crowdsourcingweek.com/a-framework-for-political-crowdfunding-lessons-from-president-obama/" rel="bookmark">A Framework for Political Crowdfunding: Lessons From President Obama</a></h2>
+            <span style="color:#999" class="category-show">
+              Thursday, November 15, 2012            </span>
+          </header>
+          <div class="entry-content">
+                        <p>The recent presidential election in the United States was the most expensive race in history, with Mitt Romney and Barack Obama spending about $1 billion respectively on their efforts to win the White House. While both candidates raised hundreds of millions of dollars, their methodology was quite different and offer some important practices for the [...]</p>
+            <section class="tags">
+                                             <p>Categories: <a href="http://crowdsourcingweek.com/category/crowdsourcing-2/" title="View all posts in Crowdsourcing" rel="category tag">Crowdsourcing</a></p>
+                                                      </section>
+          </div>
+        </article>
+      <!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+<a class="addthis_button_facebook social-share-margin"></a>
+<a class="addthis_button_twitter social-share-margin"></a>
+<a class="addthis_button_linkedin social-share-margin"></a>
+<a class="addthis_button_google_plusone_badge social-share-margin"></a>
+<a class="addthis_button_compact social-share-margin"></a>
+<a class="addthis_counter addthis_bubble_style"></a>
+</div>
+<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50be10b95acf3a88"></script>
+<!-- AddThis Button END -->
+
+
+
+
+<!-- AddThis Button END -->
+      <hr style="border-top: 1px solid rgba(0,0,0,0.2); border-bottom: 1px solid rgba(255,255,255,0.2)" />
+      </div>
+          <div class="the-content">
+        <article style="margin-bottom:30px" class="post-1300 post type-post status-publish format-standard hentry category-crowdsourcing-2">
+          <header>
+            <h2 style="margin:0" class="entry-title"><a href="http://crowdsourcingweek.com/razoo-kicks-off-five-giving-days-across-the-u-s-to-raise-15-million-for-local-charities/" rel="bookmark">Razoo Kicks Off Five “Giving Days” Across the U.S. to Raise $15 million for Local Charities</a></h2>
+            <span style="color:#999" class="category-show">
+              Thursday, November 15, 2012            </span>
+          </header>
+          <div class="entry-content">
+                        <p>Razoo, the fastest growing crowdfunding platform for causes, announces its first-ever week of giving – a week of five of Razoo’s “Giving Days”.  Giving Days are powerful 24-hour online fundraising competitions that unite communities around causes. “Apart from being a necessary economic shot in the arm for local nonprofits, Giving Days are long-term capacity builders [...]</p>
+            <section class="tags">
+                                             <p>Categories: <a href="http://crowdsourcingweek.com/category/crowdsourcing-2/" title="View all posts in Crowdsourcing" rel="category tag">Crowdsourcing</a></p>
+                                                      </section>
+          </div>
+        </article>
+      <!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+<a class="addthis_button_facebook social-share-margin"></a>
+<a class="addthis_button_twitter social-share-margin"></a>
+<a class="addthis_button_linkedin social-share-margin"></a>
+<a class="addthis_button_google_plusone_badge social-share-margin"></a>
+<a class="addthis_button_compact social-share-margin"></a>
+<a class="addthis_counter addthis_bubble_style"></a>
+</div>
+<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50be10b95acf3a88"></script>
+<!-- AddThis Button END -->
+
+
+
+
+<!-- AddThis Button END -->
+      <hr style="border-top: 1px solid rgba(0,0,0,0.2); border-bottom: 1px solid rgba(255,255,255,0.2)" />
+      </div>
+          <div class="the-content">
+        <article style="margin-bottom:30px" class="post-1289 post type-post status-publish format-standard hentry category-crowdsourcing-2">
+          <header>
+            <h2 style="margin:0" class="entry-title"><a href="http://crowdsourcingweek.com/open-innovation-needs-versus-opportunities/" rel="bookmark">Open Innovation: Needs versus Opportunities</a></h2>
+            <span style="color:#999" class="category-show">
+              Tuesday, November 13, 2012            </span>
+          </header>
+          <div class="entry-content">
+                        <p>Too often, open innovation initiatives at big companies focus on needs – and needs only. You have a specific challenge to solve, you write up rfp’s and you reach out in your network. Solving problems is an important element of open innovation and it can bring lots of value. However, if you only focus on [...]</p>
+            <section class="tags">
+                                             <p>Categories: <a href="http://crowdsourcingweek.com/category/crowdsourcing-2/" title="View all posts in Crowdsourcing" rel="category tag">Crowdsourcing</a></p>
+                                                      </section>
+          </div>
+        </article>
+      <!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+<a class="addthis_button_facebook social-share-margin"></a>
+<a class="addthis_button_twitter social-share-margin"></a>
+<a class="addthis_button_linkedin social-share-margin"></a>
+<a class="addthis_button_google_plusone_badge social-share-margin"></a>
+<a class="addthis_button_compact social-share-margin"></a>
+<a class="addthis_counter addthis_bubble_style"></a>
+</div>
+<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50be10b95acf3a88"></script>
+<!-- AddThis Button END -->
+
+
+
+
+<!-- AddThis Button END -->
+      <hr style="border-top: 1px solid rgba(0,0,0,0.2); border-bottom: 1px solid rgba(255,255,255,0.2)" />
+      </div>
+          <div class="the-content">
+        <article style="margin-bottom:30px" class="post-1268 post type-post status-publish format-standard hentry category-crowdsourcing-2">
+          <header>
+            <h2 style="margin:0" class="entry-title"><a href="http://crowdsourcingweek.com/threadless-to-host-make-our-day-event-in-singapore-on-nov-10/" rel="bookmark">Threadless to Host &#8216;Make Our Day&#8217; Event in Singapore on Nov 10</a></h2>
+            <span style="color:#999" class="category-show">
+              Thursday, November 8, 2012            </span>
+          </header>
+          <div class="entry-content">
+                        <p>Threadless is coming to Singapore to party with you on Nov. 10!  Join Threadless founder Jake Nickell &amp; Threadstaffers Josh &amp; Craig for a few hours of artistic awesomeness. Meet the founder, check out local artists&#8217; work, show off some Threadless designs, rock out to sweet jams &amp; see the unveiling of their brand new Threadless [...]</p>
+            <section class="tags">
+                                             <p>Categories: <a href="http://crowdsourcingweek.com/category/crowdsourcing-2/" title="View all posts in Crowdsourcing" rel="category tag">Crowdsourcing</a></p>
+                                                      </section>
+          </div>
+        </article>
+      <!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+<a class="addthis_button_facebook social-share-margin"></a>
+<a class="addthis_button_twitter social-share-margin"></a>
+<a class="addthis_button_linkedin social-share-margin"></a>
+<a class="addthis_button_google_plusone_badge social-share-margin"></a>
+<a class="addthis_button_compact social-share-margin"></a>
+<a class="addthis_counter addthis_bubble_style"></a>
+</div>
+<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50be10b95acf3a88"></script>
+<!-- AddThis Button END -->
+
+
+
+
+<!-- AddThis Button END -->
+      <hr style="border-top: 1px solid rgba(0,0,0,0.2); border-bottom: 1px solid rgba(255,255,255,0.2)" />
+      </div>
+          <div class="the-content">
+        <article style="margin-bottom:30px" class="post-1236 post type-post status-publish format-standard hentry category-crowdsourcing-2">
+          <header>
+            <h2 style="margin:0" class="entry-title"><a href="http://crowdsourcingweek.com/imagebrief-stop-searching-for-stock-images/" rel="bookmark">ImageBrief: Stop Searching for Stock Images</a></h2>
+            <span style="color:#999" class="category-show">
+              Tuesday, November 6, 2012            </span>
+          </header>
+          <div class="entry-content">
+                        <p>ImageBrief is revolutionizing the way we source stock images. The &#8220;endless browsing&#8221; of search results stops here. Now, you submit a brief and let a creative crowd of professional photographers respond to your request. You only see the photos that meet your filter criteria, make a purchase and are on your way. ImageBrief officially launched in [...]</p>
+            <section class="tags">
+                                             <p>Categories: <a href="http://crowdsourcingweek.com/category/crowdsourcing-2/" title="View all posts in Crowdsourcing" rel="category tag">Crowdsourcing</a></p>
+                                                      </section>
+          </div>
+        </article>
+      <!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+<a class="addthis_button_facebook social-share-margin"></a>
+<a class="addthis_button_twitter social-share-margin"></a>
+<a class="addthis_button_linkedin social-share-margin"></a>
+<a class="addthis_button_google_plusone_badge social-share-margin"></a>
+<a class="addthis_button_compact social-share-margin"></a>
+<a class="addthis_counter addthis_bubble_style"></a>
+</div>
+<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50be10b95acf3a88"></script>
+<!-- AddThis Button END -->
+
+
+
+
+<!-- AddThis Button END -->
+      <hr style="border-top: 1px solid rgba(0,0,0,0.2); border-bottom: 1px solid rgba(255,255,255,0.2)" />
+      </div>
+          <div class="the-content">
+        <article style="margin-bottom:30px" class="post-1228 post type-post status-publish format-standard hentry category-crowdsourcing-2">
+          <header>
+            <h2 style="margin:0" class="entry-title"><a href="http://crowdsourcingweek.com/the-crowd-has-spoken-nyc-marathon-cancelled-amid-public-outburst/" rel="bookmark">The Crowd has Spoken: NYC Marathon Cancelled Amid Public Outburst</a></h2>
+            <span style="color:#999" class="category-show">
+              Friday, November 2, 2012            </span>
+          </header>
+          <div class="entry-content">
+                        <p>The New York City Marathon, which has run every year since 1970, including in 2001, two months after Sept 11 has been cancelled, in wake of the havoc and distress caused by Superstorm Sandy. Public displeasure over the fact that critical resources could be diverted to the marathon when thousands of residents were struggling was evident. [...]</p>
+            <section class="tags">
+                                             <p>Categories: <a href="http://crowdsourcingweek.com/category/crowdsourcing-2/" title="View all posts in Crowdsourcing" rel="category tag">Crowdsourcing</a></p>
+                                                      </section>
+          </div>
+        </article>
+      <!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+<a class="addthis_button_facebook social-share-margin"></a>
+<a class="addthis_button_twitter social-share-margin"></a>
+<a class="addthis_button_linkedin social-share-margin"></a>
+<a class="addthis_button_google_plusone_badge social-share-margin"></a>
+<a class="addthis_button_compact social-share-margin"></a>
+<a class="addthis_counter addthis_bubble_style"></a>
+</div>
+<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50be10b95acf3a88"></script>
+<!-- AddThis Button END -->
+
+
+
+
+<!-- AddThis Button END -->
+      <hr style="border-top: 1px solid rgba(0,0,0,0.2); border-bottom: 1px solid rgba(255,255,255,0.2)" />
+      </div>
+          <div class="the-content">
+        <article style="margin-bottom:30px" class="post-1155 post type-post status-publish format-standard hentry category-crowdsourcing-2">
+          <header>
+            <h2 style="margin:0" class="entry-title"><a href="http://crowdsourcingweek.com/crowdsourcing-week-workshops-in-nyc-pioneers-share-market-insights/" rel="bookmark">Crowdsourcing Week Workshops in NYC: Pioneers Share Market Insights</a></h2>
+            <span style="color:#999" class="category-show">
+              Monday, October 29, 2012            </span>
+          </header>
+          <div class="entry-content">
+                        <p>Ross Dawson, internationally recognized authority on crowdsourcing, lead workshops on Thursday, October 25 and Friday, October 26 in New York City. The workshops, organized by Crowdsourcing Week are the first in a series that will be held in coming months in different cities worldwide. The two-day workshops were held at the Interactive Advertising Bureau at 116 27th St. in NYC [...]</p>
+            <section class="tags">
+                                             <p>Categories: <a href="http://crowdsourcingweek.com/category/crowdsourcing-2/" title="View all posts in Crowdsourcing" rel="category tag">Crowdsourcing</a></p>
+                                                      </section>
+          </div>
+        </article>
+      <!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+<a class="addthis_button_facebook social-share-margin"></a>
+<a class="addthis_button_twitter social-share-margin"></a>
+<a class="addthis_button_linkedin social-share-margin"></a>
+<a class="addthis_button_google_plusone_badge social-share-margin"></a>
+<a class="addthis_button_compact social-share-margin"></a>
+<a class="addthis_counter addthis_bubble_style"></a>
+</div>
+<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50be10b95acf3a88"></script>
+<!-- AddThis Button END -->
+
+
+
+
+<!-- AddThis Button END -->
+      <hr style="border-top: 1px solid rgba(0,0,0,0.2); border-bottom: 1px solid rgba(255,255,255,0.2)" />
+      </div>
+          <div class="the-content">
+        <article style="margin-bottom:30px" class="post-1068 post type-post status-publish format-standard hentry category-crowdsourcing-2">
+          <header>
+            <h2 style="margin:0" class="entry-title"><a href="http://crowdsourcingweek.com/a-timeline-that-shows-how-big-brands-use-crowdsourcing/" rel="bookmark">A Timeline That Shows How Big Brands Use Crowdsourcing</a></h2>
+            <span style="color:#999" class="category-show">
+              Friday, September 21, 2012            </span>
+          </header>
+          <div class="entry-content">
+                        <p>A couple of days ago, eYeka presented the first visualization of the use of crowdsourcing by brands over time. This interactive timeline, called Crowdsourcing by World&#8217;s Best Global Brands shows how the use of crowdsourcing has exploded since the early 2000&#8242;s. The objective is to have a rich and visual representation of how brands increasingly [...]</p>
+            <section class="tags">
+                                             <p>Categories: <a href="http://crowdsourcingweek.com/category/crowdsourcing-2/" title="View all posts in Crowdsourcing" rel="category tag">Crowdsourcing</a></p>
+                                                      </section>
+          </div>
+        </article>
+      <!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+<a class="addthis_button_facebook social-share-margin"></a>
+<a class="addthis_button_twitter social-share-margin"></a>
+<a class="addthis_button_linkedin social-share-margin"></a>
+<a class="addthis_button_google_plusone_badge social-share-margin"></a>
+<a class="addthis_button_compact social-share-margin"></a>
+<a class="addthis_counter addthis_bubble_style"></a>
+</div>
+<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50be10b95acf3a88"></script>
+<!-- AddThis Button END -->
+
+
+
+
+<!-- AddThis Button END -->
+      <hr style="border-top: 1px solid rgba(0,0,0,0.2); border-bottom: 1px solid rgba(255,255,255,0.2)" />
+      </div>
+        <aside class="pagination">
+            <div id="prev_post">
+        <a href="http://crowdsourcingweek.com/wp-content/uploads/2012/11/jobs-act-infographic.jpg/page/2/" >Older</a>      </div>
+                </aside>
+  </div>
+</div>
+
+    <div id="sponsors">
+      <div class="container">
+        <div class="row">
+          <div class="offset4 span8">
+            <a target="_blank" href="http://www.yoursingapore.com/content/traveller/en/experience.html"><img src="http://crowdsourcingweek.com/wp-content/themes/csweek/images/ysing.jpg" class="ysing-logo"/></a>
+          </div>
+        </div>
+        <div class="row"> 
+          <div class="span12"u>
+
+            <h2>Crowdsourcing Sponsors <a href="http://crowdsourcingweek.com/sponsors/" class="learn-more">(learn more)</a></h2>
+            <ul class="sponsors-list">
+              <li>
+                <a target="_blank" href='http://www.99designs.com'>
+                  <div class="sponsor-logo align-logo">
+                    <img src="http://crowdsourcingweek.com/wp-content/themes/csweek/images/99design.png">
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a target="_blank" href='http://www.razoo.com/'>
+                  <div class="sponsor-log align-logo">
+                    <img src="http://crowdsourcingweek.com/wp-content/themes/csweek/images/razoo.png">
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a target="_blank" href='http://www.imagebrief.com/'>
+                  <div class="sponsor-logo">
+                    <img src="http://crowdsourcingweek.com/wp-content/themes/csweek/images/imagebrief.png">
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a target="_blank" href='http://www.chaordix.com/'>
+                  <div class="sponsor-logo">
+                    <img src="http://crowdsourcingweek.com/wp-content/themes/csweek/images/chaordix.png">
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a target="_blank" href='http://zooppa.com/corporate/overview '>
+                  <div class="sponsor-logo align-logo">
+                    <img src="http://crowdsourcingweek.com/wp-content/themes/csweek/images/zooppa.png">
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href='http://www.localmotors.com/'>
+                  <div class="sponsor-logo">
+                    <img src="http://crowdsourcingweek.com/wp-content/themes/csweek/images/localmotors.png">
+                  </div>
+                </a>
+              </li>
+              
+              <li>
+                <a target="_blank" href='http://en.eyeka.com/'>
+                  <div class="sponsor-logo align-logo">
+                    <img src="http://crowdsourcingweek.com/wp-content/themes/csweek/images/eyeka.png">
+                  </div>
+                </a>
+              </li>
+            </ul>
+        <div class="row">
+          <div class= "span12">
+            <ul class="sponsors-list">
+
+              <li>
+                <a target="_blank" href='http://www.clozette.co'>
+                  <div class="sponsor-logo">
+                    <img src="http://crowdsourcingweek.com/wp-content/themes/csweek/images/clozette.png">
+                  </div>
+                </a>
+              </li>
+              
+              <li>
+                <a target="_blank" href='http://www.expressinmusic.com/home/default.aspx'>
+                  <div class="sponsor-logo">
+                    <img src="http://crowdsourcingweek.com/wp-content/themes/csweek/images/expressmusic.png">
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a target="_blank" href='http://www.growvc.com/main/'>
+                  <div class="sponsor-logo">
+                    <img src="http://crowdsourcingweek.com/wp-content/themes/csweek/images/growvc.png">
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a target="_blank" href='http://www.frogdesign.com'>
+                  <div class="sponsor-logo invert-align">
+                    <img src="http://crowdsourcingweek.com/wp-content/themes/csweek/images/frog.png">
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a target="_blank" href='http://www.talenthouse.com'>
+                  <div class="sponsor-logo make-it-bigger">
+                    <img src="http://crowdsourcingweek.com/wp-content/themes/csweek/images/talenthouse.jpg">
+                  </div>
+                </a>
+              </li>
+
+
+            </ul>
+          </div>
+        </div>
+
+
+        </div>  
+        <div class="span12">
+          <h2>Technology & strategic partners</h2>
+            <ul class="sponsors-list">
+              <li>
+                <a target="_blank" href='http://www.powertothecrowd.com/'>
+                  <div class="sponsor-logo">
+                    <img src="http://crowdsourcingweek.com/wp-content/themes/csweek/images/engage.png">
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href='http://www.appbackr.com/'>
+                  <div class="sponsor-logo align-logo">
+                    <img src="http://crowdsourcingweek.com/wp-content/themes/csweek/images/appbackr.png">
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a target="_blank" href='http://www.bnotions.com/'>
+                  <div class="sponsor-logo align-logo">
+                    <img src="http://crowdsourcingweek.com/wp-content/themes/csweek/images/bnotions.png">
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a target="_blank" href='http://www.yoose.com/'>
+                  <div class="sponsor-logo align-logo">
+                    <img src="http://crowdsourcingweek.com/wp-content/themes/csweek/images/yoose.png">
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a target="_blank" href='http://www.iminds.be/en'>
+                  <div class="sponsor-logo">
+                    <img src="http://crowdsourcingweek.com/wp-content/themes/csweek/images/iminds.png">
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a target="_blank" href='http://www.internetmedialabs.com/'>
+                  <div class="sponsor-logo make-it-bigger">
+                    <img src="http://crowdsourcingweek.com/wp-content/themes/csweek/images/internetmedialabs.png">
+                  </div>
+                </a>
+              </li>
+
+
+            </ul>
+        </div>
+
+        <div class="span12">
+          <h2>Media Partners</h2>
+          <!--<h3>Global Media Partners</h3>
+          <h3>Regional Partners</h3>-->
+          <!--h3>Bloggers</h3-->
+            <ul class="sponsors-list">
+              <li>
+                <a target="_blank" href='http://www.techinasia.com/'>
+                  <div class="sponsor-logo">
+                    <img src="http://crowdsourcingweek.com/wp-content/themes/csweek/images/techasia.png">
+                  </div>
+                </a>
+              </li>
+              
+              <li>
+                <a target="_blank" href='http://sgentrepreneurs.com'>
+                  <div class="sponsor-logo">
+                    <img src="http://crowdsourcingweek.com/wp-content/themes/csweek/images/sge.png">
+                  </div>
+                </a>
+              </li>
+          
+              <li>
+                <a target="_blank" href='http://www.e27.sg/'>
+                  <div class="sponsor-logo">
+                    <img src="http://crowdsourcingweek.com/wp-content/themes/csweek/images/e27.png">
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a target="_blank" href='http://www.crowdsourcingblog.de/'>
+                  <div class="sponsor-logo make-it-bigger">
+                    <img src="http://crowdsourcingweek.com/wp-content/themes/csweek/images/crowdsourcingblog.png">
+                  </div>
+                </a>
+              </li>
+
+
+            </ul>
+
+        </div>
+
+        <!--div class="span12">
+          <h2>Venue</h2>
+            <ul class="sponsors-list">
+              <li>
+                <a href='http://maxatria.com.sg/'>
+                  <div class="sponsor-logo">
+                    <img src="http://crowdsourcingweek.com/wp-content/themes/csweek/images/maxatria.png">
+                  </div>
+                </a>
+              </li>
+            </ul>
+
+        </div-->
+      </div>
+    </div>
+    <!--?php require '_sponsors.php'; ?--> 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script src="http://crowdsourcingweek.com/wp-content/themes/csweek/bootstrap/js/bootstrap.js"></script>
+    <script src="http://crowdsourcingweek.com/wp-content/themes/csweek/js/lines.js"></script>
+    <div id="contact">
+  <div class="container">
+    <div class="row">
+      <!--div class="span7">
+        <h2> Blog Feed </h2>
+        <style>
+          #blog p{color: #ccc;}
+        </style>
+        <div id="blog">
+            
+                      <div class="post">
+              <small style="color:#666;margin:0;line-height:0">November 20, 2012</small>
+              <br />
+              <h4><a href="http://crowdsourcingweek.com/self-proclaimed-kickstarter-reject-creates-open-source-crowdfunding-website/">Self-Proclaimed Kickstarter Reject Creates Open Source Crowdfunding Website</a></h4>
+              <p>After Kickstarter released stringent rules governing hardware projects, startup company Lockitron decided it was time to take action. To fund their hardware project, the founders wrote their source crowdfunding platform, which is now open sourced. According to their website, selfstarter.us, to get started, “all you need is a great product.” Lockitron is their own first success [...]</p>
+            </div>
+                      <div class="post">
+              <small style="color:#666;margin:0;line-height:0">November 16, 2012</small>
+              <br />
+              <h4><a href="http://crowdsourcingweek.com/crowdfunding-infographic-the-us-jobs-act-explained/">Crowdfunding Infographic &#8211; The US JOBS Act Explained</a></h4>
+              <p>Crowdfunding is a way that businesses can seek money from a &#8220;crowd&#8221; to start-up, finance a new product, or expand their operations. Instead of pursuing big VC&#8217;s and investors, businesses pursue the crowd. The &#8220;crowd&#8221; pledges money to the effort &#8211; could be a start-up, cause or non-profit, in response to an appeal or request. The [...]</p>
+            </div>
+                      <div class="post">
+              <small style="color:#666;margin:0;line-height:0">November 15, 2012</small>
+              <br />
+              <h4><a href="http://crowdsourcingweek.com/a-framework-for-political-crowdfunding-lessons-from-president-obama/">A Framework for Political Crowdfunding: Lessons From President Obama</a></h4>
+              <p>The recent presidential election in the United States was the most expensive race in history, with Mitt Romney and Barack Obama spending about $1 billion respectively on their efforts to win the White House. While both candidates raised hundreds of millions of dollars, their methodology was quite different and offer some important practices for the [...]</p>
+            </div>
+                      <div class="post">
+              <small style="color:#666;margin:0;line-height:0"></small>
+              <br />
+              <h4><a href="http://crowdsourcingweek.com/razoo-kicks-off-five-giving-days-across-the-u-s-to-raise-15-million-for-local-charities/">Razoo Kicks Off Five “Giving Days” Across the U.S. to Raise $15 million for Local Charities</a></h4>
+              <p>Razoo, the fastest growing crowdfunding platform for causes, announces its first-ever week of giving – a week of five of Razoo’s “Giving Days”.  Giving Days are powerful 24-hour online fundraising competitions that unite communities around causes. “Apart from being a necessary economic shot in the arm for local nonprofits, Giving Days are long-term capacity builders [...]</p>
+            </div>
+                      <div class="post">
+              <small style="color:#666;margin:0;line-height:0">November 13, 2012</small>
+              <br />
+              <h4><a href="http://crowdsourcingweek.com/open-innovation-needs-versus-opportunities/">Open Innovation: Needs versus Opportunities</a></h4>
+              <p>Too often, open innovation initiatives at big companies focus on needs – and needs only. You have a specific challenge to solve, you write up rfp’s and you reach out in your network. Solving problems is an important element of open innovation and it can bring lots of value. However, if you only focus on [...]</p>
+            </div>
+                  </div>
+      </div-->
+      <div class="span5">
+        <h2 id="contact-info">Contact us</h2>
+        <h3>Send us a <a href="http://crowdsourcingweek.com/contact/">message</a></h3>
+        <h3>Or for media contact,<a href="mailto:media@crowdsourcingweek.com"> media@crowdsourcingweek.com</h3>
+      </div>
+      <div class="span4">
+        <h2>Share it</h2>
+        <!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+<a class="addthis_button_facebook social-share-margin"></a>
+<a class="addthis_button_twitter social-share-margin"></a>
+<a class="addthis_button_linkedin social-share-margin"></a>
+<a class="addthis_button_google_plusone_badge social-share-margin"></a>
+<a class="addthis_button_compact social-share-margin"></a>
+<a class="addthis_counter addthis_bubble_style"></a>
+</div>
+<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50be10b95acf3a88"></script>
+<!-- AddThis Button END -->
+
+
+
+
+<!-- AddThis Button END -->
+      </div>
+      <div class="span3" id="ludvk">
+        <a target="_blank" href="http://www.ludvikplus.com">
+          <img src="http://crowdsourcingweek.com/wp-content/themes/csweek/images/logo_ludvk.jpg"/>
+        </a>
+        <p>©2012 Crowdsourcing Week</p>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+     
+  </body>
+</html>
