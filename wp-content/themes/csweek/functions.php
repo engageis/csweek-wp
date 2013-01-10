@@ -153,39 +153,39 @@ function my_cpt_init()
   );
 
   /* CUSTOM POST TYPE: SPEAKERS */
-  $labelsSponsors = array(
-    'name' => 'Sponsors',
-    'singular_name' => 'Sponsors',
-    'add_new' => 'New Sponsors',
-    'add_new_item' => 'Add new Sponsors',
-    'edit_item' => 'Edit Sponsors',
-    'new_item' => 'New Sponsors',
-    'view_item' => 'View Sponsors',
-    'search_items' => 'Search Sponsors',
-    'menu_name' => 'Sponsors'
+  // $labelsSponsors = array(
+  //   'name' => 'Sponsors',
+  //   'singular_name' => 'Sponsors',
+  //   'add_new' => 'New Sponsors',
+  //   'add_new_item' => 'Add new Sponsors',
+  //   'edit_item' => 'Edit Sponsors',
+  //   'new_item' => 'New Sponsors',
+  //   'view_item' => 'View Sponsors',
+  //   'search_items' => 'Search Sponsors',
+  //   'menu_name' => 'Sponsors'
 
-  );
-  $argsSponsors = array(
-    'labels' => $labelsSponsors,
-    'public' => true,
-    'publicly_queryable' => false,
-    'show_ui' => true,
-    'exclude_from_search' => true,
-    'menu_position' => 5,
-    // Dá pra usar um icone aqui
-    // 'menu_icon' => get_bloginfo('template_url') . '/images/icons/sponsors.png',
-    'show_in_menu' => true, 
-    'query_var' => false,
-    'capability_type' => 'post',
-    'has_archive' => true, 
-    'hierarchical' => false,
-    'supports' => array('title', 'thumbnail')
-  );
+  // );
+  // $argsSponsors = array(
+  //   'labels' => $labelsSponsors,
+  //   'public' => true,
+  //   'publicly_queryable' => false,
+  //   'show_ui' => true,
+  //   'exclude_from_search' => true,
+  //   'menu_position' => 5,
+  //   // Dá pra usar um icone aqui
+  //   // 'menu_icon' => get_bloginfo('template_url') . '/images/icons/sponsors.png',
+  //   'show_in_menu' => true, 
+  //   'query_var' => false,
+  //   'capability_type' => 'post',
+  //   'has_archive' => true, 
+  //   'hierarchical' => false,
+  //   'supports' => array('title', 'thumbnail')
+  // );
  
   // Maiz, pode replicar essas funções e adicionar outros custom post types
   register_post_type('workshops', $argsWorkshops);
   register_post_type('speakers', $argsSpeakers);
-  register_post_type('sponsors', $argsSpeakers);
+  // register_post_type('sponsors', $argsSpeakers);
   register_post_type('team', $argsTeam);
 }
 
