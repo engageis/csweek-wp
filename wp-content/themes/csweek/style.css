@@ -1715,7 +1715,7 @@ form.bs-docs-example {
 }
 
 #page .speaker-profile, .workshop-profile {
-  width: 193px;
+  width: 235;
   float: left;
   margin-right: 40px;
   text-align: center;
@@ -1733,15 +1733,14 @@ form.bs-docs-example {
 } 
 
 
-.speaker-profile img{
+.speaker-profile img, .team-profile img{
   width: 103px;
   height: auto;
+  display: block;
   border-radius: 50%;
-  float: left;
-  margin-right: 60px;
-  box-shadow: 0 0 0 2px white;
+  margin: 0 auto;
+  border: 2px solid white;
   position: relative;
-  left: 48px;
 }
 
 .speaker-profile:nth-child(4n+1), .team-profile:nth-child(4n+1){
@@ -1751,19 +1750,10 @@ form.bs-docs-example {
 
 .team-profile{
   float: left;
-  width: 185px;
+  width: 235px;
   margin-right: 29px;
   margin-top: 20px;
   text-align: center;
-}
-
-.team-profile img{
-  border-radius: 50%;
-  float: left;
-  margin-right: 60px;
-  box-shadow: 0 0 0 2px white;
-  position: relative;
-  left: 40px;
 }
 
 .workshop-profile img{
