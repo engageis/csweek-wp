@@ -1231,6 +1231,9 @@ form.bs-docs-example {
 .blog #page a, .single-post #page a{
   color: #A50606;
 }
+.blog #page .tags a, .single-post #page .tags a{
+  color: #666;
+}
 
 #menu li a:hover{
   color: #666;
