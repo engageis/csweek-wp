@@ -20,11 +20,10 @@ get_header(); ?>
         <div class="my-cal btn-save-the-date">
           <? require '_cal.php' ?>
         </div >
-        <div class="fb-like">
-          <div style="background: white; width: 250px; float: right;" class="fb-like-box" data-href="http://www.facebook.com/CrowdsourcingWeek/" data-width="250" data-show-faces="true" data-stream="false" data-header="true"></div>
-        </div>
+        <a class="twitter-timeline" href="https://twitter.com/CrowdWeek" data-widget-id="293726412903424002">Tweets by @CrowdWeek</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-        /div<?php endwhile;?>
+        <?php endwhile;?>
       </div>
     </div>
   </div>

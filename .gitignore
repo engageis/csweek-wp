@@ -3,3 +3,5 @@
 .sass-cache
 .htaccess
 wp-config.php
+*.swp
+*.swo
