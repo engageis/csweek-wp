@@ -1224,6 +1224,10 @@ form.bs-docs-example {
   color: white;
 }
 
+.blog #menu li a, .single-post #menu li a{
+  color: #333;
+}
+
 #menu li a:hover{
   color: #666;
   -webkit-transition: 0.6s;
