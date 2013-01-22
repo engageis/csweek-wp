@@ -1644,6 +1644,10 @@ form.bs-docs-example {
   color: #333;
 }
 
+.blog #page .entry-content p, .blog #page .entry-content{
+  color: #333;
+}
+
 /* #page h2{
   font-family: 'Lato', sans-serif;
   color: white;
