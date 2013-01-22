@@ -1636,6 +1636,12 @@ form.bs-docs-example {
 
 .blog #page, .single-post #page{
   background: white;
+  color: #333;
+}
+
+.blog #page h1, .blog #page h2, .blog #page h3, .blog #page h4, .blog #page h5, .blog #page h6, .blog #page p, .blog #page ul, .blog #page ol,
+.single-post #page h1, .single-post #page h2, .single-post #page h3, .single-post #page h4, .single-post #page h5, .single-post #page h6, .single-post #page p, .single-post #page ul, .single-post #page ol{
+  color: #333;
 }
 
 /* #page h2{
