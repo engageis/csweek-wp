@@ -1634,6 +1634,10 @@ form.bs-docs-example {
   margin-bottom: 70px;
 }
 
+.blog #page, .single-post #page{
+  background: white;
+}
+
 /* #page h2{
   font-family: 'Lato', sans-serif;
   color: white;
