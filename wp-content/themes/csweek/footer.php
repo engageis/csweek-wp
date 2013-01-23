@@ -10,7 +10,7 @@
           <div class="span12"u>
             
 
-
+<!-- DESCOMENTAR ESSAS LINHAS QUANDO ESTIVER TUDO OK
             <?php $my_query = new WP_Query('showposts=-1&genre=crowd-sponsors&post_type=sponsors');?>
             <?php if($my_query->have_posts()) : ?>
             <h2>Crowdsourcing Sponsors <a href="<?= get_permalink_by_name("sponsors"); ?>" class="learn-more">(learn more)</a></h2>
@@ -52,7 +52,7 @@
               <?php endwhile;?>
             </ul>
             <?php endif; wp_reset_query(); ?>
-
+ -->
 
 
             <h2>Crowdsourcing Sponsors <a href="<?= get_permalink_by_name("sponsors"); ?>" class="learn-more">(learn more)</a></h2>
