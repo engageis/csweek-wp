@@ -186,6 +186,30 @@ function my_cpt_init()
   register_post_type('speakers', $argsSpeakers);
   register_post_type('sponsors', $argsSponsors);
   register_post_type('team', $argsTeam);
+
+  // Add new taxonomy, make it hierarchical (like categories)
+  $labelsSponsorGenre = array(
+    'name' => 'Genres',
+    'singular_name' => 'Genre',
+    'search_items' => 'Search Genres',
+    'all_items' => 'All Genres',
+    'parent_item' => 'Parent Genre',
+    'parent_item_colon' => 'Parent Genre:',
+    'edit_item' => 'Edit Genre'  
+    'update_item' => 'Update Genre',
+    'add_new_item' => 'Add New Genre',
+    'new_item_name' => 'New Genre Name',
+    'menu_name' => 'Genre'
+  );
+  $argsSponsorGenre = array(
+    'hierarchical' => true,
+    'labels' => $labelsSponsorGenre,
+    'show_ui' => true,
+    'show_admin_column' => true,
+    'query_var' => true,
+    'rewrite' => array( 'slug' => 'genre' )
+  );
+  register_taxonomy('genre', array('sponsors'), $argsSponsorGenre);
 }
 
 ?>
