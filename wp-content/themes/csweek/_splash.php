@@ -23,7 +23,7 @@
     <!-- <div class="fb-like" data-href="http://crowdsourcingweek.com/" data-send="false" data-width="450" data-show-faces="true" ></div> -->
 
     <div class="row">
-      <div class="lettering span8 offset4">
+      <div class="lettering span8">
         <div class="row-fluid">
           <div class="span12">
             <h1>
