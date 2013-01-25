@@ -2110,6 +2110,6 @@ strong{
 #page .tags a:before { content: "#"; }
 
 .twitter-timeline {
-  position: relative;
-  top: 10px;
+  position: relative; !important
+  top: 50px; !important
 } 
