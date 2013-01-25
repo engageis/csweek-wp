@@ -1396,11 +1396,11 @@ form.bs-docs-example {
   /*background: rgba(255, 255, 255, 0.1);*/
   height: 57px;
   width: 169px;
-  padding: 0 25px 0 40px;
+  padding: 0 25px 0 50px;
   border-radius: 6px;
   /*box-shadow: inset 0 0 10px #333;*/
   margin-top: 17px;
-  margin-bottom: -20px;
+  margin-bottom: 30px;
 }
 
 #calendarDiv{
@@ -2108,8 +2108,3 @@ strong{
 }
 
 #page .tags a:before { content: "#"; }
-
-.twitter-timeline {
-  position: relative; !important
-  top: 50px; !important
-} 
