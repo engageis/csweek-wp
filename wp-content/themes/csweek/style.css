@@ -1986,7 +1986,7 @@ strong{
 
 #page article .authbio p {
   float: left;
-  width: 81%;
+  width: 75%;
   font-size: 14px;
   margin-left: 29px;
 }
@@ -2003,6 +2003,11 @@ strong{
   float: left;
   width: 20%;
   margin-left: 29px;
+}
+
+#page article span {
+  color: #999;
+
 }
 
 .author-social{
