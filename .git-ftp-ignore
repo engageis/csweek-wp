@@ -5,3 +5,5 @@ wp-content/uploads/.*
 wp-content/pg4wp/.*
 wp-content/db.php
 wp-config.php
+*.swp
+*.swo

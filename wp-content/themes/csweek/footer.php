@@ -8,6 +8,52 @@
         </div>
         <div class="row"> 
           <div class="span12"u>
+            
+
+<!-- DESCOMENTAR ESSAS LINHAS QUANDO ESTIVER TUDO OK
+            <?php $my_query = new WP_Query('showposts=-1&genre=crowd-sponsors&post_type=sponsors');?>
+            <?php if($my_query->have_posts()) : ?>
+            <h2>Crowdsourcing Sponsors <a href="<?= get_permalink_by_name("sponsors"); ?>" class="learn-more">(learn more)</a></h2>
+            <ul class="sponsors-list">
+              <?php while($my_query->have_posts()) : $my_query->the_post(); ?>
+              <li>
+                <a target="_blank" href="<?=get_post_meta($post->ID, 'sponsor_url', true);?>">
+                  <?php the_post_thumbnail('sponsors-thumb');?>
+                </a>
+              </li>
+              <?php endwhile;?>
+            </ul>
+            <?php endif; wp_reset_query(); ?>
+
+            <?php $my_query = new WP_Query('showposts=-1&genre=tec-strat-partners&post_type=sponsors');?>
+            <?php if($my_query->have_posts()) : ?>
+            <h2>Technology & strategic partners</h2>
+            <ul class="sponsors-list">
+              <?php while($my_query->have_posts()) : $my_query->the_post(); ?>
+              <li>
+                <a target="_blank" href="<?=get_post_meta($post->ID, 'sponsor_url', true);?>">
+                  <?php the_post_thumbnail('sponsors-thumb');?>
+                </a>
+              </li>
+              <?php endwhile;?>
+            </ul>
+            <?php endif; wp_reset_query(); ?>
+
+            <?php $my_query = new WP_Query('showposts=-1&genre=media-partners&post_type=sponsors');?>
+            <?php if($my_query->have_posts()) : ?>
+            <h2>Media Partners</h2>
+            <ul class="sponsors-list">
+              <?php while($my_query->have_posts()) : $my_query->the_post(); ?>
+              <li>
+                <a target="_blank" href="<?=get_post_meta($post->ID, 'sponsor_url', true);?>">
+                  <?php the_post_thumbnail('sponsors-thumb');?>
+                </a>
+              </li>
+              <?php endwhile;?>
+            </ul>
+            <?php endif; wp_reset_query(); ?>
+ -->
+
 
             <h2>Crowdsourcing Sponsors <a href="<?= get_permalink_by_name("sponsors"); ?>" class="learn-more">(learn more)</a></h2>
             <ul class="sponsors-list">
@@ -213,28 +259,23 @@
             </ul>
 
         </div>
-
-        <!--div class="span12">
-          <h2>Venue</h2>
-            <ul class="sponsors-list">
-              <li>
-                <a href='http://maxatria.com.sg/'>
-                  <div class="sponsor-logo">
-                    <img src="<?php bloginfo('template_url');?>/images/maxatria.png">
-                  </div>
-                </a>
-              </li>
-            </ul>
-
-        </div-->
       </div>
     </div>
-    <!--?php require '_sponsors.php'; ?--> 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
     <script src="<?php bloginfo('template_url');?>/bootstrap/js/bootstrap.js"></script>
     <script src="<?php bloginfo('template_url');?>/js/lines.js"></script>
     <?php require '_contact.php'; ?> 
+    <script>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-29337904-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
     <?php wp_footer(); ?> 
   </body>
 </html>

@@ -105,23 +105,16 @@ hr.soften {
   text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
   /* IE10 Consumer Preview */ 
   background-image: -ms-radial-gradient(center, ellipse farthest-corner, #2E2E2E 0%, #222222 100%);
-
   /* Mozilla Firefox */ 
   background-image: -moz-radial-gradient(center, ellipse farthest-corner, #2E2E2E 0%, #222222 100%);
-
   /* Opera */ 
   background-image: -o-radial-gradient(center, ellipse farthest-corner, #2E2E2E 0%, #222222 100%);
-
   /* Webkit (Safari/Chrome 10) */ 
   background-image: -webkit-gradient(radial, center center, 0, center center, 497, color-stop(0, #2E2E2E), color-stop(1, #222222));
-
   /* Webkit (Chrome 11+) */ 
   background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #2E2E2E 0%, #222222 100%);
-
   /* W3C Markup, IE10 Release Preview */ 
-  background-image: radial-gradient(ellipse farthest-corner at center, #2E2E2E 0%, #222222 100%);
-
-    
+  background-image: radial-gradient(ellipse farthest-corner at center, #2E2E2E 0%, #222222 100%);   
 }
 
 .jumbotron h1 {
@@ -158,25 +151,17 @@ hr.soften {
   font-weight: 200;
   color: #fff; /* redeclare to override the `.jumbotron a` */
   border: 0;
-  -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-          border-radius: 6px;
-  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25);
-     -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25);
-          box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25);
+  border-radius: 6px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25);
   -webkit-transition: none;
      -moz-transition: none;
           transition: none;
 }
 .masthead .btn:hover {
-  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25);
-     -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25);
-          box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25);
 }
 .masthead .btn:active {
-  -webkit-box-shadow: inset 0 2px 4px rgba(0,0,0,.1), 0 1px 0 rgba(255,255,255,.1);
-     -moz-box-shadow: inset 0 2px 4px rgba(0,0,0,.1), 0 1px 0 rgba(255,255,255,.1);
-          box-shadow: inset 0 2px 4px rgba(0,0,0,.1), 0 1px 0 rgba(255,255,255,.1);
+  box-shadow: inset 0 2px 4px rgba(0,0,0,.1), 0 1px 0 rgba(255,255,255,.1);
 }
 
 
@@ -335,9 +320,7 @@ hr.soften {
 .show-grid [class*="span"] {
   background-color: #eee;
   text-align: center;
-  -webkit-border-radius: 3px;
-     -moz-border-radius: 3px;
-          border-radius: 3px;
+  border-radius: 3px;
   min-height: 40px;
   line-height: 40px;
 }
@@ -358,12 +341,8 @@ hr.soften {
 -------------------------------------------------- */
 .mini-layout {
   border: 1px solid #ddd;
-  -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-          border-radius: 6px;
-  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.075);
-     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.075);
-          box-shadow: 0 1px 2px rgba(0,0,0,.075);
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0,0,0,.075);
 }
 .mini-layout,
 .mini-layout .mini-layout-body,
@@ -375,9 +354,7 @@ hr.soften {
   padding: 9px;
 }
 .mini-layout div {
-  -webkit-border-radius: 3px;
-     -moz-border-radius: 3px;
-          border-radius: 3px;
+  border-radius: 3px;
 }
 .mini-layout .mini-layout-body {
   background-color: #dceaf4;
@@ -437,9 +414,7 @@ hr.soften {
   line-height: 18px;
   color: #555;
   background-color: #f9f9f9;
-  -webkit-border-radius: 3px;
-     -moz-border-radius: 3px;
-          border-radius: 3px;
+  border-radius: 3px;
   cursor: pointer;
 }
 .download .checkbox:hover {
@@ -481,9 +456,7 @@ hr.soften {
   font-size: 30px;
   line-height: 1;
   text-align: center;
-  -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-          border-radius: 6px;
+  border-radius: 6px;
 }
 
 
@@ -518,9 +491,7 @@ h2 + .row {
 /* Fake the :focus state to demo it */
 .focused {
   border-color: rgba(82,168,236,.8);
-  -webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,.1), 0 0 8px rgba(82,168,236,.6);
-     -moz-box-shadow: inset 0 1px 3px rgba(0,0,0,.1), 0 0 8px rgba(82,168,236,.6);
-          box-shadow: inset 0 1px 3px rgba(0,0,0,.1), 0 0 8px rgba(82,168,236,.6);
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.1), 0 0 8px rgba(82,168,236,.6);
   outline: 0;
 }
 
@@ -570,9 +541,7 @@ h2 + .row {
   *padding-top: 19px;
   background-color: #fff;
   border: 1px solid #ddd;
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
+  border-radius: 4px;
 }
 
 /* Echo out a label for the example */
@@ -587,9 +556,7 @@ h2 + .row {
   background-color: #f5f5f5;
   border: 1px solid #ddd;
   color: #9da0a4;
-  -webkit-border-radius: 4px 0 4px 0;
-     -moz-border-radius: 4px 0 4px 0;
-          border-radius: 4px 0 4px 0;
+  border-radius: 4px 0 4px 0;
 }
 
 /* Remove spacing between an example and it's code */
@@ -630,21 +597,15 @@ h2 + .row {
   margin-right: 0;
 }
 .bs-navbar-top-example {
-  -webkit-border-radius: 0 0 4px 4px;
-     -moz-border-radius: 0 0 4px 4px;
-          border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
 }
 .bs-navbar-top-example:after {
   top: auto;
   bottom: -1px;
-  -webkit-border-radius: 0 4px 0 4px;
-     -moz-border-radius: 0 4px 0 4px;
-          border-radius: 0 4px 0 4px;
+  border-radius: 0 4px 0 4px;
 }
 .bs-navbar-bottom-example {
-  -webkit-border-radius: 4px 4px 0 0;
-     -moz-border-radius: 4px 4px 0 0;
-          border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
 }
 .bs-navbar-bottom-example .navbar {
   margin-bottom: 0;
@@ -729,9 +690,7 @@ form.bs-docs-example {
   color: #999;
   text-align: center;
   border: 1px solid #ddd;
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
+  border-radius: 4px;
 }
 .responsive-utilities-test li + li {
   margin-left: 10px;
@@ -742,9 +701,7 @@ form.bs-docs-example {
   left:   -1px;
   right:  -1px;
   bottom: -1px;
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
+  border-radius: 4px;
 }
 .responsive-utilities-test span {
   color: #468847;
@@ -762,12 +719,8 @@ form.bs-docs-example {
   margin: 30px 0 0;
   padding: 0;
   background-color: #fff;
-  -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-          border-radius: 6px;
-  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.065);
-     -moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
-          box-shadow: 0 1px 4px rgba(0,0,0,.065);
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.065);
 }
 .bs-docs-sidenav > li > a {
   display: block;
@@ -777,14 +730,10 @@ form.bs-docs-example {
   border: 1px solid #e5e5e5;
 }
 .bs-docs-sidenav > li:first-child > a {
-  -webkit-border-radius: 6px 6px 0 0;
-     -moz-border-radius: 6px 6px 0 0;
-          border-radius: 6px 6px 0 0;
+  border-radius: 6px 6px 0 0;
 }
 .bs-docs-sidenav > li:last-child > a {
-  -webkit-border-radius: 0 0 6px 6px;
-     -moz-border-radius: 0 0 6px 6px;
-          border-radius: 0 0 6px 6px;
+  border-radius: 0 0 6px 6px;
 }
 .bs-docs-sidenav > .active > a {
   position: relative;
@@ -792,9 +741,7 @@ form.bs-docs-example {
   padding: 9px 15px;
   border: 0;
   text-shadow: 0 1px 0 rgba(0,0,0,.15);
-  -webkit-box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
-     -moz-box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
-          box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
+  box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
 }
 /* Chevrons */
 .bs-docs-sidenav .icon-chevron-right {
@@ -1065,9 +1012,7 @@ form.bs-docs-example {
   
   font-size: 13px;
   /*color: #777777;*/
-  -webkit-border-radius: 3px;
-     -moz-border-radius: 3px;
-          border-radius: 3px;
+  border-radius: 3px;
 }
 
 .lettering{
@@ -1280,10 +1225,22 @@ form.bs-docs-example {
   color: white;
 }
 
+.blog #menu li a, .single-post #menu li a{
+  color: #333;
+}
+
+.blog #page a, .single-post #page a{
+  color: #A50606;
+}
+.blog #page .tags a, .single-post #page .tags a{
+  color: #999;
+}
+
 #menu li a:hover{
   color: #666;
   -webkit-transition: 0.6s;
-  transition: 0.2s;
+  -moz-transition: 0.6s;
+  transition: 0.6s;
 }
 
 .icon{
@@ -1515,6 +1472,7 @@ form.bs-docs-example {
   color: #D90000;
   font-size: 14px;
   -webkit-transition: .2s linear;
+  -moz-transition: .2s linear;
   transition: .2s linear;
   font-weight: 900;
   text-transform: lowercase;
@@ -1619,7 +1577,7 @@ form.bs-docs-example {
 #contact h2{
   font-family: 'Lato', sans-serif;
   color: white;
-  font-size: 26px;
+  font-size: 18px;
   margin: 20px 0 10px 0;
   text-align: left;
 }
@@ -1663,6 +1621,7 @@ form.bs-docs-example {
   text-decoration: none;
   color: #F89406;
   -webkit-transition: .2s linear;
+  -moz-transition: .2s linear;
   transition: .2s linear;
 }
 
@@ -1685,6 +1644,20 @@ form.bs-docs-example {
 
 #page article{
   margin-bottom: 70px;
+}
+
+.blog #page, .single-post #page{
+  background: white;
+  color: #333;
+}
+
+.blog #page h1, .blog #page h2, .blog #page h3, .blog #page h4, .blog #page h5, .blog #page h6, .blog #page p, .blog #page ul, .blog #page ol,
+.single-post #page h1, .single-post #page h2, .single-post #page h3, .single-post #page h4, .single-post #page h5, .single-post #page h6, .single-post #page p, .single-post #page ul, .single-post #page ol{
+  color: #333;
+}
+
+.blog #page .entry-content p, .blog #page .entry-content{
+  color: #333;
 }
 
 /* #page h2{
@@ -1749,6 +1722,7 @@ form.bs-docs-example {
 #page a:hover {
   color: #F89406;
   -webkit-transition: .2s linear;
+  -moz-transition: .2s linear;
   transition: .2s linear;
 }
 
@@ -1767,7 +1741,7 @@ form.bs-docs-example {
 }
 
 #page .speaker-profile, .workshop-profile {
-  width: 193px;
+  width: 225px;
   float: left;
   margin-right: 40px;
   text-align: center;
@@ -1785,15 +1759,14 @@ form.bs-docs-example {
 } 
 
 
-.speaker-profile img{
+.speaker-profile img, .team-profile img{
   width: 103px;
   height: auto;
+  display: block;
   border-radius: 50%;
-  float: left;
-  margin-right: 60px;
-  box-shadow: 0 0 0 2px white;
+  margin: 0 auto;
+  border: 2px solid white;
   position: relative;
-  left: 48px;
 }
 
 .speaker-profile:nth-child(4n+1), .team-profile:nth-child(4n+1){
@@ -1803,19 +1776,10 @@ form.bs-docs-example {
 
 .team-profile{
   float: left;
-  width: 185px;
+  width: 235px;
   margin-right: 29px;
   margin-top: 20px;
   text-align: center;
-}
-
-.team-profile img{
-  border-radius: 50%;
-  float: left;
-  margin-right: 60px;
-  box-shadow: 0 0 0 2px white;
-  position: relative;
-  left: 40px;
 }
 
 .workshop-profile img{
@@ -1945,10 +1909,8 @@ strong{
 }
 
 #sidebar{ 
-  width: 17%;
+  width: 20%;
   float: right;
-  margin-left: 20px;
-  padding-left: 70px;
 }
 
 
@@ -1970,9 +1932,7 @@ strong{
   text-shadow: 0 1px 0 rgba(255,255,255,0.5);
   background: #F5C01D;
   border: 1px solid rgba(255,255,255,0.3);
-  -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-          border-radius: 6px;
+  border-radius: 6px;
   box-shadow: 0 1px 0 #B88A37,
                 0 2px 0 #B88A37,
                 0 3px 0 #B88A37,
@@ -2035,12 +1995,8 @@ strong{
   float: left;
   margin-top: 25px;
   margin-left: 6px;
-  -webkit-border-radius: 50%;
-     -moz-border-radius: 50%;
-          border-radius: 50%;
-  -webkit-box-shadow: 0 0 0 2px white;
-     -moz-box-shadow: 0 0 0 2px white;
-          box-shadow: 0 0 0 2px white;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px white;
 }
 
 #page article .authbio h4 {

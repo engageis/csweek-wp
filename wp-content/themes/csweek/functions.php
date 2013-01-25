@@ -14,6 +14,7 @@ function csweek_setup() {
   add_theme_support( 'post-thumbnails' );
   set_post_thumbnail_size( 200, 200, true );
   add_image_size('team-thumb', 100, 100, true);
+  add_image_size('sponsors-thumb', 200, 100, true);
 }
 endif;
 
@@ -152,7 +153,7 @@ function my_cpt_init()
     'supports' => array('title','editor','thumbnail')
   );
 
-  /* CUSTOM POST TYPE: SPEAKERS */
+  /* CUSTOM POST TYPE: SPONSORS */
   $labelsSponsors = array(
     'name' => 'Sponsors',
     'singular_name' => 'Sponsors',
@@ -171,22 +172,44 @@ function my_cpt_init()
     'publicly_queryable' => false,
     'show_ui' => true,
     'exclude_from_search' => true,
-    'menu_position' => 5,
-    // Dá pra usar um icone aqui
-    // 'menu_icon' => get_bloginfo('template_url') . '/images/icons/sponsors.png',
+    'menu_position' => 6,
     'show_in_menu' => true, 
     'query_var' => false,
     'capability_type' => 'post',
     'has_archive' => true, 
     'hierarchical' => false,
-    'supports' => array('title', 'thumbnail')
+    'supports' => array('title','thumbnail')
   );
  
   // Maiz, pode replicar essas funções e adicionar outros custom post types
   register_post_type('workshops', $argsWorkshops);
   register_post_type('speakers', $argsSpeakers);
-  register_post_type('sponsors', $argsSpeakers);
+  register_post_type('sponsors', $argsSponsors);
   register_post_type('team', $argsTeam);
+
+  // Add new taxonomy, make it hierarchical (like categories)
+  $labelsSponsorGenre = array(
+    'name' => 'Genres',
+    'singular_name' => 'Genre',
+    'search_items' => 'Search Genres',
+    'all_items' => 'All Genres',
+    'parent_item' => 'Parent Genre',
+    'parent_item_colon' => 'Parent Genre:',
+    'edit_item' => 'Edit Genre', 
+    'update_item' => 'Update Genre',
+    'add_new_item' => 'Add New Genre',
+    'new_item_name' => 'New Genre Name',
+    'menu_name' => 'Genre'
+  );
+  $argsSponsorGenre = array(
+    'hierarchical' => true,
+    'labels' => $labelsSponsorGenre,
+    'show_ui' => true,
+    'show_admin_column' => true,
+    'query_var' => true,
+    'rewrite' => array( 'slug' => 'genre' )
+  );
+  register_taxonomy('genre', array('sponsors'), $argsSponsorGenre);
 }
 
 ?>
