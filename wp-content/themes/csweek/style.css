@@ -20,6 +20,7 @@ body {
   padding-top: 40px;
 }
 
+
 /* Code in headings */
 h3 code {
   font-size: 14px;
@@ -834,7 +835,7 @@ form.bs-docs-example {
 
 /* Tablet
 ------------------------- */
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
   /* Remove any padding from the body */
   body {
     padding-top: 0;
@@ -1093,6 +1094,7 @@ form.bs-docs-example {
 
 .save-the-date{
   margin-bottom: 15px;
+  margin-left: 380px;
   padding-left: 18px;
 }
 
@@ -1215,11 +1217,11 @@ form.bs-docs-example {
 
 #menu li a{
   background: transparent url(images/menu-item-bg.png) no-repeat center !important;
-  width: 94px;
-  height: 75px;
+  width: 6.5em;
+  height: 5.4em;
   border: none;
   font-family: 'Magra', sans-serif !important;
-  font-size: 14px;
+  font-size: 1em;
   font-weight: 500;
   text-transform: uppercase;
   color: white;
@@ -1357,7 +1359,7 @@ form.bs-docs-example {
 
 #welcome .btn-save-the-date{
   /*text-transform: uppercase;*/
-  margin: 0 24px;
+  margin: 0; !important
   width: 200px;
 }
 
@@ -1394,13 +1396,13 @@ form.bs-docs-example {
 
 #welcome .my-cal{
   /*background: rgba(255, 255, 255, 0.1);*/
-  height: 57px;
-  width: 169px;
-  padding: 0 25px 0 40px;
+  height: 53px;
+  width: 191px;
+  padding: 0 25px 0 50px;
   border-radius: 6px;
   /*box-shadow: inset 0 0 10px #333;*/
   margin-top: 17px;
-  margin-bottom: -20px;
+  margin-bottom: 30px;
 }
 
 #calendarDiv{
@@ -1709,7 +1711,7 @@ form.bs-docs-example {
 #page p, #page li{
   font-family: 'Lato', sans-serif;
   font-size: 17px;
-  font-weight: 400;
+  font-weight: 300;
   color: white;
   line-height: 150%;
 }
@@ -1869,7 +1871,7 @@ article .aligncenter{
 
 #page article h2{
   margin-bottom: 0;
-  font-weight: bold;
+  line-height: 130%;
 }
 
 .post-info{
@@ -1986,7 +1988,7 @@ strong{
 
 #page article .authbio p {
   float: left;
-  width: 86%;
+  width: 75%;
   font-size: 14px;
   margin-left: 29px;
 }
@@ -2005,6 +2007,11 @@ strong{
   margin-left: 29px;
 }
 
+#page article span {
+  color: #999;
+
+}
+
 .author-social{
   float: left;
   margin-left: 119px;
@@ -2016,7 +2023,7 @@ strong{
 }
 
 #page article .entry-content{
-  margin-top: 15px;
+  margin-top: 18px;
 }
 
 #page article .entry-content .attachment-big-thumb{
@@ -2026,7 +2033,7 @@ strong{
   margin-top: 6px;
 }
 
-
+' '
 #page .social-share-margin{
   margin-right: 8px;
 }
@@ -2042,6 +2049,64 @@ strong{
   float: right;
 }
 
-.tags{
-  padding-top: 12px;
+.categories{
+  padding-top: 22px;
+  margin-top: -15px;
 }
+
+.add-this p{
+  text-transform: uppercase;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  float: left;
+  margin-right: 15px;
+}
+
+.addthis_toolbox{
+  float: left;
+  width: 300px;
+
+}
+
+#page .tags{
+  padding-top: 0;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+
+#page .categories a{
+  background-color: #474745;
+  border-radius: 3px;
+  padding: 4px 10px;
+  margin-right: 5px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 300 !important;
+
+}
+
+#page .categories a:hover{
+  text-decoration: none;
+  background-color: #666;
+  color: #E6E0E0;
+}
+
+.tags, .categories, .add-this{
+  padding-top: 0;
+}
+
+.add-this{
+  width: 377px;
+  overflow: hidden;
+}
+
+#page .tags a{
+  font-size: 12px;
+  text-transform: uppercase;
+  padding-right: 15px;
+  color: #ADAAAA;
+}
+
+#page .tags a:before { content: "#"; }
