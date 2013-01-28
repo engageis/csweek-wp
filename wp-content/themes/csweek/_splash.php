@@ -22,25 +22,15 @@
     <!--div style="width: 250px; float: right;" class="fb-like-box" data-href="http://www.crowdsourcingweek.com" data-width="250" data-show-faces="true" data-stream="false" data-header="true"></div>-->
     <!-- <div class="fb-like" data-href="http://crowdsourcingweek.com/" data-send="false" data-width="450" data-show-faces="true" ></div> -->
 
-    <div class="row">
-      <div class="lettering span8 offset4">
-        <div class="row-fluid">
-          <div class="span12">
-            <h1>
-              <span class="days">03-07</span>
-              <span class="month">JUNE</span>
-            </h1>
-          </div>
-        </div>
-        <div class="row-fluid">
-          <div class="span12">
-            <h1>
-              <span class="year">2013</span>
-              <span class="where">SINGAPORE</span>
-            </h1>
-          </div>
-        </div>
-      </div>
+    <div class="lettering">
+      <h1>
+        <span class="days">03-07</span>
+        <span class="month">JUNE</span>
+      </h1>
+      <h1>
+        <span class="year">2013</span>
+        <span class="where">SINGAPORE</span>
+      </h1>
     </div>
     <div class="row">
       <div class="save-the-date span8 offset4">
@@ -50,7 +40,7 @@
         <!--? require '_cal.php' ?-->
       </div>
     </div>
-    
+
   </div>
 </header>
 
