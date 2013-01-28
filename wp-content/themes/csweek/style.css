@@ -2147,3 +2147,13 @@ RESPONSIVE
     display: none;
   }
 }
+
+@media (max-width: 767px){
+  body{
+    padding: 0;
+  }
+  .jumbotron, #welcome, #support, #daily-topics, #sponsors, #contact, #page{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
