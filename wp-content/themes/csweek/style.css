@@ -2141,7 +2141,7 @@ RESPONSIVE
     border-radius: 0;
   }
   #menu li a:hover{
-    background: #444;
+    background: #444 !important;
   }
   #menu li .icon{
     display: none;
