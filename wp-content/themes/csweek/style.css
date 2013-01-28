@@ -136,19 +136,6 @@ hr.soften {
   margin-bottom: 30px;
 }
 
-/* Link styles (used on .masthead-links as well) */
-.jumbotron a {
-  color: #fff;
-  color: rgba(255,255,255,.5);
-  -webkit-transition: all .2s ease-in-out;
-     -moz-transition: all .2s ease-in-out;
-          transition: all .2s ease-in-out;
-}
-.jumbotron a:hover {
-  color: #fff;
-  text-shadow: 0 0 10px rgba(255,255,255,.25);
-}
-
 /* Download button */
 .masthead .btn {
   padding: 14px 24px;
@@ -1097,15 +1084,19 @@ form.bs-docs-example {
   margin-right: 0 !important;
 }
 
-.save-the-date{
+a.save-the-date{
   padding: 10px;
   text-transform: uppercase;
+  display: block;
+  text-align: center;
+  text-decoration: none;
   margin: 25px auto 15px;
   width: 270px;
   font-family: 'Magra', sans-serif !important;
   font-weight: bold;
   font-size: 22px;
   color: #996533;
+  border-radius: 6px;
   text-shadow: 0 1px 0 rgba(255,255,255,0.5);
   background: #F5C01D;
   border: 1px solid rgba(255,255,255,0.3);
