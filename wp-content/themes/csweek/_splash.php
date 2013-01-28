@@ -43,7 +43,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="save-the-date span8 offset4">
+      <div class="save-the-date span8">
         <a href="<?= get_permalink_by_name("contact"); ?>">
           <button class="btn btn-warning btn-save-the-date">PRE-REGISTER NOW</button>
       </a>
