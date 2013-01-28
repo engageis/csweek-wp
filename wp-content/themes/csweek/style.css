@@ -2118,3 +2118,14 @@ RESPONSIVE
     margin-top: 0;
   }
 }
+
+@media (max-width: 1240px){
+  #menu li{
+    float: left;
+  }
+  #menu li a{
+    color: white !important;
+    padding: 10px;
+    border: 1px solid white;
+  }
+}
