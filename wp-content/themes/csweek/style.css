@@ -849,6 +849,11 @@ form.bs-docs-example {
   line-height: 135px;;
 }
 
+.small-lettering{
+  width: 325px;
+  margin: 40px auto;
+}
+
 .small-lettering h1{
  	font-family: 'Lato', sans-serif;
 	font-weight: 700;
