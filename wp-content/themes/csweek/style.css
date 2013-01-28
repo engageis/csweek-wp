@@ -1022,6 +1022,10 @@ a.save-the-date{
   color: #333;
 }
 
+.blog #menu li, .single-post #menu li{
+  color: auto;
+}
+
 .blog #page a, .single-post #page a{
   color: #A50606;
 }
