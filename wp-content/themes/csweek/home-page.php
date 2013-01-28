@@ -12,14 +12,12 @@ get_header(); ?>
 <div id="welcome">
   <div class="container">
     <div class="row">
-      <div class="span8"> 
+      <div class="span8">
         <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
         <?php the_content(); ?>
       </div>
       <div class="offset1 span3">
-        <div class="my-cal btn-save-the-date">
-          <? require '_cal.php' ?>
-        </div >
+        <? require '_cal.php' ?>
         <a class="twitter-timeline" href="https://twitter.com/CrowdWeek" data-widget-id="293726412903424002">Tweets by @CrowdWeek</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
