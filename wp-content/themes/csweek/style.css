@@ -2120,6 +2120,12 @@ RESPONSIVE
 }
 
 @media (max-width: 1240px){
+  #menu{
+    background: #333;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+    margin-top: 40px;
+  }
   #menu li{
     float: left;
   }
@@ -2129,7 +2135,9 @@ RESPONSIVE
     height: auto;
     width: auto;
     background: #333 !important;
-    border: 1px solid white;
+    border-right: 1px solid #666;
+    border-left: 1px solid #222;
+    border-radius: 0;
   }
   #menu li .icon{
     display: none;
