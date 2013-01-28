@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Magra:700|Hammersmith+One|Share);
-@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 @import url("bootstrap/css/bootstrap.css");
 @import url("bootstrap/css/bootstrap-responsive.css");
 
@@ -1712,7 +1712,7 @@ strong{
   margin-top: 72px;
 }
 .the-content strong{
-  font-weight: bold;
+  font-weight: 700;
 }
 
 #sidebar{
