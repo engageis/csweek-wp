@@ -2135,9 +2135,13 @@ RESPONSIVE
     height: auto;
     width: auto;
     background: #333 !important;
-    border-right: 1px solid #666;
-    border-left: 1px solid #222;
+    border: 1px solid #222;
+    border-right-color: #666;
+    border-top: none;
     border-radius: 0;
+  }
+  #menu li a:hover{
+    background: #444;
   }
   #menu li .icon{
     display: none;
