@@ -1022,8 +1022,8 @@ a.save-the-date{
   color: #333;
 }
 
-.blog #menu li, .single-post #menu li{
-  color: auto;
+.blog li, .single-post li{
+  color: inherit !important;
 }
 
 .blog #page a, .single-post #page a{
