@@ -30,14 +30,6 @@
         <span class="where">SINGAPORE</span>
       </h1>
     </div>
-    <div class="row">
-      <div class="save-the-date span8">
-        <a href="<?= get_permalink_by_name("contact"); ?>">
-          <button class="btn btn-warning btn-save-the-date">PRE-REGISTER NOW</button>
-      </a>
-        <!--? require '_cal.php' ?-->
-      </div>
-    </div>
-
+    <a href="<?= get_permalink_by_name("contact"); ?>" class="save-the-date">Pre-register now</a>
   </div>
 </header>

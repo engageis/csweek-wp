@@ -20,7 +20,6 @@ body {
   padding-top: 40px;
 }
 
-
 /* Code in headings */
 h3 code {
   font-size: 14px;
@@ -115,6 +114,12 @@ hr.soften {
   background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #2E2E2E 0%, #222222 100%);
   /* W3C Markup, IE10 Release Preview */
   background-image: radial-gradient(ellipse farthest-corner at center, #2E2E2E 0%, #222222 100%);
+}
+
+@media only screen and (max-width: 767px) {
+  .jumbotron{
+    padding-top: 120px;
+  }
 }
 
 .jumbotron h1 {
@@ -1093,9 +1098,40 @@ form.bs-docs-example {
 }
 
 .save-the-date{
-  margin-bottom: 15px;
-  margin-left: 380px;
-  padding-left: 18px;
+  padding: 10px;
+  text-transform: uppercase;
+  margin: 25px auto 15px;
+  width: 270px;
+  font-family: 'Magra', sans-serif !important;
+  font-weight: bold;
+  font-size: 22px;
+  color: #996533;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+  background: #F5C01D;
+  border: 1px solid rgba(255,255,255,0.3);
+
+  box-shadow: 0 1px 0 #B88A37,
+                0 2px 0 #B88A37,
+                0 3px 0 #B88A37,
+                0 4px 0 #B88A37,
+                0 5px 0 #B88A37,
+
+                0 7px 4px rgba(0,0,0,.4);
+}
+
+.save-the-date:hover{
+  text-shadow: 0 -1px 0 rgba(255,255,255,0.5);
+  background: #F5C01D;
+  color: #794513;
+}
+
+.save-the-date:active{
+  text-shadow: 0 -1px 0 rgba(255,255,255,0.5);
+  background: #F5C01D;
+  color: #794513;
+  box-shadow: none;
+  bottom: -4px;
+  position: relative;
 }
 
 .save-the-date-box{
@@ -1140,48 +1176,8 @@ form.bs-docs-example {
   text-align: center;
 }
 
-.btn-save-the-date{
-  padding: 10px;
-  text-transform: uppercase;
-  margin: 25px 85px;
-  width: 270px;
-  font-family: 'Magra', sans-serif !important;
-  font-weight: bold;
-  font-size: 22px;
-  color: #996533;
-  text-shadow: 0 1px 0 rgba(255,255,255,0.5);
-  background: #F5C01D;
-  border: 1px solid rgba(255,255,255,0.3);
-
-  box-shadow: 0 1px 0 #B88A37,
-                0 2px 0 #B88A37,
-                0 3px 0 #B88A37,
-                0 4px 0 #B88A37,
-                0 5px 0 #B88A37,
-
-                0 7px 4px rgba(0,0,0,.4);
-}
-
 .btn-contact{
   margin: 0;
-}
-
-.btn-save-the-date:hover{
-  text-shadow: 0 -1px 0 rgba(255,255,255,0.5);
-  background: #F5C01D;
-  color: #794513;
-/*  box-shadow: none;
-  top: 4px;
-  position: relative;*/
-}
-
-.btn-save-the-date:active{
-  text-shadow: 0 -1px 0 rgba(255,255,255,0.5);
-  background: #F5C01D;
-  color: #794513;
-  box-shadow: none;
-  top: 4px;
-  position: relative;
 }
 
 .add-to-calendar{
