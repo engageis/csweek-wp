@@ -1,43 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title><?php wp_title( '', true);?></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="engage.is">
-    <meta property="og:title" content="Crowdsourcing Week" />
-    <meta property="og:type" content="activity" />
-    <meta property="og:url" content="http://crowdsourcingweek.com" />
-    <meta property="og:image" content="http://crowdsourcingweek.com/wp-content/themes/csweek/images/logo.png" />
-    <meta property="og:site_name" content="Crowdsourcing Week" />
-    <meta property="fb:admins" content="100002101958809" />
-
-    <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-
-    <meta property="og:title" content="Crowdsourcing Week" />
-    <meta property="og:type" content="activity" />
-    <meta property="og:url" content="http://crowdsourcingweek.com" />
-    <meta property="og:image" content="http://crowdsourcingweek.com/wp-content/themes/csweek/images/logo.png" />
-    <meta property="og:site_name" content="Crowdsourcing Week" />
-    <meta property="fb:admins" content="100002101958809" />
-<!--     <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="assets/css/docs.css" rel="stylesheet">
- -->  
-    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
-
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <link rel="shortcut icon" href="assets/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title><?php wp_title( '', true);?></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="engage.is">
+  <meta property="og:title" content="Crowdsourcing Week" />
+  <meta property="og:type" content="activity" />
+  <meta property="og:url" content="http://crowdsourcingweek.com" />
+  <meta property="og:image" content="http://crowdsourcingweek.com/wp-content/themes/csweek/images/logo.png" />
+  <meta property="og:site_name" content="Crowdsourcing Week" />
+  <meta property="fb:admins" content="100002101958809" />
+  <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+  <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+  <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link rel="shortcut icon" href="assets/ico/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+</head>
 <body <?php body_class(); ?> data-spy="scroll" data-target=".bs-docs-sidebar">
 
 <div id="fb-root"></div>
@@ -104,7 +90,7 @@
 <? require '_splash.php' ?>
 <?php else: ?>
 <? require '_splash-sec.php' ?>
-<?php endif;?>      
+<?php endif;?>
 <!-- <hr class="menu-bar" /> -->
 <ul id="menu" class="pager">
   <li>
