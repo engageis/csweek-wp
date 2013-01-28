@@ -2126,6 +2126,12 @@ RESPONSIVE
   #menu li a{
     color: white !important;
     padding: 10px;
+    height: auto;
+    width: auto;
+    background: #333;
     border: 1px solid white;
+  }
+  #menu li .icon{
+    display: none;
   }
 }
