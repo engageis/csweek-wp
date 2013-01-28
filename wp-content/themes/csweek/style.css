@@ -1023,7 +1023,7 @@ a.save-the-date{
   color: white;
 }
 
-.blog #menu li a, .single-post #menu li a, #page.contact-page #menu li a{
+.blog #menu li a, .single-post #menu li a, .page-template-contact-php #menu li a{
   color: #333;
 }
 
