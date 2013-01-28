@@ -2,8 +2,8 @@
 ================================================== -->
 <header class="jumbotron subhead" id="overview">
   <div class="container">
-    <a href="<?php bloginfo('url'); ?>">
-      <img class="span2" src="<?php bloginfo('template_url');?>/images/logo.png" />
+    <a href="<?php echo get_settings('home'); ?>">
+      <img src="<?php bloginfo('template_url');?>/images/logo.png" />
     </a>
     <div class="small-lettering">
       <h1>
