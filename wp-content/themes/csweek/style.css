@@ -851,7 +851,7 @@ form.bs-docs-example {
 
 .small-lettering{
   width: 325px;
-  margin: 40px auto;
+  margin: -100px auto 70px;
 }
 
 .small-lettering h1{
@@ -2110,5 +2110,11 @@ RESPONSIVE
   /* Unfloat the back to top in footer to prevent odd text wrapping */
   .footer .pull-right {
     float: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .small-lettering{
+    margin-top: 0;
   }
 }
