@@ -1248,7 +1248,7 @@ a.save-the-date{
   width: 283px;
 }
 
-#sponsors h2{
+#sponsors h2, #contact h2{
   font-family: 'Lato', sans-serif;
   color: #999;
   font-size: 18px;
@@ -1257,7 +1257,7 @@ a.save-the-date{
   text-transform: uppercase;
 }
 
-#sponsors h3{
+#sponsors h3, #contact h3{
   font-family: 'Lato', sans-serif;
   color: #D90000;
   font-size: 17px;
@@ -1710,6 +1710,9 @@ strong{
   width: 70%;
   margin-right: 50px;
   margin-top: 72px;
+}
+.the-content strong{
+  font-weight: bold;
 }
 
 #sidebar{
