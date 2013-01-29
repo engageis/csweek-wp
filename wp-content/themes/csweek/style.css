@@ -1730,7 +1730,7 @@ strong{
 }
 
 .ep_social_widget img {
-  margin: 0 2px;
+  margin-left: 4px;
   position: relative;
   top: -10px;
 }
