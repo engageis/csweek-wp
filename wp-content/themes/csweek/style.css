@@ -2082,6 +2082,10 @@ RESPONSIVE
     padding-left: 20px;
     padding-right: 20px;
   }
+  .site_logo{
+    position: relative;
+    top: -15px;
+  }
 }
 
 @media (max-width: 540px){
@@ -2092,7 +2096,7 @@ RESPONSIVE
   .jumbotron h1 .days, .jumbotron h1 .month{ font-size: 60px; }
   .jumbotron h1 .where, .jumbotron h1 .year {
     font-size: 38px;
-    line-height: 95px;
+    line-height: 66px;
   }
 }
 

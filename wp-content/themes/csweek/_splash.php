@@ -19,7 +19,7 @@
       window.onload = resize_canvas
     </script>
     <a href="<?php echo get_settings('home'); ?>">
-      <img src="<?php bloginfo('template_url');?>/images/logo.png" />
+      <img class="site_logo" src="<?php bloginfo('template_url');?>/images/logo.png" />
     </a>
     <div class="lettering">
       <h1>
