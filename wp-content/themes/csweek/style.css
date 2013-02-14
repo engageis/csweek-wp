@@ -1305,22 +1305,9 @@ a.save-the-date{
   margin-bottom: 0;
 }
 
-.sponsors-list{
-  list-style: none;
-  }
-
-.sponsors-list > li{
-  display: inline-block;
-  float: left;
-  width: 100px;
-  margin: 22px 40px 35px 0;
-}
-
-.sponsors-list li.sponsors-item{
-  display: inline-block;
-  float: left;
-  width: auto;
-  margin: 0 0 22px 0;
+.sponsor-logos{
+  text-align: center;
+  padding: 20px 0 40px;
 }
 
 .sponsor-logo:hover{
@@ -2156,6 +2143,4 @@ RESPONSIVE
 
   /* Unfloat the back to top in footer to prevent odd text wrapping */
   .footer .pull-right { float: none; }
-
-  .sponsors-list li.sponsors-item{ width: 50%; }
 }

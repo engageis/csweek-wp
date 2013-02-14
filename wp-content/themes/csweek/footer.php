@@ -12,17 +12,16 @@
             foreach ($sponsor_genres as $term):?>
             <h2><?=$term->name;?></h2>
             <?php $termslug  = $term->slug;?>
-            <ul class="sponsors-list">
             <?php $my_query = new WP_Query("showposts=-1&genre=$termslug&post_type=sponsors");?>
             <?php if($my_query->have_posts()) : ?>
+            <section class="sponsor-logos">
               <?php while($my_query->have_posts()) : $my_query->the_post(); ?>
-              <li class="sponsors-item">
-                <a target="_blank" href="<?=get_post_meta($post->ID, 'sponsor_url', true);?>">
-                  <?php the_post_thumbnail('sponsors-thumb');?>
-                </a>
-              </li>
-            <?php endwhile; endif; wp_reset_query(); ?>
-            </ul>
+              <a target="_blank" href="<?=get_post_meta($post->ID, 'sponsor_url', true);?>" class="sponsors-item">
+                <?php the_post_thumbnail('sponsors-thumb');?>
+              </a>
+            <?php endwhile; ?>
+            </section>
+            <?php endif; wp_reset_query(); ?>
             <?php endforeach;?>
           </div>
         </div>
