@@ -1546,7 +1546,7 @@ a.save-the-date{
   line-height: 250%;
 }
 
-#page .speaker-profile, .workshop-profile {
+#page .speaker-profile, .workshop-profile, .team-profile {
   width: 225px;
   float: left;
   margin: 20px;
@@ -1574,14 +1574,6 @@ a.save-the-date{
   margin: 0 auto;
   border: 2px solid white;
   position: relative;
-}
-
-.team-profile{
-  float: left;
-  width: 235px;
-  margin-right: 29px;
-  margin-top: 20px;
-  text-align: center;
 }
 
 .workshop-profile img{
@@ -2081,7 +2073,7 @@ RESPONSIVE
 }
 
 @media (max-width: 569px){
-  #page .speaker-profile, .workshop-profile {width: auto; float: none; }
+  #page .speaker-profile, .workshop-profile, .team-profile {width: auto; float: none; }
 }
 
 @media (max-width: 540px){
