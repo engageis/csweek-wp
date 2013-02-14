@@ -3,19 +3,20 @@
         <a target="_blank" href="http://www.yoursingapore.com/content/traveller/en/experience.html"><img src="<?php bloginfo('template_url');?>/images/ysing.jpg" class="ysing-logo"/></a>
         <div class="row">
           <div class="span12">
+            <a href="<?= get_permalink_by_name("sponsors"); ?>" class="learn-more">(learn more)</a>
             <?php  $sponsor_genres = get_terms( 'genre', array(
                   'orderby'    => 'count',
                   'hide_empty' => 1,
                   'order'      => 'DESC'
                  ));
             foreach ($sponsor_genres as $term):?>
-            <h2><?=$term->name;?> <a href="<?= get_permalink_by_name("sponsors"); ?>" class="learn-more">(learn more)</a></h2>
+            <h2><?=$term->name;?></h2>
             <?php $termslug  = $term->slug;?>
             <ul class="sponsors-list">
             <?php $my_query = new WP_Query("showposts=-1&genre=$termslug&post_type=sponsors");?>
             <?php if($my_query->have_posts()) : ?>
               <?php while($my_query->have_posts()) : $my_query->the_post(); ?>
-              <li>
+              <li class="sponsors-item">
                 <a target="_blank" href="<?=get_post_meta($post->ID, 'sponsor_url', true);?>">
                   <?php the_post_thumbnail('sponsors-thumb');?>
                 </a>
@@ -24,7 +25,7 @@
             </ul>
             <?php endforeach;?>
 
-            <h2>Crowdsourcing Sponsors <a href="<?= get_permalink_by_name("sponsors"); ?>" class="learn-more">(learn more)</a></h2>
+            <h2>Crowdsourcing Sponsors</h2>
             <ul class="sponsors-list">
               <li>
                 <a target="_blank" href='http://www.99designs.com'>

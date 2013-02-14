@@ -1255,6 +1255,7 @@ a.save-the-date{
   font-weight: 900;
   text-align: center;
   text-transform: uppercase;
+  clear: both;
 }
 
 #sponsors h3, #contact h3{
@@ -1262,10 +1263,13 @@ a.save-the-date{
   color: #D90000;
   font-size: 17px;
   text-transform: lowercase;
+  clear: both;
 }
 
 #sponsors .learn-more{
   float: right;
+  position: relative;
+  bottom: -10px;
 }
 
 #sponsors a{
@@ -1310,6 +1314,13 @@ a.save-the-date{
   float: left;
   width: 100px;
   margin: 22px 40px 35px 0;
+}
+
+.sponsors-list li.sponsors-item{
+  display: inline-block;
+  float: left;
+  width: auto;
+  margin: 0 0 22px 0;
 }
 
 .sponsor-logo:hover{
@@ -1538,10 +1549,9 @@ a.save-the-date{
 #page .speaker-profile, .workshop-profile {
   width: 225px;
   float: left;
-  margin-right: 40px;
+  margin: 20px;
   text-align: center;
-  margin-top: 25px;
-  height: 210px;
+  height: 230px;
   overflow: hidden;
 }
 
@@ -1575,14 +1585,14 @@ a.save-the-date{
 }
 
 .workshop-profile img{
-  left: 22px;
   border-radius: 50%;
-  float: left;
-  margin-right: 60px;
+  display: block;
   box-shadow: 0 0 0 5px white;
-  position: relative;
   width: 100px;
-  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 10px;
 }
 
 #page .city{
@@ -1600,11 +1610,6 @@ img.linkedin-profile{
 .team-profile h5{
   font-size: 14px;
   font-weight: 400;
-}
-
-.workshop-content{
-  float: left;
-  width: 75%;
 }
 
 .workshop-content h2{
@@ -2075,6 +2080,10 @@ RESPONSIVE
   }
 }
 
+@media (max-width: 569px){
+  #page .speaker-profile, .workshop-profile {width: auto; float: none; }
+}
+
 @media (max-width: 540px){
   .map{display: none;}
   .lettering{width: 315px;}
@@ -2137,4 +2146,6 @@ RESPONSIVE
 
   /* Unfloat the back to top in footer to prevent odd text wrapping */
   .footer .pull-right { float: none; }
+
+  .sponsors-list li.sponsors-item{ width: 50%; }
 }
