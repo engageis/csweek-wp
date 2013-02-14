@@ -14,7 +14,7 @@
         <a target="_blank" href="http://www.ludvikplus.com">
           <img src="<?php bloginfo('template_url');?>/images/logo_ludvk.jpg"/>
         </a>
-        <p>©2012 Crowdsourcing Week</p>
+        <p>©<?=Date('Y');?> Crowdsourcing Week</p>
       </div>
       </div>
     </div>

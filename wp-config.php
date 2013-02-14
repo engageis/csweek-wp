@@ -14,27 +14,18 @@
  * @package WordPress
  */
 
-// ** Heroku Postgres settings - from Heroku Environment ** //
-if($_ENV["DATABASE_URL"]){
-  $db = parse_url($_ENV["DATABASE_URL"]);
-}else{
-  $db = array(path => "csweek", user => "csweek", pass => "1234", host => "localhost:5432");
-}
-
-// print_r($db);
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-
-define('DB_NAME', trim($db["path"],"/"));
+define('DB_NAME', 'csweek');
 
 /** MySQL database username */
-define('DB_USER', $db["user"]);
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', $db["pass"]);
+define('DB_PASSWORD', 'root');
 
 /** MySQL hostname */
-define('DB_HOST', $db["host"]);
+define('DB_HOST', 'localhost:8889');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -51,14 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
+define('AUTH_KEY',         'I1$:j*Op oC[]lr`[++%`}S|@ET-<g|pDZT-[|@6Knl1}L:P5Yi;5qU?Cp^|Be+K');
+define('SECURE_AUTH_KEY',  '>-sw4HiG1 /WEC+kZgd2m3s+Pr9kQ~h`P[jVd&j+)lxv@i50Rg ,.5f3Xr7$KYOx');
+define('LOGGED_IN_KEY',    'q:}D|A}c|Tx|}UQ|IDboioTO8KL$8$y4jgt{3ZP%iE&!lIRyLKs-uVD)B!(6!5uD');
+define('NONCE_KEY',        '+c2`}as:xrtEl/|3_&{>+F~7EYYm.u;fNmZ4e06 c2V`nu+F<YO|]LM7x|nD>0|7');
+define('AUTH_SALT',        '8[rC|Yi6fXd3pC|Rj4g/HSAEhYG<||1|%P2URwz?qf3!->|* +YCpDK>),x<fhhm');
+define('SECURE_AUTH_SALT', 'D~R ksEDU2PhIls!_W}gzK6TI8%4LjYTlj4K3,rq5#F(e1%nClm.0~y#)6~k][L7');
+define('LOGGED_IN_SALT',   '0%%e1>.d}^mDCMM*&9&qmCYa(,gR%3{+miQa2BzRaXd4tllrCd<}3}D |:dH(ug=');
+define('NONCE_SALT',       'tQ)y)lbWQ%!+qHEz.1Xg&/ByX4=un~404k6Ir{>a}8pQb7yb+My[Y./6yv aSU+S');
 
 /**#@-*/
 
@@ -87,7 +78,7 @@ define('WPLANG', '');
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
  */
-define('WP_DEBUG', true);
+define('WP_DEBUG', false);
 
 /* That's all, stop editing! Happy blogging. */
 
@@ -97,4 +88,3 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
-

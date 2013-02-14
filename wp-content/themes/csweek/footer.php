@@ -6,7 +6,27 @@
           </div>
         </div>
         <div class="row">
-          <div class="span12"u>
+          <div class="span12">
+            <?php  $sponsor_genres = get_terms( 'genre', array(
+                  'orderby'    => 'count',
+                  'hide_empty' => 1,
+                  'order'      => 'DESC'
+                 ));
+            foreach ($sponsor_genres as $term):?>
+            <h2><?=$term->name;?> <a href="<?= get_permalink_by_name("sponsors"); ?>" class="learn-more">(learn more)</a></h2>
+            <?php $termslug  = $term->slug;?>
+            <ul class="sponsors-list">
+            <?php $my_query = new WP_Query("showposts=-1&genre=$termslug&post_type=sponsors");?>
+            <?php if($my_query->have_posts()) : ?>
+              <?php while($my_query->have_posts()) : $my_query->the_post(); ?>
+              <li>
+                <a target="_blank" href="<?=get_post_meta($post->ID, 'sponsor_url', true);?>">
+                  <?php the_post_thumbnail('sponsors-thumb');?>
+                </a>
+              </li>
+            <?php endwhile; endif; wp_reset_query(); ?>
+            </ul>
+            <?php endforeach;?>
 
 <!-- DESCOMENTAR ESSAS LINHAS QUANDO ESTIVER TUDO OK
             <?php $my_query = new WP_Query('showposts=-1&genre=crowd-sponsors&post_type=sponsors');?>
