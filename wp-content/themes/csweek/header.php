@@ -129,7 +129,7 @@
     </a>
   </li>
   <li>
-    <a href="<?= get_permalink_by_name("how-to-get-involved"); ?>">
+    <a href="<?= get_permalink_by_name("get-involved"); ?>">
       <div class="icon the-team"></div>
       <div>How to get involved</div>
     </a>
