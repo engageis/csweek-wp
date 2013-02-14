@@ -17,7 +17,7 @@ get_header(); ?>
         <h2><?php if($page_quoted_title){echo nl2br($page_quoted_title);} else {the_title();} ?></h2>
       </header>
       <?php the_content();?>
-      <?php $my_query = new WP_Query('showposts=-1&post_type=speakers'); ?>  
+      <?php $my_query = new WP_Query('showposts=-1&post_type=speakers'); ?>
       <?php if($my_query->have_posts()) : ?>
       <div class="speakers-wrapper">
         <?php while($my_query->have_posts()) : $my_query->the_post(); ?>
@@ -31,7 +31,7 @@ get_header(); ?>
             <a target="_blank" id="linkedin" href="<?= $linkedin ?>">Linkedin </a>
           <?php endif;?>
           <?php if($twitter && $linkedin):?>
-             | 
+             |
           <?php endif;?>
           <?php if($twitter):?>
             <a target="_blank" id="twitter" href="<?= $twitter ?>"> Twitter</a>
@@ -39,14 +39,14 @@ get_header(); ?>
         </div>
         <?php endwhile;?>
       </div>
-      <?php endif; wp_reset_query(); ?> 
+      <?php endif; wp_reset_query(); ?>
     </article>
     <?php $extra_content = get_post_meta($post->ID, 'extra_content', true);?>
     <?php if($extra_content):?>
       <aside id="extra_content"><?php echo $extra_content;?></aside>
     <?php endif;?>
   </div>
-</div-->
+</div>
 <?php endwhile;?>
 
 <?php get_footer(); ?>
