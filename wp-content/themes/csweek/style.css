@@ -100,6 +100,7 @@ hr.soften {
   margin-bottom: -40px;
   padding: 80px 0;
   color: #fff;
+  overflow: hidden;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
   /* IE10 Consumer Preview */
@@ -879,8 +880,8 @@ form.bs-docs-example {
 
 #nodes{
 	position: absolute;
-	top: 0;
-	left: 0;
+	top: -70px;
+	left: -40px;
 	z-index: -1;
 }
 
@@ -1781,7 +1782,7 @@ strong{
   z-index: -1000;
   opacity: .3;
   position: absolute;
-  bottom: -114px;
+  min-width: 500px !important;
 }
 
 .invert-align{
@@ -1934,6 +1935,35 @@ RESPONSIVE
 --------------------------------------------------
 -------------------------------------------------- */
 
+@media (max-width: 1240px){
+  #menu{
+    background: #333;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+    margin-top: 40px;
+  }
+  #menu li{
+    float: left;
+  }
+  #menu li a{
+    color: white !important;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    background: #333 !important;
+    border: 1px solid #222;
+    border-right-color: #666;
+    border-top: none;
+    border-radius: 0;
+  }
+  #menu li a:hover{
+    background: #444 !important;
+  }
+  #menu li .icon{
+    display: none;
+  }
+}
+
 /* Desktop large
 ------------------------- */
 @media (min-width: 1200px) {
@@ -1945,66 +1975,13 @@ RESPONSIVE
   }
 }
 
-/* Desktop
-------------------------- */
-@media (max-width: 980px) {
-  /* Unfloat brand */
-  body > .navbar-fixed-top .brand {
-    float: left;
-    margin-left: 0;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  /* Inline-block quick links for more spacing */
-  .quick-links li {
-    display: inline-block;
-    margin: 5px;
-  }
-
-  /* When affixed, space properly */
-  .bs-docs-sidenav {
-    top: 0;
-    margin-top: 30px;
-    margin-right: 0;
-  }
-}
-
-/* Tablet to desktop
-------------------------- */
-@media (min-width: 768px) and (max-width: 980px) {
-  /* Remove any padding from the body */
-  body {
-    padding-top: 0;
-  }
-  /* Widen masthead and social buttons to fill body padding */
-  .jumbotron {
-    margin-top: -20px; /* Offset bottom margin on .navbar */
-  }
-  /* Adjust sidenav width */
-  .bs-docs-sidenav {
-    width: 166px;
-    margin-top: 20px;
-  }
-  .bs-docs-sidenav.affix {
-    top: 0;
-  }
-}
-
 /* Tablet
 ------------------------- */
 @media (max-width: 1024px) {
-  /* Remove any padding from the body */
-  body {
-    padding-top: 0;
-  }
 
   /* Widen masthead and social buttons to fill body padding */
   .jumbotron {
     padding: 120px 20px 40px;
-    margin-top:   -20px; /* Offset bottom margin on .navbar */
-    margin-right: -20px;
-    margin-left:  -20px;
   }
   .masthead h1 {
     font-size: 90px;
@@ -2048,47 +2025,100 @@ RESPONSIVE
   }
 }
 
+/* Desktop
+------------------------- */
+@media (max-width: 980px) {
+  /* Unfloat brand */
+  body > .navbar-fixed-top .brand {
+    float: left;
+    margin-left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* Inline-block quick links for more spacing */
+  .quick-links li {
+    display: inline-block;
+    margin: 5px;
+  }
+
+  /* When affixed, space properly */
+  .bs-docs-sidenav {
+    top: 0;
+    margin-top: 30px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .small-lettering{
+    margin-top: 0;
+  }
+}
+
+/* Tablet to desktop
+------------------------- */
+@media (min-width: 768px) and (max-width: 980px) {
+  /* Widen masthead and social buttons to fill body padding */
+  .jumbotron {
+    margin-top: -20px; /* Offset bottom margin on .navbar */
+  }
+  /* Adjust sidenav width */
+  .bs-docs-sidenav {
+    width: 166px;
+    margin-top: 20px;
+  }
+  .bs-docs-sidenav.affix {
+    top: 0;
+  }
+}
+
+@media (max-width: 767px){
+  body{
+    padding: 0;
+    padding-top: 40px;
+  }
+  .jumbotron, #welcome, #support, #daily-topics, #sponsors, #contact, #page{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 540px){
+  .map{display: none;}
+  .lettering{width: 315px;}
+  .jumbotron h1{ text-shadow: 0 1px 0 #bbb, 0 2px 0 #bbb, 0 3px 0 #bbb, 0 8px 5px rgba(0, 0, 0, 0.5); }
+  .jumbotron h1 .year, .jumbotron h1 .month{ text-shadow: 0 1px 0 #600, 0 2px 0 #600, 0 3px 0 #600, 0 8px 5px rgba(0, 0, 0, 0.5); }
+  .jumbotron h1 .days, .jumbotron h1 .month{ font-size: 60px; }
+  .jumbotron h1 .where, .jumbotron h1 .year {
+    font-size: 38px;
+    line-height: 95px;
+  }
+}
+
 /* Landscape phones
 ------------------------- */
 @media (max-width: 480px) {
-  /* Remove padding above jumbotron */
-  body {
-    padding-top: 0;
-  }
 
   /* Change up some type stuff */
-  h2 small {
-    display: block;
-  }
+  h2 small { display: block; }
 
   /* Downsize the jumbotrons */
-  .jumbotron h1 {
-    font-size: 60px;
-  }
-  .jumbotron p,
-  .jumbotron .btn {
-    font-size: 20px;
-  }
+  .jumbotron h1 { font-size: 60px; }
+  .jumbotron p, .jumbotron .btn { font-size: 20px; }
   .jumbotron .btn {
     display: block;
     margin: 0 auto;
   }
 
   /* center align subhead text like the masthead */
-  .subhead h1,
-  .subhead p {
-    text-align: center;
-  }
+  .subhead h1, .subhead p { text-align: center; }
 
   /* Marketing on home */
-  .marketing h1 {
-    font-size: 40px;
-  }
+  .marketing h1 { font-size: 40px;}
 
   /* center example sites */
-  .example-sites {
-    margin-left: 0;
-  }
+  .example-sites { margin-left: 0; }
   .example-sites > li {
     float: none;
     display: block;
@@ -2096,9 +2126,7 @@ RESPONSIVE
     margin: 0 auto 18px;
     text-align: center;
   }
-  .example-sites .thumbnail > img {
-    max-width: 270px;
-  }
+  .example-sites .thumbnail > img { max-width: 270px; }
 
   /* Do our best to make tables work in narrow viewports */
   table code {
@@ -2117,52 +2145,5 @@ RESPONSIVE
   }
 
   /* Unfloat the back to top in footer to prevent odd text wrapping */
-  .footer .pull-right {
-    float: none;
-  }
-}
-
-@media (max-width: 900px) {
-  .small-lettering{
-    margin-top: 0;
-  }
-}
-
-@media (max-width: 1240px){
-  #menu{
-    background: #333;
-    border-top: 1px solid #666;
-    border-bottom: 1px solid #666;
-    margin-top: 40px;
-  }
-  #menu li{
-    float: left;
-  }
-  #menu li a{
-    color: white !important;
-    padding: 10px;
-    height: auto;
-    width: auto;
-    background: #333 !important;
-    border: 1px solid #222;
-    border-right-color: #666;
-    border-top: none;
-    border-radius: 0;
-  }
-  #menu li a:hover{
-    background: #444 !important;
-  }
-  #menu li .icon{
-    display: none;
-  }
-}
-
-@media (max-width: 767px){
-  body{
-    padding: 0;
-  }
-  .jumbotron, #welcome, #support, #daily-topics, #sponsors, #contact, #page{
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+  .footer .pull-right { float: none; }
 }

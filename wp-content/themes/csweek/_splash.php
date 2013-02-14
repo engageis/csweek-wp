@@ -7,7 +7,13 @@
     <script type="text/javascript">
       resize_canvas = function(e){
         var canvas = document.getElementsByTagName('canvas')[0];
-        canvas.width  = window.innerWidth - 200;
+        if(window.innerWidth <= 720){
+          canvas.style.display = 'none';
+        }
+        else {
+          canvas.width  = window.innerWidth;
+          canvas.style.display = 'block';
+        }
       }
       window.onresize = resize_canvas
       window.onload = resize_canvas
@@ -15,11 +21,6 @@
     <a href="<?php echo get_settings('home'); ?>">
       <img src="<?php bloginfo('template_url');?>/images/logo.png" />
     </a>
-
-<!--     <div style="width: 250px; float: right; background: transparent;" class="fb-like" data-href="http://crowdsourcingweek.com/" data-send="false" data-width="250" data-show-faces="true" data-colorscheme="dark"></div> -->
-    <!--div style="width: 250px; float: right;" class="fb-like-box" data-href="http://www.crowdsourcingweek.com" data-width="250" data-show-faces="true" data-stream="false" data-header="true"></div>-->
-    <!-- <div class="fb-like" data-href="http://crowdsourcingweek.com/" data-send="false" data-width="450" data-show-faces="true" ></div> -->
-
     <div class="lettering">
       <h1>
         <span class="days">03-07</span>
