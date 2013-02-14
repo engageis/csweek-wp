@@ -45,20 +45,20 @@ get_header(); ?>
         <h3>Crowdsourcing Week will Bring Innovators to Center Stage</h3>
         <h4>Crowdsourcing Week (CSW) 2013 will bring together the best and brightest minds in the field across disciplines. The 5-day curated event will highlight new directions in crowdsourcing in:</h4>
         <br />
-        <ul class="span3">
+        <ul class="list">
           <li>Science/Tech</li>
           <li>Enterprise</li>
           <li>Government/NGO</li>
           <li>Urban Planning</li>
           <li>Tourism</li>
         </ul>
-        <ul class="span3">
+        <ul class="list">
           <li>Crowdfunding & Start-ups</li>
           <li>Advertising</li>
           <li>Marketing</li>
           <li>Citizen Journalism</li>
         </ul>
-        <ul class="span3">
+        <ul class="list">
           <li>Design & Fashion</li>
           <li>Film</li>
           <li>Photography</li>
@@ -68,19 +68,19 @@ get_header(); ?>
     <div class="span12">
       <div class="row">
         <h3>Who Will Benefit the Most at Crowdsourcing Week?</h3>
-        <ul class="span3">
+        <ul class="list">
           <li>CEO</li>
           <li>CMO</li>
           <li>COO</li>
           <li>CFO</li>
         </ul>
-        <ul class="span3">
+        <ul class="list">
           <li>CCO</li>
           <li>CIO</li>
           <li>Presidents</li>
           <li>Vice-Presidents</li>
         </ul>
-        <ul class="span3">
+        <ul class="list">
           <li>Directors</li>
           <li>Managers</li>
           <li>Partners</li>

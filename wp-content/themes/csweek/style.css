@@ -1244,6 +1244,8 @@ a.save-the-date{
 
 #sponsors .ysing-logo{
   width: 283px;
+  display: block;
+  margin: 0 auto;
 }
 
 #sponsors h2, #contact h2{
@@ -1340,6 +1342,11 @@ a.save-the-date{
   padding: 35px 0;
 }
 
+#daily-topics h3, #daily-topics h4{
+  float: left;
+  width: 100%;
+  clear: both;
+}
 
 #daily-topics h3{
   font-family: 'Lato', sans-serif;
@@ -1354,8 +1361,6 @@ a.save-the-date{
   font-weight: 300;
   color: #666;
   line-height: 165%;
-  float: left;
-  width: 100%;
 }
 
 #daily-topics li{
@@ -1462,28 +1467,16 @@ a.save-the-date{
   color: #333;
 }
 
-/* #page h2{
-  font-family: 'Lato', sans-serif;
-  color: white;
-  font-size: 22px;
-  margin: 22px 0 30px 0;
-  font-weight: 500;
-}
-
-#page h3{
-  font-family: 'Lato', sans-serif;
-  font-size: 27px;
-  font-weight: 300;
-  color: #666;
-  line-height: 165%;
-}*/
-
 .post-info{
   font-family: 'Lato', sans-serif;
   font-size: 18px;
   font-weight: 500;
   color: #666;
   line-height: 165%;
+}
+
+#page .conainer{
+  padding-bottom: 70px;
 }
 
 #page h4{
@@ -1547,7 +1540,9 @@ a.save-the-date{
   float: left;
   margin-right: 40px;
   text-align: center;
-  margin-top: 25px
+  margin-top: 25px;
+  height: 210px;
+  overflow: hidden;
 }
 
 #page .speaker-profile > h2 {
@@ -1570,11 +1565,6 @@ a.save-the-date{
   border: 2px solid white;
   position: relative;
 }
-
-.speaker-profile:nth-child(4n+1), .team-profile:nth-child(4n+1){
-  clear: left;
-}
-
 
 .team-profile{
   float: left;

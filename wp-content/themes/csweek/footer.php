@@ -1,10 +1,6 @@
     <div id="sponsors">
       <div class="container">
-        <div class="row">
-          <div class="offset4 span8">
-            <a target="_blank" href="http://www.yoursingapore.com/content/traveller/en/experience.html"><img src="<?php bloginfo('template_url');?>/images/ysing.jpg" class="ysing-logo"/></a>
-          </div>
-        </div>
+        <a target="_blank" href="http://www.yoursingapore.com/content/traveller/en/experience.html"><img src="<?php bloginfo('template_url');?>/images/ysing.jpg" class="ysing-logo"/></a>
         <div class="row">
           <div class="span12">
             <?php  $sponsor_genres = get_terms( 'genre', array(
@@ -27,50 +23,6 @@
             <?php endwhile; endif; wp_reset_query(); ?>
             </ul>
             <?php endforeach;?>
-
-<!-- DESCOMENTAR ESSAS LINHAS QUANDO ESTIVER TUDO OK
-            <?php $my_query = new WP_Query('showposts=-1&genre=crowd-sponsors&post_type=sponsors');?>
-            <?php if($my_query->have_posts()) : ?>
-            <h2>Crowdsourcing Sponsors <a href="<?= get_permalink_by_name("sponsors"); ?>" class="learn-more">(learn more)</a></h2>
-            <ul class="sponsors-list">
-              <?php while($my_query->have_posts()) : $my_query->the_post(); ?>
-              <li>
-                <a target="_blank" href="<?=get_post_meta($post->ID, 'sponsor_url', true);?>">
-                  <?php the_post_thumbnail('sponsors-thumb');?>
-                </a>
-              </li>
-              <?php endwhile;?>
-            </ul>
-            <?php endif; wp_reset_query(); ?>
-
-            <?php $my_query = new WP_Query('showposts=-1&genre=tec-strat-partners&post_type=sponsors');?>
-            <?php if($my_query->have_posts()) : ?>
-            <h2>Technology & strategic partners</h2>
-            <ul class="sponsors-list">
-              <?php while($my_query->have_posts()) : $my_query->the_post(); ?>
-              <li>
-                <a target="_blank" href="<?=get_post_meta($post->ID, 'sponsor_url', true);?>">
-                  <?php the_post_thumbnail('sponsors-thumb');?>
-                </a>
-              </li>
-              <?php endwhile;?>
-            </ul>
-            <?php endif; wp_reset_query(); ?>
-
-            <?php $my_query = new WP_Query('showposts=-1&genre=media-partners&post_type=sponsors');?>
-            <?php if($my_query->have_posts()) : ?>
-            <h2>Media Partners</h2>
-            <ul class="sponsors-list">
-              <?php while($my_query->have_posts()) : $my_query->the_post(); ?>
-              <li>
-                <a target="_blank" href="<?=get_post_meta($post->ID, 'sponsor_url', true);?>">
-                  <?php the_post_thumbnail('sponsors-thumb');?>
-                </a>
-              </li>
-              <?php endwhile;?>
-            </ul>
-            <?php endif; wp_reset_query(); ?>
- -->
 
             <h2>Crowdsourcing Sponsors <a href="<?= get_permalink_by_name("sponsors"); ?>" class="learn-more">(learn more)</a></h2>
             <ul class="sponsors-list">
