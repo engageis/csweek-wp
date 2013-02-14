@@ -2143,4 +2143,5 @@ RESPONSIVE
 
   /* Unfloat the back to top in footer to prevent odd text wrapping */
   .footer .pull-right { float: none; }
+  .sponsors-item { width: 49%; }
 }
