@@ -1010,6 +1010,13 @@ a.save-the-date{
   padding: 0;
   margin: 0;
   z-index: 1000;
+  float: left;
+  width: 100%;
+  clear: both;
+}
+
+#menu li{
+  vertical-align: top;
 }
 
 #menu li a{
@@ -1100,18 +1107,8 @@ a.save-the-date{
   background-position: -408px 0 ;
 }
 
-
-/*hr.menu-bar{
-  height: 5px;
-  background: #333;
-  border-top: 1px solid #444;
-  margin: 0;
-}*/
-
 #welcome{
-  margin-top: -90px;
   padding-top: 90px;
-  /* background: transparent url(images/welcome-bg.png); */
   border-top: 2px solid #555;
   background-color: #333;
   border-bottom: 3px solid #555;
