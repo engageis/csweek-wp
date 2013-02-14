@@ -1690,18 +1690,18 @@ strong{
   font-size: 14px;
 }
 
-#page .the-content{
+#page .blog-container{
   float: left;
   width: 70%;
-  margin-right: 50px;
-  margin-top: 72px;
+  margin-top: 28px;
 }
 .the-content strong{
   font-weight: 700;
 }
 
 #sidebar{
-  width: 20%;
+  width: 25%;
+  overflow: hidden;
   float: right;
 }
 
@@ -2076,6 +2076,17 @@ RESPONSIVE
   .site_logo{
     position: relative;
     top: -15px;
+  }
+
+  #sidebar{
+    /*width: auto;
+    clear: both;
+    float: left;*/
+    display: none;
+  }
+
+  #page .blog-container{
+    width: 100%;
   }
 }
 
