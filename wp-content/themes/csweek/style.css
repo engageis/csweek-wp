@@ -1018,9 +1018,43 @@ a.save-the-date{
   border-bottom: 1px solid #666;
 }
 
+#menu .sub-menu{
+  position: absolute;
+  top: 41px;
+  left: -25px;
+  display: none;
+  background: #333;
+  padding: 5px;
+  border: 1px solid #222;
+  border-top: none;
+  box-shadow: 2px 1px 5px rgba(0,0,0,.3);
+  z-index: 3000;
+  min-width: 240px;
+}
+
+#menu .sub-menu .menu-item{
+  float: none;
+  display: block;
+  text-align: left;
+}
+
+#menu .sub-menu .menu-item:last-child a{
+  border: none;
+}
+
+#menu .sub-menu .menu-item a{
+  border-left: none;
+  border-right: none;
+}
+
+#menu li:hover .sub-menu, .sub-menu:hover{
+  display: block;
+}
+
 #menu li{
   vertical-align: top;
   float: left;
+  position: relative;
 }
 
 #menu li a{
@@ -1032,6 +1066,7 @@ a.save-the-date{
   padding: 10px;
   height: auto;
   width: auto;
+  display: block;
   background: #333;
   border: 1px solid #222;
   border-right-color: #666;
