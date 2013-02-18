@@ -98,34 +98,3 @@
 <? require '_splash-sec.php' ?>
 <?php endif;?>
 <?php wp_nav_menu( array( 'menu_class' => 'pager', 'menu_id' => 'menu', 'theme_location' => 'top_menu', 'container' => 'ul') ); ?>
-<ul id="menu" class="pager">
-  <li>
-    <a href="<?= get_permalink_by_name("about"); ?>">About</a>
-  <li>
-    <a href="<?= get_permalink_by_name("the-sponsors"); ?>">Sponsors</a>
-  </li>
-  <li>
-    <a href="<?= get_permalink_by_name("the-speakers"); ?>">Speakers</a>
-  </li>
-  <li>
-    <a href="<?= get_permalink_by_name("schedule"); ?>">Schedule</a>
-  </li>
-  <li>
-    <a href="<?= get_permalink_by_name("start-up-competition"); ?>">Startup Competition</a>
-  </li>
-  <li>
-    <a href="<?= get_permalink_by_name("board-of-advisors"); ?>">Board of advisors</a>
-  </li>
-  <li>
-    <a href="<?= get_permalink_by_name("get-involved"); ?>">How to get involved</a>
-  </li>
-  <li>
-    <a href="<?= get_permalink_by_name("the-team"); ?>">The team</a>
-  </li>
-  <li>
-    <a href="<?= get_permalink_by_name("1-day-global-summit"); ?>">1-day global summit</a>
-  </li>
-  <li>
-    <a href="<?= get_permalink_by_name("blog"); ?>">Blog</a>
-  </li>
-</ul>
