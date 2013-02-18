@@ -1062,7 +1062,7 @@ a.save-the-date{
   font-size: 1em;
   font-weight: 500;
   text-transform: uppercase;
-  color: white;
+  color: white !important;
   padding: 10px;
   height: auto;
   width: auto;
@@ -1673,6 +1673,27 @@ strong{
 }
 .the-content strong{
   font-weight: 700;
+}
+
+.the-content img{
+  display: block;
+
+}
+
+.the-content{
+  clear: both;
+  overflow: hidden;
+  padding-bottom: 50px;
+}
+
+.the-content img.alignleft{
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+.the-content img.alignright{
+  float: right;
+  margin: 0 0 10px 10px;
 }
 
 #sidebar{
