@@ -1009,7 +1009,7 @@ a.save-the-date{
 #menu{
   position: relative;
   top: -50px !important;
-  padding: 0;
+  padding: 0 5px;
   margin: 40px 0 0;
   z-index: 1000;
   float: left;
