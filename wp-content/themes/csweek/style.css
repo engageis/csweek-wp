@@ -1557,6 +1557,7 @@ a.save-the-date{
   display: block;
   box-shadow: 0 0 0 5px white;
   width: 100px;
+  height: 100px;
   margin: 0 auto;
   text-align: center;
   position: relative;
