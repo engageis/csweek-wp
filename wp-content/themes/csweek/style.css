@@ -1819,8 +1819,7 @@ strong{
   margin-top: 18px;
 }
 
-#page article .entry-content .attachment-big-thumb{
-  width: 20%;
+#page article .entry-content .attachment-post-thumbnail{
   float: left;
   margin-right: 36px;
   margin-top: 6px;

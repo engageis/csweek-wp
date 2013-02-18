@@ -23,7 +23,7 @@
               </span>
             </header>
             <div class="entry-content">
-              <?php if(has_post_thumbnail($post->ID)):?><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_post_thumbnail('big-thumb');?></a><?php endif;?>
+              <?php if(has_post_thumbnail($post->ID)):?><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_post_thumbnail();?></a><?php endif;?>
               <?php the_excerpt(); ?>
               <section class="add-this">
                 <p>share it<? require '_add-this.php' ?></p>
