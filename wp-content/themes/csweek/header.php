@@ -97,7 +97,7 @@
 <?php else: ?>
 <? require '_splash-sec.php' ?>
 <?php endif;?>
-<!-- <hr class="menu-bar" /> -->
+<?php wp_nav_menu( array( 'menu_class' => 'pager', 'menu_id' => 'menu', 'theme_location' => 'top_menu', 'container' => 'ul') ); ?>
 <ul id="menu" class="pager">
   <li>
     <a href="<?= get_permalink_by_name("about"); ?>">About</a>

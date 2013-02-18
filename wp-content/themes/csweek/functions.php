@@ -15,6 +15,7 @@ function csweek_setup() {
   set_post_thumbnail_size( 200, 200, true );
   add_image_size('team-thumb', 100, 100, true);
   add_image_size('sponsors-thumb', 200, 100, true);
+  register_nav_menus( array('top_menu' => __( 'Main Navigation', 'twentyten' )));
 }
 endif;
 
@@ -26,7 +27,7 @@ function add_contactmethods( $contactmethods ) {
   // $contactmethods['facebook'] = 'Facebook';
   $contactmethods['twitter'] = 'Twitter';
   $contactmethods['linkedin'] = 'LinkedIn';
-  
+
   return $contactmethods;
 }
 add_filter('user_contactmethods','add_contactmethods',10,1);
@@ -58,7 +59,7 @@ function get_permalink_by_name($page_name)
 
 /* CUSTOM POST TYPES */
 add_action('init', 'my_cpt_init');
-function my_cpt_init() 
+function my_cpt_init()
 {
 /* CUSTOM POST TYPE: WORKSHOPS */
   $labelsWorkshops = array(
@@ -82,11 +83,11 @@ function my_cpt_init()
     'menu_position' => 4,
     // Dá pra usar um icone aqui
     // 'menu_icon' => get_bloginfo('template_url') . '/images/icons/workshop.png',
-    'show_in_menu' => true, 
+    'show_in_menu' => true,
     'query_var' => false,
     // 'rewrite' => array('slug' => 'workshop'),
     'capability_type' => 'post',
-    'has_archive' => true, 
+    'has_archive' => true,
     'hierarchical' => false,
     'supports' => array('title','editor','thumbnail')
   );
@@ -113,15 +114,15 @@ function my_cpt_init()
     'menu_position' => 4,
     // Dá pra usar um icone aqui
     // 'menu_icon' => get_bloginfo('template_url') . '/images/icons/workshop.png',
-    'show_in_menu' => true, 
+    'show_in_menu' => true,
     'query_var' => false,
     // 'rewrite' => array('slug' => 'workshop'),
     'capability_type' => 'post',
-    'has_archive' => true, 
+    'has_archive' => true,
     'hierarchical' => false,
     'supports' => array('title','thumbnail')
   );
-  
+
   /* CUSTOM POST TYPE: SPEAKERS */
   $labelsSpeakers = array(
     'name' => 'Speakers',
@@ -144,11 +145,11 @@ function my_cpt_init()
     'menu_position' => 4,
     // Dá pra usar um icone aqui
     // 'menu_icon' => get_bloginfo('template_url') . '/images/icons/workshop.png',
-    'show_in_menu' => true, 
+    'show_in_menu' => true,
     'query_var' => false,
     // 'rewrite' => array('slug' => 'workshop'),
     'capability_type' => 'post',
-    'has_archive' => true, 
+    'has_archive' => true,
     'hierarchical' => false,
     'supports' => array('title','editor','thumbnail')
   );
@@ -173,14 +174,14 @@ function my_cpt_init()
     'show_ui' => true,
     'exclude_from_search' => true,
     'menu_position' => 6,
-    'show_in_menu' => true, 
+    'show_in_menu' => true,
     'query_var' => false,
     'capability_type' => 'post',
-    'has_archive' => true, 
+    'has_archive' => true,
     'hierarchical' => false,
     'supports' => array('title','thumbnail')
   );
- 
+
   // Maiz, pode replicar essas funções e adicionar outros custom post types
   register_post_type('workshops', $argsWorkshops);
   register_post_type('speakers', $argsSpeakers);
@@ -195,7 +196,7 @@ function my_cpt_init()
     'all_items' => 'All Genres',
     'parent_item' => 'Parent Genre',
     'parent_item_colon' => 'Parent Genre:',
-    'edit_item' => 'Edit Genre', 
+    'edit_item' => 'Edit Genre',
     'update_item' => 'Update Genre',
     'add_new_item' => 'Add New Genre',
     'new_item_name' => 'New Genre Name',
