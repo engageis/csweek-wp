@@ -54,32 +54,38 @@
           <li class="">
             <a target="_blank" href="http://www.facebook.com/CrowdsourcingWeek">
               <img src="<?php bloginfo('template_url');?>/images/facebook.png" />
-              Facebook</a>
+              Facebook
+            </a>
           </li>
           <li>
             <a target="_blank" href="http://www.twitter.com/CrowdWeek">
               <img src="<?php bloginfo('template_url');?>/images/twitter.png" />
-              Twitter</a>
+              Twitter
+            </a>
           </li>
           <li class="">
             <a target="_blank" href="http://www.linkedin.com/groups/CROWDSOURCING-WEEK-4335947?gid=4335947&trk=hb_side_g">
               <img src="<?php bloginfo('template_url');?>/images/linkedin.png" />
-              LinkedIn</a>
+              LinkedIn
+            </a>
           </li>
           <li class="">
             <a target="_blank" href="http://plus.google.com/116414871015404417703">
-            <img src="<?php bloginfo('template_url');?>/images/plus.png" />
-            Google</a>
+              <img src="<?php bloginfo('template_url');?>/images/plus.png" />
+              Google
+            </a>
           </li>
           <li class="">
             <a target="_blank" href="http://www.youtube.com/crowdsourcingweek">
               <img src="<?php bloginfo('template_url');?>/images/youtube.png" />
-              Youtube</a>
+              Youtube
+            </a>
           </li>
           <li class="">
             <a href="<?= get_permalink_by_name("contact"); ?>">
               <img src="<?php bloginfo('template_url');?>/images/contact.png" />
-              Contact</a>
+              Contact
+            </a>
           </li>
         </ul>
       </div>
@@ -94,62 +100,32 @@
 <!-- <hr class="menu-bar" /> -->
 <ul id="menu" class="pager">
   <li>
-    <a href="<?= get_permalink_by_name("about"); ?>">
-      <div class="icon about"></div>
-      <div>About</div>
-    </a>
+    <a href="<?= get_permalink_by_name("about"); ?>">About</a>
   <li>
-    <a href="<?= get_permalink_by_name("the-sponsors"); ?>">
-      <div class="icon sponsors"></div>
-      <div>Sponsors</div>
-    </a>
-  </li> </li>
-  <li>
-    <a href="<?= get_permalink_by_name("the-speakers"); ?>">
-      <div class="icon speakers"></div>
-      <div>Speakers</div>
-    </a>
+    <a href="<?= get_permalink_by_name("the-sponsors"); ?>">Sponsors</a>
   </li>
   <li>
-    <a href="<?= get_permalink_by_name("schedule"); ?>">
-      <div class="icon schedule"></div>
-      <div>Schedule</div>
-    </a>
+    <a href="<?= get_permalink_by_name("the-speakers"); ?>">Speakers</a>
   </li>
   <li>
-    <a href="<?= get_permalink_by_name("start-up-competition"); ?>">
-      <div class="icon startup-competition"></div>
-      <div>Startup Competition</div>
-    </a>
+    <a href="<?= get_permalink_by_name("schedule"); ?>">Schedule</a>
   </li>
   <li>
-    <a href="<?= get_permalink_by_name("board-of-advisors"); ?>">
-      <div class="icon how-to-get-involved"></div>
-      <div>Board of advisors</div>
-    </a>
+    <a href="<?= get_permalink_by_name("start-up-competition"); ?>">Startup Competition</a>
   </li>
   <li>
-    <a href="<?= get_permalink_by_name("get-involved"); ?>">
-      <div class="icon the-team"></div>
-      <div>How to get involved</div>
-    </a>
+    <a href="<?= get_permalink_by_name("board-of-advisors"); ?>">Board of advisors</a>
   </li>
   <li>
-    <a href="<?= get_permalink_by_name("the-team"); ?>">
-      <div class="icon board-of-advisors "></div>
-      <div>The team</div>
-    </a>
+    <a href="<?= get_permalink_by_name("get-involved"); ?>">How to get involved</a>
   </li>
   <li>
-    <a href="<?= get_permalink_by_name("1-day-global-summit"); ?>">
-      <div class="icon csw-global"></div>
-      <div>1-day global summit</div>
-    </a>
+    <a href="<?= get_permalink_by_name("the-team"); ?>">The team</a>
   </li>
   <li>
-    <a href="<?= get_permalink_by_name("blog"); ?>">
-      <div class="icon the-blog"></div>
-      <div>Blog</div>
-    </a>
+    <a href="<?= get_permalink_by_name("1-day-global-summit"); ?>">1-day global summit</a>
+  </li>
+  <li>
+    <a href="<?= get_permalink_by_name("blog"); ?>">Blog</a>
   </li>
 </ul>
