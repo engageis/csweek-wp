@@ -1,6 +1,6 @@
 <!-- Subheader for secondery pages
 ================================================== -->
-<header class="jumbotron subhead" id="overview">
+<header class="jumbotron subhead inner" id="overview">
   <div class="container">
     <a href="<?php echo get_settings('home'); ?>">
       <img src="<?php bloginfo('template_url');?>/images/logo.png" />

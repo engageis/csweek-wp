@@ -104,18 +104,21 @@ hr.soften {
   z-index: 10;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
-  /* IE10 Consumer Preview */
+}
+
+.jumbotron.home{
   background-image: -ms-radial-gradient(center, ellipse farthest-corner, #2E2E2E 0%, #222222 100%);
-  /* Mozilla Firefox */
   background-image: -moz-radial-gradient(center, ellipse farthest-corner, #2E2E2E 0%, #222222 100%);
-  /* Opera */
   background-image: -o-radial-gradient(center, ellipse farthest-corner, #2E2E2E 0%, #222222 100%);
-  /* Webkit (Safari/Chrome 10) */
   background-image: -webkit-gradient(radial, center center, 0, center center, 497, color-stop(0, #2E2E2E), color-stop(1, #222222));
-  /* Webkit (Chrome 11+) */
   background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #2E2E2E 0%, #222222 100%);
-  /* W3C Markup, IE10 Release Preview */
   background-image: radial-gradient(ellipse farthest-corner at center, #2E2E2E 0%, #222222 100%);
+}
+
+.jumbotron.inner{
+  background: url(images/singapore.jpg) no-repeat fixed center top;
+  background-size: cover;
+  box-shadow: 0 0 300px 300px rgba(0,0,0,.65) inset;
 }
 
 .jumbotron h1 {
@@ -167,7 +170,6 @@ hr.soften {
   right: 0;
   bottom: 0;
   left: 0;
-  /*background: url(../img/bs-docs-masthead-pattern.png) repeat center center;*/
   opacity: .4;
 }
 

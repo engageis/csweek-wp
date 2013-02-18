@@ -1,4 +1,4 @@
-<header class="jumbotron subhead" id="overview">
+<header class="jumbotron subhead home" id="overview">
   <div class="container">
     <img class="map" src="<?php bloginfo('template_url');?>/images/map.png" />
 
