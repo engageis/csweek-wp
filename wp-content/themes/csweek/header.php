@@ -97,4 +97,8 @@
 <?php else: ?>
 <? require '_splash-sec.php' ?>
 <?php endif;?>
-<?php wp_nav_menu( array( 'menu_class' => 'pager', 'menu_id' => 'menu', 'theme_location' => 'top_menu', 'container' => 'ul') ); ?>
+<div class='menu-container'>
+  <div class='container'>
+    <?php wp_nav_menu( array( 'menu_class' => 'pager', 'menu_id' => 'menu', 'theme_location' => 'top_menu', 'container' => 'ul') ); ?>
+  </div>
+</div>
