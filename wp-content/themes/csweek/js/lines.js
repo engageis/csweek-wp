@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  $('.save-the-date').on('click', function(e){
+  $('#add-to-calendar').on('click', function(e){
     $('#calendarDiv').toggle();
     return false;
   });
