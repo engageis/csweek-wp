@@ -1,4 +1,4 @@
-<a class="save-the-date" href="javascript: $('#calendarDiv').toggle();"> Add to my calendar</a>
+<a class="save-the-date" href="#"> Add to my calendar</a>
 <div id="calendarDiv">
   <div class="calendarLine">
     <a target="_blank" href="crowdsourcing-week.ics"><span class="cal-icon add_to_outlook">&nbsp;</span> Outlook Calendar</a>
