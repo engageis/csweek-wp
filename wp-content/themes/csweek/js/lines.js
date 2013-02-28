@@ -1,4 +1,10 @@
 $(document).ready(function() {
+
+  $('.save-the-date').on('click', function(e){
+    $('#calendarDiv').toggle();
+    return false;
+  });
+
   function isiPhone(){
     return (
       (navigator.platform.indexOf("iPhone") != -1) ||
@@ -182,11 +188,6 @@ $(document).ready(function() {
       gatherNodes();
       fadeToNodes(100);
     }
-  });
-
-  $('.save-the-date').on('click', function(e){
-    $('#calendarDiv').toggle();
-    return false;
   });
 
 });
