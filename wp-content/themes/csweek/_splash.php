@@ -31,6 +31,6 @@
         <span class="where">SINGAPORE</span>
       </h1>
     </div>
-    <a href="<?= get_permalink_by_name("contact"); ?>" class="save-the-date">Pre-register now</a>
+    <? require '_register_bt.php' ?>
   </div>
 </header>
