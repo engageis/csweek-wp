@@ -22,7 +22,7 @@ get_header(); ?>
         <!-- Begin MailChimp Signup Form -->
         <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
         <style type="text/css">
-        #mc_embed_signup{background:transparent; clear:left; font:14px Helvetica,Arial,sans-serif; color: white; margin-top: 40px;}
+        #mc_embed_signup{background:transparent; clear:left; font:14px Helvetica,Arial,sans-serif; color: white; margin: 40px 0;}
         #mce-EMAIL{width: 100%;}
         /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
         We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
