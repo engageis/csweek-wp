@@ -17,8 +17,6 @@ get_header(); ?>
         <?php the_content(); ?>
       </div>
       <div class="offset1 span3">
-        <? require '_cal.php' ?>
-
         <!-- Begin MailChimp Signup Form -->
         <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
         <style type="text/css">
@@ -36,9 +34,7 @@ get_header(); ?>
             </div>
           </form>
         </div>
-
         <!--End mc_embed_signup-->
-
         <a class="twitter-timeline" href="https://twitter.com/CrowdWeek" data-widget-id="293726412903424002">Tweets by @CrowdWeek</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
