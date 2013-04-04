@@ -29,7 +29,7 @@ get_header(); ?>
         </style>
         <div id="mc_embed_signup">
           <form action="http://crowdsourcingweek.us6.list-manage.com/subscribe/post?u=6b9a863a2a&amp;id=cf655e054d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-            <label for="mce-EMAIL">Get Crowdsourcing Week news &amp; updates!</label>
+            <label for="mce-EMAIL">Get Crowdsourcing Week<br/> news &amp; updates!</label>
             <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
             <div class="clear">
               <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
