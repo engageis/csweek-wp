@@ -23,7 +23,7 @@
     </a>
     <div class="lettering">
       <h1>
-        <span class="days">03-07</span>
+        <span class="days">03 - 07</span>
         <span class="month">JUNE</span>
       </h1>
       <h1>
