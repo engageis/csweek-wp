@@ -1,1 +1,1 @@
-<a href="/registration/" class="save-the-date">Register now</a>
+<a href="/registratn/" class="save-the-date">Register now</a>
