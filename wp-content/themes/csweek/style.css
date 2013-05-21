@@ -1326,6 +1326,11 @@ a.save-the-date{
   margin-bottom: 20px;
 }
 
+#support .ysing-logo{
+  float: right;
+  width: 200px;
+}
+
 #daily-topics{
   background: transparent url(images/welcome-bg.png);
   padding: 35px 0;
