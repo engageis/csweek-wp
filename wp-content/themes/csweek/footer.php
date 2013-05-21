@@ -28,7 +28,7 @@
               <h2>OFFICIAL LOCAL PR PARTNER</h2>
               <a target="_blank" href="http://sgstory.com/"><img src="<?php bloginfo('template_url');?>/images/sgstory.jpg"/></a>
               <h2>OFFICIAL AIRLINE NETWORK</h2>
-              <a target="_blank" href="http://www.staralliance.com/"><img src="<?php bloginfo('template_url');?>/images/staralliance.jpg"/></a>
+              <a target="_blank" href="http://www.staralliance.com/"><img src="<?php bloginfo('template_url');?>/images/staralliance.png"/></a>
             </section>
           </div>
         </div>
