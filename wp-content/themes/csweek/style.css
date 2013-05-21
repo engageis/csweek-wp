@@ -2136,3 +2136,14 @@ RESPONSIVE
   .footer .pull-right { float: none; }
   .sponsors-item img { width: 49%; }
 }
+
+
+.sponsor-logos.last-sponsor-logos {
+  max-width: 880px;
+  margin: 0 auto 60px;
+  overflow: hidden;
+}
+.last-logos {
+  float: left;
+  margin: 0 20px;
+}

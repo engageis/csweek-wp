@@ -22,7 +22,7 @@
             </section>
             <?php endif; wp_reset_query(); ?>
             <?php endforeach;?>
-            <section class="sponsor-logos">
+            <section class="sponsor-logos last-sponsor-logos">
               <div class="last-logos">
                 <h2>OFFICIAL TICKETING PARTNER</h2>
                 <a target="_blank" href="http://www.eventbrite.com/"><img src="<?php bloginfo('template_url');?>/images/eventbride.jpg"/></a>
