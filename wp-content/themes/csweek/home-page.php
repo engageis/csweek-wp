@@ -45,7 +45,7 @@ get_header(); ?>
 </div>
 
 <!-- Your Singapore -->
-<? require '_secb.php' ?>
+<?php require '_secb.php'; ?>
 
 <div id="daily-topics">
   <div class="container">

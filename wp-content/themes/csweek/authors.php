@@ -70,5 +70,5 @@ get_header(); ?>
 </div>
 <?php endwhile;?>
 <!-- Your Singapore -->
-<? require '_secb.php' ?>
+<?php require '_secb.php'; ?>
 <?php get_footer(); ?>
