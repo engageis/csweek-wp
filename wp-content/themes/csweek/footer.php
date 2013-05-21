@@ -1,6 +1,5 @@
     <div id="sponsors">
       <div class="container">
-        <a target="_blank" href="http://www.yoursingapore.com/content/traveller/en/experience.html"><img src="<?php bloginfo('template_url');?>/images/ysing.jpg" class="ysing-logo"/></a>
         <div class="row">
           <div class="span12">
             <a href="<?= get_permalink_by_name("sponsors"); ?>" class="learn-more">(learn more)</a>
@@ -23,6 +22,14 @@
             </section>
             <?php endif; wp_reset_query(); ?>
             <?php endforeach;?>
+            <section class="sponsor-logos">
+              <h2>OFFICIAL TICKETING PARTNER</h2>
+              <a target="_blank" href="http://www.eventbrite.com/"><img src="<?php bloginfo('template_url');?>/images/eventbride.jpg"/></a>
+              <h2>OFFICIAL LOCAL PR PARTNER</h2>
+              <a target="_blank" href="http://sgstory.com/"><img src="<?php bloginfo('template_url');?>/images/sgstory.jpg"/></a>
+              <h2>OFFICIAL AIRLINE NETWORK</h2>
+              <a target="_blank" href="http://www.staralliance.com/"><img src="<?php bloginfo('template_url');?>/images/staralliance.jpg"/></a>
+            </section>
           </div>
         </div>
       </div>

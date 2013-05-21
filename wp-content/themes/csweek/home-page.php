@@ -44,16 +44,8 @@ get_header(); ?>
   </div>
 </div>
 
-<div id="support">
-  <div class="container">
-    <div class="row">
-      <div class="offset4 span8">
-        <h2>Supported by</h2>
-        <a href="http://www.yoursingapore.com/content/mice/en/why-singapore/singapore-exhibition-convention-bureau.html"><img src="<?php bloginfo('template_url');?>/images/secb.png" id="secb-logo"/></a>
-      </div>
-    </div>
-  </div>
-</div>
+<!-- Your Singapore -->
+<? require '_secb.php' ?>
 
 <div id="daily-topics">
   <div class="container">
