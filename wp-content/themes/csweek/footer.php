@@ -3,17 +3,12 @@
         <div class="row">
           <div class="span12">
             <a href="<?= get_permalink_by_name("sponsors"); ?>" class="learn-more">(learn more)</a>
-            <?php  $sponsor_genres = get_terms( 'genre', array(
-                  'orderby'    => 'count',
-                  'hide_empty' => 1,
-                  'order'      => 'DESC'
-                 ));
-            foreach ($sponsor_genres as $term):?>
-            <h2><?=$term->name;?></h2>
-            <?php $termslug  = $term->slug;?>
-            <?php $my_query = new WP_Query("showposts=-1&genre=$termslug&post_type=sponsors");?>
+            
+            <!-- CROWDSOURCING SPONSORS -->
+            <h2>CROWDSOURCING SPONSORS</h2>
+            <?php $my_query = new WP_Query("showposts=-1&genre=crowd-sponsors&post_type=sponsors");?>
             <?php if($my_query->have_posts()) : ?>
-            <section class="sponsor-logos <?=$termslug?>">
+            <section class="sponsor-logos">
               <?php while($my_query->have_posts()) : $my_query->the_post(); ?>
               <a target="_blank" href="<?=get_post_meta($post->ID, 'sponsor_url', true);?>" class="sponsors-item">
                 <?php the_post_thumbnail('sponsors-thumb');?>
@@ -21,7 +16,46 @@
             <?php endwhile; ?>
             </section>
             <?php endif; wp_reset_query(); ?>
-            <?php endforeach;?>
+
+            <!-- SUPPORTING ORGANIZATIONS -->
+            <h2>SUPPORTING ORGANIZATIONS</h2>
+            <?php $my_query = new WP_Query("showposts=-1&genre=supporting-organizations&post_type=sponsors");?>
+            <?php if($my_query->have_posts()) : ?>
+            <section class="sponsor-logos">
+              <?php while($my_query->have_posts()) : $my_query->the_post(); ?>
+              <a target="_blank" href="<?=get_post_meta($post->ID, 'sponsor_url', true);?>" class="sponsors-item">
+                <?php the_post_thumbnail('sponsors-thumb');?>
+              </a>
+            <?php endwhile; ?>
+            </section>
+            <?php endif; wp_reset_query(); ?>
+
+            <!-- TECHNOLOGY & STRATEGIC PARTNERS -->
+            <h2>TECHNOLOGY & STRATEGIC PARTNERS</h2>
+            <?php $my_query = new WP_Query("showposts=-1&genre=tec-strat-partners&post_type=sponsors");?>
+            <?php if($my_query->have_posts()) : ?>
+            <section class="sponsor-logos">
+              <?php while($my_query->have_posts()) : $my_query->the_post(); ?>
+              <a target="_blank" href="<?=get_post_meta($post->ID, 'sponsor_url', true);?>" class="sponsors-item">
+                <?php the_post_thumbnail('sponsors-thumb');?>
+              </a>
+            <?php endwhile; ?>
+            </section>
+            <?php endif; wp_reset_query(); ?>
+
+            <!-- MEDIA PARTNERS -->
+            <h2>MEDIA PARTNERS</h2>
+            <?php $my_query = new WP_Query("showposts=-1&genre=media-partners&post_type=sponsors");?>
+            <?php if($my_query->have_posts()) : ?>
+            <section class="sponsor-logos">
+              <?php while($my_query->have_posts()) : $my_query->the_post(); ?>
+              <a target="_blank" href="<?=get_post_meta($post->ID, 'sponsor_url', true);?>" class="sponsors-item">
+                <?php the_post_thumbnail('sponsors-thumb');?>
+              </a>
+            <?php endwhile; ?>
+            </section>
+            <?php endif; wp_reset_query(); ?>
+
             <section class="sponsor-logos last-sponsor-logos">
               <div class="last-logos">
                 <h2>OFFICIAL TICKETING PARTNER</h2>
