@@ -1333,9 +1333,7 @@ a.save-the-date{
   width: 240px;
 }
 #support .ace10-logo{
-  position: absolute;
-  left: 50%;
-  margin-left: -150px;
+  float: left;
 }
 
 #daily-topics{
