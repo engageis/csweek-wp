@@ -13,7 +13,7 @@
             <?php $termslug  = $term->slug;?>
             <?php $my_query = new WP_Query("showposts=-1&genre=$termslug&post_type=sponsors");?>
             <?php if($my_query->have_posts()) : ?>
-            <section class="sponsor-logos">
+            <section class="sponsor-logos <?=$termslug?>">
               <?php while($my_query->have_posts()) : $my_query->the_post(); ?>
               <a target="_blank" href="<?=get_post_meta($post->ID, 'sponsor_url', true);?>" class="sponsors-item">
                 <?php the_post_thumbnail('sponsors-thumb');?>
