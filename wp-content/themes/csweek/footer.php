@@ -67,7 +67,7 @@
               </div>
               <div class="last-logos">
                 <h2>OFFICIAL AIRLINE NETWORK</h2>
-                <a target="_blank" href="http://www.staralliance.com/en/business-solutions/conventions-plus/delegates/"><img src="<?php bloginfo('template_url');?>/images/staralliance.png"/></a>
+                <a href="http://crowdsourcingweek.com/star-alliance"><img src="<?php bloginfo('template_url');?>/images/staralliance.png"/></a>
               </div>
             </section>
           </div>
