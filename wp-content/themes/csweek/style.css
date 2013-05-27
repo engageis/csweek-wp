@@ -1317,6 +1317,7 @@ a.save-the-date{
   font-size: 22px;
   font-weight: normal;
   margin-left: 30px;
+  text-transform: uppercase;
 }
 
 #support #premium-logos, #support #supported-logos{
@@ -1325,6 +1326,10 @@ a.save-the-date{
 
 #support #premium-logos{
   margin-right: 20px;
+}
+
+#support #your-singapore{
+  float: right;
 }
 
 #support img#secb-logo{
@@ -1336,11 +1341,11 @@ a.save-the-date{
 }
 
 #support .ysing-logo{
-  float: right;
   width: 240px;
   position: relative;
   margin-top: 50px;
 }
+
 #support .ace10-logo{
   float: left;
   margin: 10px 0 0 50px;
