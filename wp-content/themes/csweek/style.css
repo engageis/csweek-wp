@@ -1319,6 +1319,14 @@ a.save-the-date{
   margin-left: 30px;
 }
 
+#support #premium-logos, #support #supported-logos{
+  float: left;
+}
+
+#support #supported-logos{
+  margin-left: 20px;
+}
+
 #support img#secb-logo{
   float: left;
   width: 140px;
