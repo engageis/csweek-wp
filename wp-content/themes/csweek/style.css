@@ -1337,6 +1337,12 @@ a.save-the-date{
   width: 240px;
 }
 
+#support #microsoft-logo{
+  float: left;
+  bottom: -20px;
+  position: relative;
+}
+
 #daily-topics{
   background: transparent url(images/welcome-bg.png);
   padding: 35px 0;
