@@ -1323,8 +1323,8 @@ a.save-the-date{
   float: left;
 }
 
-#support #supported-logos{
-  margin-left: 20px;
+#support #premium-logos{
+  margin-right: 20px;
 }
 
 #support img#secb-logo{
@@ -1338,6 +1338,8 @@ a.save-the-date{
 #support .ysing-logo{
   float: right;
   width: 240px;
+  position: relative;
+  margin-top: 50px;
 }
 #support .ace10-logo{
   float: left;
