@@ -1725,12 +1725,12 @@ strong{
   padding-bottom: 50px;
 }
 
-.the-content img.alignleft{
+.the-content img.alignleft, .container img.alignleft{
   float: left;
   margin: 0 10px 10px 0;
 }
 
-.the-content img.alignright{
+.the-content img.alignright, .container img.alignright{
   float: right;
   margin: 0 0 10px 10px;
 }
