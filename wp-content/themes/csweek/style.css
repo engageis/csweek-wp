@@ -1316,7 +1316,7 @@ a.save-the-date{
   display: block;
   font-size: 22px;
   font-weight: normal;
-  margin-left: 30px;
+  margin-left: 12px;
   text-transform: uppercase;
 }
 
@@ -1325,7 +1325,7 @@ a.save-the-date{
 }
 
 #support #premium-logos{
-  margin-right: 20px;
+  margin-right: 30px;
 }
 
 #support #your-singapore{
@@ -1337,13 +1337,14 @@ a.save-the-date{
   width: 140px;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 30px;
+  margin-left: 12px;
 }
 
 #support .ysing-logo{
   width: 240px;
   position: relative;
   margin-top: -10px;
+  left: -8px;
 }
 
 #support .ace10-logo{
