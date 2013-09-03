@@ -828,7 +828,7 @@ form.bs-docs-example {
 }
 
 .jumbotron h1 .days, .jumbotron h1 .month{
-	font-size: 90px;
+	font-size: 84px;
 }
 
 .jumbotron h1 .month{
@@ -871,7 +871,7 @@ form.bs-docs-example {
 }
 
 .small-lettering h1 .days, .small-lettering h1 .month{
-	font-size: 60px;
+	font-size: 56px;
   line-height: 80px !important;
 }
 
