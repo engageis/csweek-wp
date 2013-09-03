@@ -1,1 +1,1 @@
-<a href="/registration/" class="save-the-date">Register now</a>
+<a href="/get-involved/" class="save-the-date">Get Involved</a>

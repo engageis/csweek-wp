@@ -23,11 +23,11 @@
     </a>
     <div class="lettering">
       <h1>
-        <span class="days">03-07</span>
-        <span class="month">JUNE</span>
+        <span class="days">07-11</span>
+        <span class="month">APRIL</span>
       </h1>
       <h1>
-        <span class="year">2013</span>
+        <span class="year">2014</span>
         <span class="where">SINGAPORE</span>
       </h1>
     </div>
