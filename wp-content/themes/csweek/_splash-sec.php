@@ -8,7 +8,7 @@
     <div class="small-lettering">
       <h1>
         <span class="days">07-11</span>
-        <span class="month">APRIL</span>
+        <span class="month">APR</span>
       </h1>
       <h1>
         <span class="year">2014</span>
