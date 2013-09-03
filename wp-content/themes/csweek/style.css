@@ -2105,7 +2105,7 @@ RESPONSIVE
   .lettering{width: 315px;}
   .jumbotron h1{ text-shadow: 0 1px 0 #bbb, 0 2px 0 #bbb, 0 3px 0 #bbb, 0 8px 5px rgba(0, 0, 0, 0.5); }
   .jumbotron h1 .year, .jumbotron h1 .month{ text-shadow: 0 1px 0 #600, 0 2px 0 #600, 0 3px 0 #600, 0 8px 5px rgba(0, 0, 0, 0.5); }
-  .jumbotron h1 .days, .jumbotron h1 .month{ font-size: 60px; }
+  .jumbotron h1 .days, .jumbotron h1 .month{ font-size: 56px; }
   .jumbotron h1 .where, .jumbotron h1 .year {
     font-size: 38px;
     line-height: 66px;
@@ -2125,7 +2125,7 @@ RESPONSIVE
   h2 small { display: block; }
 
   /* Downsize the jumbotrons */
-  .jumbotron h1 { font-size: 60px; }
+  .jumbotron h1 { font-size: 56px; }
   .jumbotron p, .jumbotron .btn { font-size: 20px; }
   .jumbotron .btn {
     display: block;
